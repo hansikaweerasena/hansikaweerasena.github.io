@@ -25,7 +25,7 @@ function App() {
 
       <div className="container">
         <div className="row">
-          <div className="col d-none d-lg-block"></div>
+          <div className="col-lg"></div>
           <div className="col text-center">
             <img id="hanz-home-about-img" className="rounded-circle"
                                                 src={profile_photo}/>
