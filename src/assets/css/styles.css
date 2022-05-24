@@ -1,0 +1,28 @@
+#hanz-navbar {
+    height: 64px;
+}
+
+#hanz-navbar-img {
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+    background: url("../img/photo.jpeg");
+}
+
+#hanz-home-about-pre {
+    height: 100px;
+}
+
+#hanz-home-about-img {
+    height: 200px;
+    margin: 5px;
+    width: 200px;
+}
+
+#hanz-home-about-home {
+    font-size: 20px;
+}
+
+#hanz-home-about-p {
+    font-size: 14px;
+}
