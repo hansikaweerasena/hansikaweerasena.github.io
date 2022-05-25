@@ -69,4 +69,8 @@ code {
   border-radius: 50%;
 }
 
+/*Boostrap overriding css goes here*/
 
+.hanz-group-item {
+  border: none;
+}

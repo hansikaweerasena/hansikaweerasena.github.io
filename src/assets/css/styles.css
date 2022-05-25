@@ -57,5 +57,10 @@
 .hanz-container {
     margin-top: 10px;
     margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.hanz-group-item {
+    border: none;
+}

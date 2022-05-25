@@ -10,7 +10,7 @@ export function HomePub() {
                 </div>
                 <div className="col">
                     <ul className="list-group">
-                        <li className="list-group-item"><span className="fw-bold">Conference Proceedings</span>
+                        <li className="list-group-item hanz-group-item"><span className="fw-bold">Conference Proceedings</span>
                             <ul>
                                 <li>Lightweight Encryption using Chaffing and Winnowing with All-or-Nothing Transform
                                     for Network-on-Chip Architectures H. Weerasena et al., 2021 IEEE International
@@ -22,7 +22,7 @@ export function HomePub() {
                                 </li>
                             </ul>
                         </li>
-                        <li className="list-group-item"><span className="fw-bold">Patents</span>
+                        <li className="list-group-item hanz-group-item"><span className="fw-bold">Patents</span>
                             <ul>
                                 <li>Securing on-chip communication using chaffing and winnowing with all-or-nothing
                                     transform P .Mishra, H. Weerasena and S. Charles, U.S. Provisional Patent

@@ -3,7 +3,7 @@ import logo from "../assets/img/photo.jpeg";
 
 export function Footer() {
     return (
-        <footer className="text-center">
+        <footer className="text-center ">
             <div className="container text-muted py-4 py-lg-5">
                 <ul className="list-inline">
                     <li className="list-inline-item me-4">
