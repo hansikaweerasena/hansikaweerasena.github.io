@@ -5,6 +5,7 @@ import {HomeAbout} from "./components/HomeAbout";
 import {HomeRecent} from "./components/HomeRecent";
 import {HomePub} from "./components/HomePub";
 import { HomeEdu } from './components/HomeEdu';
+import {Footer} from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <div id="hanz-home-about-pre" className="container"></div>
 
         <HomeEdu></HomeEdu>
+
+        <Footer></Footer>
     </div>
   );
 }
