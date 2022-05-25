@@ -7,7 +7,7 @@ export function HomeRecent() {
         <HanzContainer>
             <div className="row">
                 <div className="col-lg-3">
-                    <h3>Recent Highlights</h3>
+                    <h4 className="fw-bold text-secondary hanz-section-header">Recent Highlights</h4>
                 </div>
                 <div className="col">
                     <ul>

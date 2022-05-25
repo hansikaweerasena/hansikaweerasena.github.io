@@ -45,7 +45,7 @@ export function HomeAbout() {
                     <p id="hanz-home-about-p" className="fw-normal text-center">Hansika is a PhD Candidate at the Department of
                         Computer &amp; Information Science &amp; Engineering, University of Florida, researching on communication
                         security, network-on-chip and computer architecture.</p>
-                    <button className="btn btn-link btn-sm" type="button" data-bs-target="#">Read More About Hansika</button>
+                    <button className="btn btn-link btn-sm fw-light shadow-sm" type="button" data-bs-target="#">Read More About Hansika</button>
                 </div>
                 <div className="col"></div>
             </div>

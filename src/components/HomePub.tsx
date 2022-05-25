@@ -6,7 +6,7 @@ export function HomePub() {
         <HanzContainer>
             <div className="row">
                 <div className="col-lg-3">
-                    <h3>Recent Publications</h3>
+                    <h4 className="fw-bold text-secondary hanz-section-header">Publications</h4>
                 </div>
                 <div className="col">
                     <ul className="list-group">
@@ -26,12 +26,16 @@ export function HomePub() {
                             <ul>
                                 <li>Securing on-chip communication using chaffing and winnowing with all-or-nothing
                                     transform P .Mishra, H. Weerasena and S. Charles, U.S. Provisional Patent
-                                    Application Serial No 63/275,552, filed November 4, 2021
+                                    Application Serial No 63/275,552, filed November 4, 2021 (pending)
                                 </li>
                             </ul>
                         </li>
                     </ul>
+                    <button className="btn btn-link btn-sm col-12 fw-light shadow-sm" type="button" data-bs-target="#">
+                        More about my research
+                    </button>
                 </div>
+
             </div>
         </HanzContainer>
     );

@@ -50,6 +50,10 @@
     font-size: 14px;
 }
 
+.hanz-edu-list {
+    font-size: 14px;
+}
+
 .hanz-edu-row {
     margin: 10px;
 }
@@ -64,3 +68,9 @@
 .hanz-group-item {
     border: none;
 }
+
+.hanz-section-header {
+    padding: 5px;
+}
+
+
