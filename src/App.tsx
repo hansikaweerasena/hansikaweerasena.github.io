@@ -4,6 +4,7 @@ import {NavBar} from "./components/NavBar";
 import {HomeAbout} from "./components/HomeAbout";
 import {HomeRecent} from "./components/HomeRecent";
 import {HomePub} from "./components/HomePub";
+import { HomeEdu } from './components/HomeEdu';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
       <div id="hanz-home-about-pre" className="container"></div>
 
       <HomePub></HomePub>
+
+        <div id="hanz-home-about-pre" className="container"></div>
+
+        <HomeEdu></HomeEdu>
     </div>
   );
 }

@@ -26,3 +26,30 @@
 #hanz-home-about-p {
     font-size: 14px;
 }
+
+
+
+.hanz-edu-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.hanz-edu-title {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.hanz-edu-subtitle {
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.hanz-edu-para {
+    margin: 0px;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.hanz-edu-row {
+    margin: 10px;
+}
