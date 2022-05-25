@@ -7,7 +7,7 @@ import {HanzContainer} from "../common/HanzContainer";
 export function HomeVol() {
     return (
         <HanzContainer>
-            <div className="row hanz-edu-row">
+            <div className="row">
                 <div className="col-lg-3">
                     <h4 className="fw-bold text-secondary hanz-section-header">Volunteer Experience</h4>
                 </div>
