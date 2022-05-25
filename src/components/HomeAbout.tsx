@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from "../assets/img/photo.jpeg";
 import profile_photo from "../assets/img/photo_no_back.jpg";
+import {HanzContainer} from "../common/HanzContainer";
 
 export function HomeAbout() {
     return (
-        <div className="container">
+        <HanzContainer>
             <div className="row">
                 <div className="col-lg"></div>
                 <div className="col text-center">
@@ -48,6 +49,6 @@ export function HomeAbout() {
                 </div>
                 <div className="col"></div>
             </div>
-        </div>
+        </HanzContainer>
 );
 }

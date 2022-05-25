@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from "../assets/img/photo.jpeg";
+import {HanzContainer} from "../common/HanzContainer";
 
 export function HomeRecent() {
     return (
-        <div className="container">
+        <HanzContainer>
             <div className="row">
                 <div className="col-lg-3">
                     <h3>Recent Highlights</h3>
@@ -27,6 +28,6 @@ export function HomeRecent() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </HanzContainer>
     );
 }

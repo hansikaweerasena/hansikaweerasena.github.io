@@ -3,7 +3,7 @@ import logo from "../assets/img/photo.jpeg";
 
 export function NavBar() {
     return (
-        <nav id="hanz-navbar" className="navbar navbar-light navbar-expand-md fixed-top py-3">
+        <nav id="hanz-navbar" className="navbar navbar-light navbar-expand-md sticky-top py-3">
             <div className="container"><a className="navbar-brand d-flex align-items-center" href="#">
                 <span><span>
                 {/*<img id="hanz-navbar-img" className="rounded-circle" src={logo}/>*/}
