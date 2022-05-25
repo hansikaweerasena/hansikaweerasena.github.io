@@ -21,6 +21,7 @@ export function HomeEdu() {
                         </div>
                         <div className="col-lg-9"></div>
                     </div>
+                    <hr/>
                     <div className="row hanz-edu-row">
                         <div className="col-lg-2 d-none d-lg-block"><img className="rounded-circle shadow-lg hanz-edu-logo" src={uom_logo}/></div>
                         <div className="col">
@@ -31,6 +32,10 @@ export function HomeEdu() {
                         </div>
                         <div className="col-lg-9"></div>
                     </div>
+                    <hr/>
+                    <button className="btn btn-link btn-sm col-12 fw-light shadow-sm" type="button" data-bs-target="#">
+                        Show all Education
+                    </button>
                 </div>
             </div>
         </HanzContainer>
