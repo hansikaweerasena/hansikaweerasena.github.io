@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b148a35.css",
-    "main.js": "/static/js/main.6a9156b1.js",
+    "main.css": "/static/css/main.03560528.css",
+    "main.js": "/static/js/main.ee3d8ea6.js",
     "static/js/787.69ce51e1.chunk.js": "/static/js/787.69ce51e1.chunk.js",
     "static/media/photo_no_back.jpg": "/static/media/photo_no_back.7129fc6ad73d837f0fea.jpg",
     "static/media/uom_logo.png": "/static/media/uom_logo.4ac81fce801bfb7352f0.png",
     "static/media/photo.jpeg": "/static/media/photo.e661a2c9ec29aabc0fcd.jpeg",
     "index.html": "/index.html",
-    "main.3b148a35.css.map": "/static/css/main.3b148a35.css.map",
-    "main.6a9156b1.js.map": "/static/js/main.6a9156b1.js.map",
+    "main.03560528.css.map": "/static/css/main.03560528.css.map",
+    "main.ee3d8ea6.js.map": "/static/js/main.ee3d8ea6.js.map",
     "787.69ce51e1.chunk.js.map": "/static/js/787.69ce51e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b148a35.css",
-    "static/js/main.6a9156b1.js"
+    "static/css/main.03560528.css",
+    "static/js/main.ee3d8ea6.js"
   ]
 }
