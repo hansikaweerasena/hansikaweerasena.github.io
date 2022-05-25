@@ -74,3 +74,7 @@ code {
 .hanz-group-item {
   border: none;
 }
+
+.badge{
+  margin: 2px;
+}
