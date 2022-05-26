@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bb9f14a.css",
-    "main.js": "/static/js/main.7f1507c8.js",
+    "main.css": "/static/css/main.19547e82.css",
+    "main.js": "/static/js/main.1af302ba.js",
     "static/js/787.69ce51e1.chunk.js": "/static/js/787.69ce51e1.chunk.js",
     "static/media/photo_no_back.jpg": "/static/media/photo_no_back.7129fc6ad73d837f0fea.jpg",
     "static/media/uom_logo.png": "/static/media/uom_logo.4ac81fce801bfb7352f0.png",
@@ -9,12 +9,12 @@
     "static/media/aiesec_logo.jpeg": "/static/media/aiesec_logo.d61a4ef287c4a09c8f22.jpeg",
     "static/media/cg_logo.jpeg": "/static/media/cg_logo.d30c025dae870022bb05.jpeg",
     "index.html": "/index.html",
-    "main.5bb9f14a.css.map": "/static/css/main.5bb9f14a.css.map",
-    "main.7f1507c8.js.map": "/static/js/main.7f1507c8.js.map",
+    "main.19547e82.css.map": "/static/css/main.19547e82.css.map",
+    "main.1af302ba.js.map": "/static/js/main.1af302ba.js.map",
     "787.69ce51e1.chunk.js.map": "/static/js/787.69ce51e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bb9f14a.css",
-    "static/js/main.7f1507c8.js"
+    "static/css/main.19547e82.css",
+    "static/js/main.1af302ba.js"
   ]
 }
