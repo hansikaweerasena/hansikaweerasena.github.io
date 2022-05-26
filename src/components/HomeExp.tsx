@@ -13,7 +13,7 @@ export function HomeExp() {
                 <div className="col">
                     <div className="row">
                         <div className="col-lg-2 d-none d-lg-block"><img
-                            className="rounded-circle shadow hanz-edu-logo" src={uf_logo}/></div>
+                            className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
                         <div className="col">
                             <h1 className="fs-5 hanz-edu-title">Research Assistant - Embedded Systems Lab<br/></h1>
                             <h1 className="fs-6 hanz-edu-subtitle">University of Florida | Jan 2021 - Present</h1>
@@ -24,7 +24,7 @@ export function HomeExp() {
                     <hr/>
                     <div className="row">
                         <div className="col-lg-2 d-none d-lg-block"><img
-                            className="rounded-circle shadow hanz-edu-logo" src={cg_logo}/></div>
+                            className="rounded-circle hanz-edu-logo" src={cg_logo}/></div>
                         <div className="col">
                             <h1 className="fs-5 hanz-edu-title">Senior Software Engineer - Research and Development
                                 Division <br/></h1>
@@ -44,7 +44,8 @@ export function HomeExp() {
                             </ul>
                         </div>
                     </div>
-                    <button className="btn btn-link btn-sm col-12 fw-light shadow-sm" type="button" data-bs-target="#">
+                    <hr/>
+                    <button className="btn btn-outline-secondary btn-sm hanz-show-more col-12 fw-light shadow-sm" type="button" data-bs-target="#">
                         Show all Professional Experience
                     </button>
                 </div>

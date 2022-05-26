@@ -12,7 +12,7 @@ export function HomeEdu() {
                 </div>
                 <div className="col">
                     <div className="row hanz-edu-row">
-                        <div className="col-lg-2 d-none d-lg-block"><img className="rounded-circle shadow hanz-edu-logo" src={uf_logo}/></div>
+                        <div className="col-lg-2 d-none d-lg-block"><img className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
                         <div className="col">
                             <h1 className="fs-5 hanz-edu-title">Doctor of Philosophy, Computer Science - University of Florida</h1>
                             <h1 className="fs-6 hanz-edu-subtitle"> </h1>
@@ -23,7 +23,7 @@ export function HomeEdu() {
                     </div>
                     <hr/>
                     <div className="row hanz-edu-row">
-                        <div className="col-lg-2 d-none d-lg-block"><img className="rounded-circle shadow hanz-edu-logo" src={uom_logo}/></div>
+                        <div className="col-lg-2 d-none d-lg-block"><img className="rounded-circle hanz-edu-logo" src={uom_logo}/></div>
                         <div className="col">
                             <h1 className="fs-5 hanz-edu-title">Bachelor of the Science of Engineering (Hons) - University of Moratuwa </h1>
                             <h1 className="fs-6 hanz-edu-subtitle"></h1>
@@ -32,7 +32,8 @@ export function HomeEdu() {
                         </div>
                         <div className="col-lg-9"></div>
                     </div>
-                    <button className="btn btn-link btn-sm col-12 fw-light shadow-sm" type="button" data-bs-target="#">
+                    <hr/>
+                    <button className="btn btn-outline-secondary btn-sm hanz-show-more col-12 fw-light shadow-sm" type="button" data-bs-target="#">
                         Show all Education
                     </button>
                 </div>

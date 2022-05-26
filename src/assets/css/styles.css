@@ -1,5 +1,6 @@
 #hanz-navbar {
     height: 64px;
+    margin-bottom: 20px;
 }
 
 #hanz-navbar-img {
@@ -62,9 +63,11 @@
 
 .hanz-container {
     margin-top: 10px;
-    margin-bottom: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+    border: 1px solid #b8b4b43d;
+    border-radius: 0.8rem;
+    background-color: white;
 }
 
 .hanz-group-item {
@@ -74,5 +77,11 @@
 .hanz-section-header {
     padding: 5px;
 }
+
+.hanz-show-more {
+    border: 1px solid #b8b4b43d;
+}
+
+
 
 

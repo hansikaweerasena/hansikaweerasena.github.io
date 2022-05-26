@@ -31,7 +31,8 @@ export function HomePub() {
                             </ul>
                         </li>
                     </ul>
-                    <button className="btn btn-link btn-sm col-12 fw-light shadow-sm" type="button" data-bs-target="#">
+                    <hr/>
+                    <button className="btn btn-outline-secondary btn-sm hanz-show-more col-12 fw-light shadow-sm" type="button" data-bs-target="#">
                         More about my research
                     </button>
                 </div>
