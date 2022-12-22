@@ -63,7 +63,8 @@ export function HomeAbout() {
 
                 <div className="col-lg-4 text-center">
                     <h1 className="fs-2 fw-bold text-center">Hansika Weerasena</h1>
-                    <h1 id="hanz-home-about-home">Computer Science Researcher | Engineer | Traveller</h1>
+                    <h1 id="hanz-home-about-home">Computer Science Researcher | Engineer | </h1>
+                    <h1 id="hanz-home-about-home2"> A Habitual Globetrotter</h1>
                     <p id="hanz-home-about-p" className="fw-normal text-center">Hansika is a PhD Candidate at the
                         Department
                         of
