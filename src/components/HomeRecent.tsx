@@ -11,6 +11,9 @@ export function HomeRecent() {
                 </div>
                 <div className="col">
                     <ul>
+                        <li>Our short paper &quot; Preserving Confidentiality and Anonymity in NoC-based SoCs &quot; was accepted at <a
+                            href="https://www.gomactech.net/"> GOMACTech-23</a> for a poster presentation - Nov 2022
+                        </li>
                         <li>Received Gartner Group Graduate Fellowship for outstanding CISE Ph.D. students by CISE department of
                             University of Florida - Apr 2022
                         </li>
