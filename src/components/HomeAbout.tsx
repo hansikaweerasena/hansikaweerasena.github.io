@@ -24,7 +24,7 @@ export function HomeAbout() {
                             </a>
                         </li>
                         <li className="list-inline-item me-4">
-                            <a href="https://github.com/Hanz94" target="_blank">
+                            <a href="https://github.com/hansikaweerasena" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                      width="20" height="20"
                                      viewBox="0 0 16 16"
