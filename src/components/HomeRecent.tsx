@@ -1,15 +1,11 @@
 import React from 'react';
 import logo from "../assets/img/photo.jpeg";
 import {HanzContainer} from "../common/HanzContainer";
+import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeRecent() {
     return (
-        <HanzContainer>
-            <div className="row">
-                <div className="col-lg-3">
-                    <h4 className="fw-bold text-secondary hanz-section-header">Recent Highlights</h4>
-                </div>
-                <div className="col">
+        <HanzHeaderContainer title="Recent Highlights">
                     <ul>
                         <li>Our short paper &quot; Preserving Confidentiality and Anonymity in NoC-based SoCs &quot; was accepted at <a
                             href="https://www.gomactech.net/"> GOMACTech-23</a> for a poster presentation - Nov 2022
@@ -29,8 +25,6 @@ export function HomeRecent() {
                                 2018 - 2018 IEEE Region 10 Conference</a>.
                         </li>
                     </ul>
-                </div>
-            </div>
-        </HanzContainer>
+        </HanzHeaderContainer>
     );
 }

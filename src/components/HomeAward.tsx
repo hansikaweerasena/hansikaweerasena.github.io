@@ -1,11 +1,10 @@
 import React from 'react';
 import {HanzContainer} from "../common/HanzContainer";
+import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeAward() {
     return (
-        <HanzContainer>
-            <div className="row">
-                    <h4 className="fw-bold text-secondary hanz-section-header">Awards and Achievements</h4>
+        <HanzHeaderContainer title="Awards and Achievements">
                     <ul>
                         <li>Gartner Group Graduate Fellowship - for outstanding CISE Ph.D. students by CISE department
                             of University of Florida <br/></li>
@@ -23,7 +22,6 @@ export function HomeAward() {
                             by the government of Sri Lanka.
                         </li>
                     </ul>
-                </div>
-        </HanzContainer>
+        </HanzHeaderContainer>
     );
 }

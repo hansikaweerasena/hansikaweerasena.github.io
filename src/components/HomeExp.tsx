@@ -2,15 +2,11 @@ import React from 'react';
 import uf_logo from "../assets/img/uf_logo.png";
 import cg_logo from "../assets/img/cg_logo.jpeg";
 import {HanzContainer} from "../common/HanzContainer";
+import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeExp() {
     return (
-        <HanzContainer>
-            <div className="row">
-                <div className="col-lg-3">
-                    <h4 className="fw-bold text-secondary hanz-section-header">Professional Experience</h4>
-                </div>
-                <div className="col">
+        <HanzHeaderContainer title="Professional Experience">
                     <div className="row">
                         <div className="col-lg-2 d-none d-lg-block"><img
                             className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
@@ -54,9 +50,6 @@ export function HomeExp() {
                         </svg>
                         </span>
                     </button>
-                </div>
-
-            </div>
-        </HanzContainer>
+        </HanzHeaderContainer>
     );
 }

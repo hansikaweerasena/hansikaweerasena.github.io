@@ -1,14 +1,10 @@
 import React from 'react';
 import {HanzContainer} from "../common/HanzContainer";
+import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomePub() {
     return (
-        <HanzContainer>
-            <div className="row">
-                <div className="col-lg-3">
-                    <h4 className="fw-bold text-secondary hanz-section-header">Publications</h4>
-                </div>
-                <div className="col">
+        <HanzHeaderContainer title="Publications">
                     <ul className="list-group">
                         <li className="list-group-item hanz-group-item"><span className="fw-bold">Conference Proceedings</span>
                             <ul>
@@ -41,9 +37,6 @@ export function HomePub() {
                         </svg>
                         </span>
                     </button>
-                </div>
-
-            </div>
-        </HanzContainer>
+        </HanzHeaderContainer>
     );
 }

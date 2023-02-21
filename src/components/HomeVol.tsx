@@ -2,16 +2,12 @@ import React from 'react';
 import aiesec_logo from "../assets/img/aiesec_logo.jpeg";
 import cg_logo from "../assets/img/cg_logo.jpeg";
 import {HanzContainer} from "../common/HanzContainer";
+import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 
 export function HomeVol() {
     return (
-        <HanzContainer>
-            <div className="row">
-                <div className="col-lg-3">
-                    <h4 className="fw-bold text-secondary hanz-section-header">Volunteer Experience</h4>
-                </div>
-                <div className="col">
+        <HanzHeaderContainer title="Volunteer Experience">
                     <div className="row">
                         <div className="col-lg-2 d-none d-lg-block"><img
                             className="rounded-circle hanz-edu-logo" src={cg_logo}/></div>
@@ -30,8 +26,6 @@ export function HomeVol() {
                             <p className="hanz-edu-para">Volunteered as Outgoing Exchange National Coordinator </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </HanzContainer>
+        </HanzHeaderContainer>
     );
 }
