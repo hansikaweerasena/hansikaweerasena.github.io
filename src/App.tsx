@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {NavBar} from "./components/NavBar";
-import {HomeAbout} from "./components/HomeAbout";
+import {HomeMain} from "./components/HomeMain";
 import {HomeRecent} from "./components/HomeRecent";
 import {HomePub} from "./components/HomePub";
 import {HomeEdu} from './components/HomeEdu';
@@ -11,6 +11,7 @@ import {HomeAward} from "./components/HomeAward";
 import {HomeVol} from "./components/HomeVol";
 import {HanzSpaciousContainer} from "./common/HanzSpaciousContainer";
 import {HanzNarrowContainer} from "./common/HanzNarrowContainer";
+import {HomeAbout} from "./components/HomeAbout";
 
 function App() {
     return (
@@ -18,17 +19,18 @@ function App() {
             <NavBar></NavBar>
             <div className="container">
                 <div className="row">
-                <HanzSpaciousContainer>
-                    <HomeAbout></HomeAbout>
-                    <HomeRecent></HomeRecent>
-                    <HomePub></HomePub>
-                </HanzSpaciousContainer>
-                <HanzNarrowContainer>
-                    <HomeEdu></HomeEdu>
-                    <HomeExp></HomeExp>
-                    <HomeAward></HomeAward>
-                    <HomeVol></HomeVol>
-                </HanzNarrowContainer>
+                    <HanzNarrowContainer>
+                        <HomeMain></HomeMain>
+                        <HomeAbout></HomeAbout>
+                        <HomeRecent></HomeRecent>
+                    </HanzNarrowContainer>
+                    <HanzSpaciousContainer>
+                        <HomeExp></HomeExp>
+                        <HomePub></HomePub>
+                        <HomeEdu></HomeEdu>
+                        <HomeAward></HomeAward>
+                        <HomeVol></HomeVol>
+                    </HanzSpaciousContainer>
                 </div>
             </div>
             <Footer></Footer>
