@@ -9,19 +9,28 @@ import {Footer} from "./components/Footer";
 import {HomeExp} from "./components/HomeExp";
 import {HomeAward} from "./components/HomeAward";
 import {HomeVol} from "./components/HomeVol";
+import {HanzSpaciousContainer} from "./common/HanzSpaciousContainer";
+import {HanzNarrowContainer} from "./common/HanzNarrowContainer";
 
 function App() {
     return (
         <div className="App">
             <NavBar></NavBar>
-
-            <HomeAbout></HomeAbout>
-            <HomeRecent></HomeRecent>
-            <HomePub></HomePub>
-            <HomeEdu></HomeEdu>
-            <HomeExp></HomeExp>
-            <HomeAward></HomeAward>
-            <HomeVol></HomeVol>
+            <div className="container">
+                <div className="row">
+                <HanzSpaciousContainer>
+                    <HomeAbout></HomeAbout>
+                    <HomeRecent></HomeRecent>
+                    <HomePub></HomePub>
+                </HanzSpaciousContainer>
+                <HanzNarrowContainer>
+                    <HomeEdu></HomeEdu>
+                    <HomeExp></HomeExp>
+                    <HomeAward></HomeAward>
+                    <HomeVol></HomeVol>
+                </HanzNarrowContainer>
+                </div>
+            </div>
             <Footer></Footer>
         </div>
     );

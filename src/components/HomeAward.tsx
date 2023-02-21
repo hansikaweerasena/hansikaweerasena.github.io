@@ -5,10 +5,7 @@ export function HomeAward() {
     return (
         <HanzContainer>
             <div className="row">
-                <div className="col-lg-3">
                     <h4 className="fw-bold text-secondary hanz-section-header">Awards and Achievements</h4>
-                </div>
-                <div className="col">
                     <ul>
                         <li>Gartner Group Graduate Fellowship - for outstanding CISE Ph.D. students by CISE department
                             of University of Florida <br/></li>
@@ -27,7 +24,6 @@ export function HomeAward() {
                         </li>
                     </ul>
                 </div>
-            </div>
         </HanzContainer>
     );
 }
