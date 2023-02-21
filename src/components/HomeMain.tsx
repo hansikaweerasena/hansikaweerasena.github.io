@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../assets/img/photo.jpeg";
 import profile_photo from "../assets/img/photo_no_back.jpg";
 import {HanzContainer} from "../common/HanzContainer";
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import uf_logo from "../assets/img/uf_logo.png";
 import uom_logo from "../assets/img/uom_logo.png";
-import {HanzContainer} from "../common/HanzContainer";
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeEdu() {

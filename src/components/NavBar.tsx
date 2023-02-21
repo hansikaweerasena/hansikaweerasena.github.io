@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../assets/img/photo.jpeg";
 
 export function NavBar() {
     return (

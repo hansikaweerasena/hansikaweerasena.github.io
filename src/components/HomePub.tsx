@@ -1,5 +1,4 @@
 import React from 'react';
-import {HanzContainer} from "../common/HanzContainer";
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomePub() {

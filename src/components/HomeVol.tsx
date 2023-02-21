@@ -1,7 +1,6 @@
 import React from 'react';
 import aiesec_logo from "../assets/img/aiesec_logo.jpeg";
 import cg_logo from "../assets/img/cg_logo.jpeg";
-import {HanzContainer} from "../common/HanzContainer";
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 
