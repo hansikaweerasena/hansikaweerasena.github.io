@@ -12,6 +12,7 @@ import {HomeVol} from "./components/HomeVol";
 import {HanzSpaciousContainer} from "./common/HanzSpaciousContainer";
 import {HanzNarrowContainer} from "./common/HanzNarrowContainer";
 import {HomeAbout} from "./components/HomeAbout";
+import {HomeInsta} from "./components/HomeInsta";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                         <HomeMain></HomeMain>
                         <HomeAbout></HomeAbout>
                         <HomeRecent></HomeRecent>
+                        <HomeInsta></HomeInsta>
                     </HanzNarrowContainer>
                     <HanzSpaciousContainer>
                         <HomeExp></HomeExp>
