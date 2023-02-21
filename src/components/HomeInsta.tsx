@@ -6,7 +6,7 @@ export function HomeInsta() {
     useEffect(() => {
         const script = document.createElement('script');
 
-        script.src = "http://www.instagram.com/embed.js";
+        script.src = "https://www.instagram.com/embed.js";
         script.async = true;
 
         document.body.appendChild(script);
