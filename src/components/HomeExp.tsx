@@ -23,9 +23,7 @@ export function HomeExp() {
                         <div className="col">
                             <h1 className="fs-5 hanz-edu-title">Senior Software Engineer - Research and Development
                                 Division <br/></h1>
-                            <h1 className="fs-6 hanz-edu-subtitle">CodeGen International | Jan 2018 - Dec 2020</h1>
-                            <p className="hanz-edu-para">Research on securing Network on Chip for modern System-on-Chip
-                                architectures</p>
+                            <h1 className="fs-6 hanz-edu-subtitle">CodeGen International | Feb 2020 - Dec 2020</h1>
                             <ul className="hanz-edu-list">
                                 <li> Machine Learning and Data Mining Team | recommendation and personalization engine |
                                     NLP and Image Processing
