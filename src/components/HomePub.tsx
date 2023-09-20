@@ -21,7 +21,7 @@ export function HomePub() {
                             <ul>
                                 <li>Securing on-chip communication using chaffing and winnowing with all-or-nothing
                                     transform P .Mishra, H. Weerasena and S. Charles, U.S. Provisional Patent
-                                    Application Serial No 63/275,552, filed November 4, 2021 (pending)
+                                    Application Serial No 63/275,552, filed October 22, 2022 (pending)
                                 </li>
                             </ul>
                         </li>
