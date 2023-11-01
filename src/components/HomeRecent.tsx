@@ -5,6 +5,9 @@ export function HomeRecent() {
     return (
         <HanzHeaderContainer title="Recent Highlights">
                     <ul>
+                        <li>Our survey paper &quot;  Security of Electrical, Optical and Wireless On-Chip Interconnects: A Survey &quot; was accepted at <a
+                            href="https://dl.acm.org/doi/10.1145/3631117"> ACM Transactions on Design Automation of Electronic Systems (TODAES)</a> - Nov 2023
+                        </li>
                         <li>Received Gartner Group Graduate Fellowship for outstanding CISE Ph.D. students by CISE department of
                             University of Florida - Apr 2023
                         </li>

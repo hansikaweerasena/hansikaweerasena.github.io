@@ -3,8 +3,15 @@ import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomePub() {
     return (
-        <HanzHeaderContainer title="Publications" buttonText="View All">
+        <HanzHeaderContainer title="Publications" buttonText="View All" buttonPath={"publications"}>
                     <ul className="list-group">
+                        <li className="list-group-item hanz-group-item"><span className="fw-bold">Journal Proceedings</span>
+                            <ul>
+                                <li>Security of Electrical, Optical and Wireless On-Chip Interconnects: A Survey
+                                    H. Weerasena et al., ACM Transactions on Design Automation of Electronic Systems (TODAES) - Just Accepted
+                                </li>
+                            </ul>
+                        </li>
                         <li className="list-group-item hanz-group-item"><span className="fw-bold">Conference Proceedings</span>
                             <ul>
                                 <li>Lightweight Encryption using Chaffing and Winnowing with All-or-Nothing Transform
