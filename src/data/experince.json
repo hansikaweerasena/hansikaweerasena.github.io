@@ -1,0 +1,30 @@
+{
+  "experiences": [
+    {
+      "logo": "img/uf_logo.png",
+      "title": "Research Assistant - Embedded Systems Lab",
+      "subtitle": "University of Florida | Jan 2021 - Present",
+      "description": "Research on securing Network on Chip for modern System-on-Chip architectures"
+    },
+    {
+      "logo": "img/cg_logo.jpeg",
+      "title": "Senior Software Engineer - Research and Development Division",
+      "subtitle": "CodeGen International | Feb 2020 - Dec 2020",
+      "points": [
+        "DevOps for R&D division: containerization, cloud computing, continuous integration, application monitoring and server security.",
+        "Planning and Full-stack Development of peer-to-peer chat platform and integration with in-house developed travel domain chatbot.",
+        "Mentoring junior developers and introducing best practices for CI/CD, Docker, Kubernetes, and React for R&D division."
+      ]
+    },
+    {
+      "logo": "img/cg_logo.jpeg",
+      "title": "Software Engineer - Some Other Division",
+      "subtitle": "Another Company | Jan 2019 - Jan 2020",
+      "points": [
+        "Contributed to project X...",
+        "Implemented feature Y...",
+        "Worked on optimization of Z..."
+      ]
+    }
+  ]
+}

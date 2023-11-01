@@ -1,42 +1,33 @@
 import React from 'react';
-import uf_logo from "../assets/img/uf_logo.png";
-import cg_logo from "../assets/img/cg_logo.jpeg";
-import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
+import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
+import data from '../data/experince.json';
 
 export function HomeExp() {
     return (
-        <HanzHeaderContainer title="Professional Experience" buttonText="View All">
+        <HanzHeaderContainer title="Professional Experience" buttonText="View All" buttonPath="/experience">
+            {data.experiences.map((exp : any, index : React.Key) => (
+                <React.Fragment key={index}>
                     <div className="row">
-                        <div className="col-lg-2 d-none d-lg-block"><img
-                            className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
+                        <div className="col-lg-2 d-none d-lg-block">
+                            <img className="rounded-circle hanz-edu-logo" src={exp.logo} alt="Logo"/>
+                        </div>
                         <div className="col">
-                            <h1 className="fs-5 hanz-edu-title">Research Assistant - Embedded Systems Lab<br/></h1>
-                            <h1 className="fs-6 hanz-edu-subtitle">University of Florida | Jan 2021 - Present</h1>
-                            <p className="hanz-edu-para">Research on securing Network on Chip for modern System-on-Chip
-                                architectures</p>
+                            <h1 className="fs-5 hanz-edu-title">{exp.title}<br/></h1>
+                            <h1 className="fs-6 hanz-edu-subtitle">{exp.subtitle}</h1>
+                            {exp.description ? (
+                                <p className="hanz-edu-para">{exp.description}</p>
+                            ) : (
+                                <ul className="hanz-edu-list">
+                                    {exp.points.map((point : any, index : React.Key) => (
+                                        <li key={index}>{point}</li>
+                                    ))}
+                                </ul>
+                            )}
                         </div>
                     </div>
-                    <hr/>
-                    <div className="row">
-                        <div className="col-lg-2 d-none d-lg-block"><img
-                            className="rounded-circle hanz-edu-logo" src={cg_logo}/></div>
-                        <div className="col">
-                            <h1 className="fs-5 hanz-edu-title">Senior Software Engineer - Research and Development
-                                Division <br/></h1>
-                            <h1 className="fs-6 hanz-edu-subtitle">CodeGen International | Feb 2020 - Dec 2020</h1>
-                            <ul className="hanz-edu-list">
-                                <li> Machine Learning and Data Mining Team | recommendation and personalization engine |
-                                    NLP and Image Processing
-                                </li>
-                                <li>DevOps | Cloud Computing, Continuous Integration, Containerization, Automation and
-                                    Monitoring of applications
-                                </li>
-                                <li>Full-stack Development | Peer to Peer chat platform with in-house developed travel
-                                    domain chat bot
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    {index < data.experiences.length - 1 && <hr/>}
+                </React.Fragment>
+            ))}
         </HanzHeaderContainer>
     );
 }
