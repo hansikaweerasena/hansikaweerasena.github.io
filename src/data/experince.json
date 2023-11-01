@@ -15,16 +15,6 @@
         "Planning and Full-stack Development of peer-to-peer chat platform and integration with in-house developed travel domain chatbot.",
         "Mentoring junior developers and introducing best practices for CI/CD, Docker, Kubernetes, and React for R&D division."
       ]
-    },
-    {
-      "logo": "img/cg_logo.jpeg",
-      "title": "Software Engineer - Some Other Division",
-      "subtitle": "Another Company | Jan 2019 - Jan 2020",
-      "points": [
-        "Contributed to project X...",
-        "Implemented feature Y...",
-        "Worked on optimization of Z..."
-      ]
     }
   ]
 }
