@@ -4,7 +4,13 @@
       "logo": "img/uf_logo.png",
       "title": "Research Assistant - Embedded Systems Lab",
       "subtitle": "University of Florida | Jan 2021 - Present",
-      "description": "Research on securing Network on Chip for modern System-on-Chip architectures"
+      "points": [
+        "Leading NSF-funded research project on Designing Secure and Trustworthy Network-on-Chip (NoC) Architectures.",
+        "Conducting research in securing on-chip communication in diverse architectures and technologies.",
+        "Conducting research in accelerator security and confidential computing.",
+        "Peer reviewing conference articles.",
+        "Assisting new proposal writing for research projects."
+      ]
     },
     {
       "logo": "img/cg_logo.jpeg",

@@ -3,9 +3,12 @@ import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
 import data from '../data/experince.json';
 
 export function HomeExp() {
+
+    const experiences = data.experiences.slice(0, 2);
+
     return (
         <HanzHeaderContainer title="Professional Experience" buttonText="View All" buttonPath="/experience">
-            {data.experiences.map((exp : any, index : React.Key) => (
+            {experiences.map((exp : any, index : React.Key) => (
                 <React.Fragment key={index}>
                     <div className="row">
                         <div className="col-lg-2 d-none d-lg-block">
