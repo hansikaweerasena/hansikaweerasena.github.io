@@ -1,6 +1,65 @@
 {
   "recentHighlights": [
-
+    {
+      "descriptions": [
+        {
+          "preText": " Formal Verification of Virtualization-based Trusted Execution Environments was accepted at",
+          "link": "https://esweek.org/cases/",
+          "linkText": " IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+          "postText": " - Aug 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "  Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators was accepted at",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3688001",
+          "linkText": " ACM Transactions on Embedded Computing Systems (TECS)",
+          "postText": " - Jul 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": " Formal Verification of Virtualization-based Trusted Execution Environments was accepted at",
+          "link": "https://esweek.org/cases/",
+          "linkText": " ACM/IEEE International Conference on Compilers, Architectures, and Synthesis for Embedded Systems (CASES)",
+          "postText": " - Jul 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Breaking On-Chip Communication Anonymity using Flow Correlation Attacks was accepted at 2024 25th",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3677034",
+          "linkText": " ACM Journal on Emerging Technologies in Computing Systems (JETC)",
+          "postText": " - Jul 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Received Gartner Group Graduate Fellowship for outstanding CISE Ph.D. students",
+          "link": "",
+          "linkText": "",
+          "postText": " by CISE department of University of Florida - Apr 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Lightweight Multicast Authentication in NoC-based SoCs was accepted at 2024 25th",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10528746",
+          "linkText": " International Symposium on Quality Electronic Design (ISQED)",
+          "postText": " - Jan 2024"
+        }
+      ]
+    },
     {
       "descriptions": [
         {
