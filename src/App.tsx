@@ -8,23 +8,27 @@ import {Experience} from "./pages/Experience";
 import {NotFound} from "./pages/NotFound";
 import {About} from "./pages/About";
 import {Publications} from "./pages/Publications";
+import {ThemeProvider, useTheme} from './ThemeContext';
 
 
 function App() {
+
     return (
-        <div className="App">
-            <NavBar></NavBar>
+        <ThemeProvider>
+            <div className={`App`}>
+                <NavBar></NavBar>
                 <Router>
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/experience" element={<Experience />} />
-                        <Route path="/publications" element={<Publications />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="*" element={<NotFound />} />
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/experience" element={<Experience/>}/>
+                        <Route path="/publications" element={<Publications/>}/>
+                        <Route path="/about" element={<About/>}/>
+                        <Route path="*" element={<NotFound/>}/>
                     </Routes>
                 </Router>
-            <Footer></Footer>
-        </div>
+                <Footer></Footer>
+            </div>
+        </ThemeProvider>
     );
 }
 

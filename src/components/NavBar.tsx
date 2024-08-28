@@ -1,8 +1,13 @@
 import React from 'react';
+import { ThemeToggle } from './ThemeToggle';
+import {useTheme} from "../ThemeContext";
 
 export function NavBar() {
+
+    const { theme } = useTheme();
+
     return (
-        <nav id="hanz-navbar" className="navbar navbar-light navbar-expand-md sticky-top py-3 bg-white shadow-sm">
+        <nav id="hanz-navbar" className={`navbar navbar-${theme} navbar-expand-md sticky-top py-3 bg-${theme} shadow-sm`}>
             <div className="container"><a className="navbar-brand d-flex align-items-center" href="#">
                 <span><span>
                 {/*<img id="hanz-navbar-img" className="rounded-circle" src={logo}/>*/}
@@ -18,6 +23,9 @@ export function NavBar() {
                         <li className="nav-item"><a className="nav-link active" href="/">Home</a></li>
                         <li className="nav-item"><a className="nav-link" href="/publications">Research</a></li>
                         <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
+                        <li className="nav-item d-flex align-items-center">
+                            <ThemeToggle/>
+                        </li>
                     </ul>
                 </div>
             </div>

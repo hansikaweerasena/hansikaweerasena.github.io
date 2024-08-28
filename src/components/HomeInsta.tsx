@@ -1,26 +1,31 @@
 import React, {useEffect} from 'react';
-import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
+import {useTheme} from "../ThemeContext";
 
 export function HomeInsta() {
 
+    const { theme } = useTheme();
+
     useEffect(() => {
         const script = document.createElement('script');
-
         script.src = "https://www.instagram.com/embed.js";
         script.async = true;
-
         document.body.appendChild(script);
-
         return () => {
             document.body.removeChild(script);
         }
     }, []);
 
+    const themeStyles = {
+        background: theme === 'light' ? '#FFF' : '#333', // Different backgrounds for light and dark theme
+        color: theme === 'light' ? '#000' : '#FFF', // Different text colors for light and dark theme
+        linkColor: theme === 'light' ? '#c9c8cd' : '#ddd'
+    };
+
     return (<div className="d-none d-xl-block container shadow-sm hanz-container">
             <blockquote className="instagram-media"
                         data-instgrm-permalink="https://www.instagram.com/hanz.lkw/?utm_source=ig_embed&utm_campaign=loading"
                         data-instgrm-version={14} style={{
-                background: '#FFF',
+                background: 'black',
                 border: 0,
                 borderRadius: '3px',
                 boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
@@ -32,7 +37,7 @@ export function HomeInsta() {
             }}>
                 <div style={{padding: '16px'}}><a
                     href="https://www.instagram.com/hanz.lkw/?utm_source=ig_embed&utm_campaign=loading" style={{
-                    background: '#FFFFFF',
+                    background: themeStyles.background,
                     lineHeight: 0,
                     padding: '0 0',
                     textAlign: 'center',

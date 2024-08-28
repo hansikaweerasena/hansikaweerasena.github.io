@@ -1,5 +1,12 @@
 import React from 'react';
+import { useTheme } from '../ThemeContext';
 
-export function HanzSpaciousContainer(props :any) {
-    return <div className="col-md-8">{props.children}</div>;
+interface HanzSpaciousContainerProps {
+    children: React.ReactNode;
+}
+
+export function HanzSpaciousContainer({ children }: HanzSpaciousContainerProps) {
+    const { theme } = useTheme();
+    const containerClass = `col-md-8 bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`;
+    return <div className={containerClass}>{children}</div>;
 }

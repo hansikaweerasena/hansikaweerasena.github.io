@@ -1,9 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useTheme } from '../ThemeContext'; // Ensure the path is correct
 
-export function HanzHeaderContainer(props: any) {
+interface HanzHeaderContainerProps {
+    title: string;
+    buttonText?: string;
+    buttonPath?: string;
+    children?: React.ReactNode;
+}
 
+export function HanzHeaderContainer(props: HanzHeaderContainerProps) {
     const navigate = useNavigate();
+    const { theme } = useTheme();
 
     const handleButtonClick = () => {
         if (props.buttonPath) {
@@ -11,16 +19,21 @@ export function HanzHeaderContainer(props: any) {
         }
     };
 
-    return <div className="container shadow-sm hanz-container">
-        <div className="row">
-            <div className="col-8">
-                <h4 className="fw-bold text-secondary hanz-ssection-header">{props.title}</h4>
+    return (
+        <div className={`container shadow-sm hanz-container bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`}>
+            <div className="row">
+                <div className="col-8">
+                    <h4 className={`fw-bold text-secondary hanz-section-header`}>{props.title}</h4>
+                </div>
+                {props.buttonText && (
+                    <div className="col-4 text-end">
+                        <button type="button" className="btn btn-link" onClick={handleButtonClick}>
+                            {props.buttonText}
+                        </button>
+                    </div>
+                )}
             </div>
-            {props.buttonText ?
-            <div className="col-4 text-end">
-                <button type="button" className="btn btn-link" onClick={handleButtonClick}>{props.buttonText}</button>
-            </div> : ''}
+            {props.children}
         </div>
-        {props.children}
-    </div>
+    );
 }
