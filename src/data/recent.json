@@ -3,6 +3,16 @@
     {
       "descriptions": [
         {
+          "preText": "Received a travel grant from National Science Foundation (NSF) to attend",
+          "link": "",
+          "linkText": "",
+          "postText": " ESWEEK 2024  - Aug 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": " Formal Verification of Virtualization-based Trusted Execution Environments was accepted at",
           "link": "https://esweek.org/cases/",
           "linkText": " IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
@@ -13,7 +23,7 @@
     {
       "descriptions": [
         {
-          "preText": "  Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators was accepted at",
+          "preText": " Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators was accepted at",
           "link": "https://dl.acm.org/doi/abs/10.1145/3688001",
           "linkText": " ACM Transactions on Embedded Computing Systems (TECS)",
           "postText": " - Jul 2024"
@@ -33,7 +43,7 @@
     {
       "descriptions": [
         {
-          "preText": "Breaking On-Chip Communication Anonymity using Flow Correlation Attacks was accepted at 2024 25th",
+          "preText": " Breaking On-Chip Communication Anonymity using Flow Correlation Attacks was accepted at 2024 25th",
           "link": "https://dl.acm.org/doi/abs/10.1145/3677034",
           "linkText": " ACM Journal on Emerging Technologies in Computing Systems (JETC)",
           "postText": " - Jul 2024"
