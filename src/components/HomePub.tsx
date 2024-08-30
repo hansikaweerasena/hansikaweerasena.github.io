@@ -1,6 +1,7 @@
 import React from 'react';
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 import {useTheme} from "../ThemeContext";
+import data from '../data/publications.json';
 
 export function HomePub() {
     const { theme } = useTheme();
@@ -8,34 +9,57 @@ export function HomePub() {
     const listGroupClass = `list-group bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`;
     const listItemClass = `list-group-item bg-${theme} text-${theme === 'light' ? 'dark' : 'white'} hanz-group-item`;
 
+    const confs = data.conf
+    const journals = data.journal
+    const patents = data.patents
+
+    const formatAuthors = (authors: string[]): string => {
+        if (authors.length === 0) {
+            return "";
+        }
+        // Split the first author's name into parts
+        const nameParts = authors[0].split(" ");
+        const firstNameInitial = nameParts[0][0]; // First character of first name
+        const lastName = nameParts.pop()!; // Last element of the split, which is the last name
+
+        if (authors.length === 1) {
+            return `${firstNameInitial}. ${lastName}`; // Return the formatted name if only one author
+        } else {
+            return `${firstNameInitial}. ${lastName} et al.`; // Append 'et al.' if more than one author
+        }
+    };
+
     return (
         <HanzHeaderContainer title="Publications" buttonText="View All" buttonPath={"publications"}>
             <ul className={listGroupClass}>
-                <li className={listItemClass}><span className="fw-bold">Journal Proceedings</span>
+                <li className={listItemClass}><span className="fw-bold">Journal Proceedings <span
+                    className="badge bg-secondary">{journals.length}</span></span>
                     <ul className={listGroupClass}>
-                        <li className={listItemClass}>Security of Electrical, Optical and Wireless On-Chip Interconnects: A Survey
-                            H. Weerasena et al., ACM Transactions on Design Automation of Electronic Systems (TODAES) - Just Accepted
-                        </li>
+                    {journals.slice(0, 2).map((journal, index) => (
+                            <li key={index} className={listItemClass}>
+                                {journal.title} - {formatAuthors(journal.authors)}, {journal.venue}
+                            </li>
+                        ))}
                     </ul>
                 </li>
-                <li className={listItemClass}><span className="fw-bold">Conference Proceedings</span>
+                <li className={listItemClass}><span className="fw-bold">Conference Proceedings<span
+                    className="badge bg-secondary">{confs.length}</span></span>
                     <ul className={listGroupClass}>
-                        <li className={listItemClass}>Lightweight Encryption using Chaffing and Winnowing with All-or-Nothing Transform
-                            for Network-on-Chip Architectures H. Weerasena et al., 2021 IEEE International
-                            Symposium on Hardware Oriented Security and Trust (HOST) - pp. 170-180
-                        </li>
-                        <li className={listItemClass}>Continuous Automatic Bioacoustics Monitoring of Bird Calls with Local Processing on
-                            Node Level H. Weerasena et al., TENCON 2018 - 2018 IEEE Region 10 Conference, Jeju,
-                            Korea (South), 2018, pp. 0235-0239
-                        </li>
+                    {confs.slice(0, 2).map((conf, index) => (
+                            <li key={index} className={listItemClass}>
+                                {conf.title} - {formatAuthors(conf.authors)}, {conf.venue}
+                            </li>
+                        ))}
                     </ul>
                 </li>
-                <li className={listItemClass}><span className="fw-bold">Patents</span>
+                <li className={listItemClass}><span className="fw-bold">Patents
+                <span className="badge bg-secondary">{patents.length}</span></span>
                     <ul className={listGroupClass}>
-                        <li className={listItemClass}>Securing on-chip communication using chaffing and winnowing with all-or-nothing
-                            transform P .Mishra, H. Weerasena and S. Charles, U.S. Provisional Patent
-                            Application Serial No 63/275,552, filed October 22, 2022 (pending)
-                        </li>
+                    {patents.slice(0, 2).map((patent, index) => (
+                            <li key={index} className={listItemClass}>
+                                {patent.title} - {formatAuthors(patent.authors)}, {patent.venue}
+                            </li>
+                        ))}
                     </ul>
                 </li>
             </ul>

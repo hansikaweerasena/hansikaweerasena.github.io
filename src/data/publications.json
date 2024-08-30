@@ -106,5 +106,21 @@
       "downloadLink": "https://arxiv.org/pdf/2303.01550.pdf",
       "proceedingLink": "https://arxiv.org/abs/2303.01550"
     }
+  ],
+  "patents": [
+    {
+      "type": "Patent",
+      "title": "System and Method for Performing Multicast Authentication in Network-on-Chip Systems",
+      "venue": "U.S. Provisional Patent Application No. 63/573,708, filed April 3, 2024 (pending)",
+      "authors": [ "Prabhat Mishra", "Hansika Weerasena"],
+      "link": ""
+    },
+    {
+      "type": "Patent",
+      "title": "Securing on-chip communication using chaffing and winnowing with all-or-nothing transform",
+      "venue": "U.S. Patent Application Serial No 17/973,768, filed August 3, 2023 (pending)",
+      "authors": [ "Prabhat Mishra", "Hansika Weerasena", "Subodha Charles"],
+      "link": "https://patents.google.com/patent/US20230244819A1/en"
+    }
   ]
 }
