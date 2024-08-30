@@ -1,23 +1,74 @@
 {
-  "publications": [
+  "journal": [
+    {
+      "img": "tee.png",
+      "type": "Journal",
+      "title": "Formal Verification of Virtualization-based Trusted Execution Environments",
+      "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2024",
+      "text": "Trusted Execution Environments (TEEs) provide a secure environment for computation, ensuring that the code and data inside the TEE are protected with respect to confidentiality and integrity. Virtual Machine (VM)-based TEEs extend this concept by utilizing virtualization technology to create isolated execution spaces that can support a complete operating system or specific applications. As the complexity and importance of VM-based TEEs grow, ensuring their reliability and security through formal verification becomes crucial. However, these technologies often operate without formal assurances of their security properties. Our research introduces a formal framework for representing and verifying VM-based TEEs. This approach provides a rigorous foundation for defining and verifying key security attributes for safeguarding execution environments. To demonstrate the applicability of our verification framework, we conduct an analysis of real-world TEE platforms, including Intel's Trust Domain Extensions (TDX). This work not only emphasizes the necessity of formal verification in enhancing the security of VM-based TEEs but also provides a systematic approach for evaluating the resilience of these platforms against sophisticated adversarial models.",
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://esl.cise.ufl.edu/Publications/tcad24tee.pdf",
+      "proceedingLink": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43"
+    },
+    {
+      "img": "dataflow.png",
+      "type": "Journal",
+      "title": "Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators",
+      "venue": "ACM Transactions on Embedded Computing Systems (TECS), 2024",
+      "text": "Convolution Neural Networks (CNNs) are widely used in various domains. Recent advances in dataflow-based CNN accelerators have enabled CNN inference in resource- constrained edge devices. These dataflow accelerators utilize inherent data reuse of convolution layers to process CNN models efficiently. Concealing the architecture of CNN models is critical for privacy and security. This paper evaluates memory-based side-channel information to recover CNN architectures from dataflow-based CNN inference accelerators. The proposed attack exploits spatial and temporal data reuse of the dataflow mapping on CNN accelerators and architectural hints to recover the structure of CNN models. Experimental results demonstrate that our proposed side-channel attack can recover the structures of popular CNN models, namely Lenet, Alexnet, and VGGnet16.",
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://arxiv.org/pdf/2311.00579.pdf",
+      "proceedingLink": "https://dl.acm.org/doi/10.1145/3688001"
+    },
+    {
+      "img": "flow.png",
+      "type": "Journal",
+      "title": "Breaking On-Chip Communication Anonymity using Flow Correlation Attacks",
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems (JETC), 2024",
+      "text": "Network-on-Chip (NoC) is widely used as the internal communication fabric in today’s multicore System-onChip (SoC) designs. Security of the on-chip communication is crucial because exploiting any vulnerability in shared NoC would be a goldmine for an attacker. NoC security relies on effective countermeasures against diverse attacks. We investigate the security strength of existing anonymous routing protocols in NoC architectures. Specifically, this paper makes two important contributions. We show that the existing anonymous routing is vulnerable to machine learning (ML) based flow correlation attacks on NoCs. We propose a lightweight anonymous routing that use traffic obfuscation techniques which can defend against ML-based flow correlation attacks. Experimental studies using both real and synthetic traffic reveal that our proposed attack is successful against state-of-the-art anonymous routing in NoC architectures with a high accuracy (up to 99%) for diverse traffic patterns, while our lightweight countermeasure can defend against ML-based attacks with minor hardware and performance overhead.",
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://arxiv.org/pdf/2309.15687.pdf",
+      "proceedingLink": "https://dl.acm.org/doi/abs/10.1145/3677034"
+    },
     {
       "img": "survey.png",
       "type": "Journal",
       "title": "Security of Electrical, Optical and Wireless On-Chip Interconnects: A Survey",
-      "venue": "2023 ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+      "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES), 2023",
       "text": "The advancement of manufacturing technologies has enabled the integration of more intellectual property (IP) cores on the same system-on-chip (SoC). Scalable and high throughput on-chip communication architecture has become a vital component in today’s SoCs. Diverse technologies such as electrical, wireless, optical, and hybrid are available for on-chip communication with different architectures supporting them. On-chip communication sub-system is shared across all the IPs and continuously used throughout the lifetime of the SoC. Therefore, the security of the on-chip communication is crucial because exploiting any vulnerability would be a goldmine for an attacker. In this survey, we provide a comprehensive review of threat models, attacks and countermeasures over diverse on-chip communication technologies as well as sophisticated architectures.",
-
-      "authors": ["Hansika Weerasena", "Prabath Mishra"],
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
       "downloadLink": "https://www.cise.ufl.edu/research/cad/Publications/host21noc.pdf",
       "proceedingLink": "https://dl.acm.org/doi/10.1145/3631117"
+    }
+  ],
+  "conf": [
+    {
+      "img": "tee.png",
+      "type": "Conference",
+      "title": "Formal Verification of Virtualization-based Trusted Execution Environments",
+      "venue": "ACM/IEEE International Conference on Compilers, Architectures, and Synthesis for Embedded Systems (CASES), Raleigh, North Carolina, September 29 - October 4, 2024",
+      "text": "Trusted Execution Environments (TEEs) provide a secure environment for computation, ensuring that the code and data inside the TEE are protected with respect to confidentiality and integrity. Virtual Machine (VM)-based TEEs extend this concept by utilizing virtualization technology to create isolated execution spaces that can support a complete operating system or specific applications. As the complexity and importance of VM-based TEEs grow, ensuring their reliability and security through formal verification becomes crucial. However, these technologies often operate without formal assurances of their security properties. Our research introduces a formal framework for representing and verifying VM-based TEEs. This approach provides a rigorous foundation for defining and verifying key security attributes for safeguarding execution environments. To demonstrate the applicability of our verification framework, we conduct an analysis of real-world TEE platforms, including Intel's Trust Domain Extensions (TDX). This work not only emphasizes the necessity of formal verification in enhancing the security of VM-based TEEs but also provides a systematic approach for evaluating the resilience of these platforms against sophisticated adversarial models.",
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://esl.cise.ufl.edu/Publications/cases24.pdf",
+      "proceedingLink": "https://esweek.org/cases/"
+    },
+    {
+      "img": "bio.png",
+      "type": "Conference",
+      "title": "Lightweight Multicast Authentication in NoC-based SoCs",
+      "venue": "EEE International Symposium on Quality Electronic Design (ISQED), San Francisco, California, April 3-5, 2024",
+      "text": "Network-on-Chip (NoC) is responsible for managing communication in modern SoCs. The ubiquity of NoC and its distributed nature across the chip has made it a focal point of attacks. Spoofing attacks by impersonating the nodes in SoC can lead to unauthorized information access and can also be employed to launch denial of service attacks. Modern software tends to use more parallelism among multiple cores, increasing multicast communication among cores to exchange cache coherence messages. Traditional multicast authentication solutions are not effective due to the resource-constrained nature of\nNoC-based SoCs. In this paper, we propose a lightweight multicast authentication mechanism that utilizes existing unicast authentication infrastructures in NoC using one-way accumulators. Experimental results demonstrate the effectiveness of our approach with required security while incurring minor area and performance overhead. ",
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://esl.cise.ufl.edu/Publications/isqed24.pdf",
+      "proceedingLink": "https://ieeexplore.ieee.org/xpl/conhome/10129281/proceeding"
     },
     {
       "img": "chaff.png",
       "type": "Conference",
       "title":"Lightweight Encryption using Chaffing and Winnowing with All-or-Nothing Transform for Network-on-Chip Architectures",
-      "venue": "2021 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "venue": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST), Washington DC, December 12-15, 2021",
       "text": "Network-on-Chip (NoC) fulfills the communication requirements of modern System-on-Chip (SoC) architectures. Due to the resource-constrained nature of NoC-based SoCs, it is a major challenge to secure onchip communication against eavesdropping attacks using traditional encryption methods. In this paper, we propose a lightweight encryption technique using chaffing and winnowing (C&amp;W) with all-or-nothing transform (AONT) that benefits from the unique NoC traffic characteristics. Our experimental results demonstrate that our proposed encryption technique provides the required security with significantly less area and energy overhead compared to the state-of-the-art approaches.",
-      "authors": ["Hansika Weerasena", "Subodha Charles", "Prabath Mishra"],
+      "authors": ["Hansika Weerasena", "Subodha Charles", "Prabhat Mishra"],
       "downloadLink": "https://www.cise.ufl.edu/research/cad/Publications/host21noc.pdf",
       "proceedingLink": "https://ieeexplore.ieee.org/document/9702282"
     },
@@ -34,25 +85,17 @@
   ],
   "preprints": [
     {
-      "img": "dataflow.png",
+      "img": "gain.png",
       "type": "Preprint",
-      "title": "Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators",
-      "venue": "2023 Nov",
-      "text": "Convolution Neural Networks (CNNs) are widely used in various domains. Recent advances in dataflow-based CNN accelerators have enabled CNN inference in resource- constrained edge devices. These dataflow accelerators utilize inherent data reuse of convolution layers to process CNN models efficiently. Concealing the architecture of CNN models is critical for privacy and security. This paper evaluates memory-based side-channel information to recover CNN architectures from dataflow-based CNN inference accelerators. The proposed attack exploits spatial and temporal data reuse of the dataflow mapping on CNN accelerators and architectural hints to recover the structure of CNN models. Experimental results demonstrate that our proposed side-channel attack can recover the structures of popular CNN models, namely Lenet, Alexnet, and VGGnet16.",
-      "authors": ["Hansika Weerasena", "Prabath Mishra"],
-      "downloadLink": "https://arxiv.org/pdf/2311.00579.pdf",
-      "proceedingLink": "https://arxiv.org/abs/2311.00579"
-    },
-    {
-      "img": "flow.png",
-      "type": "Preprint",
-      "title": "Breaking NoC Anonymity using Flow Correlation Attack",
-      "venue": "2023 Sep",
-      "text": "Network-on-Chip (NoC) is widely used as the internal communication fabric in today’s multicore System-onChip (SoC) designs. Security of the on-chip communication is crucial because exploiting any vulnerability in shared NoC would be a goldmine for an attacker. NoC security relies on effective countermeasures against diverse attacks. We investigate the security strength of existing anonymous routing protocols in NoC architectures. Specifically, this paper makes two important contributions. We show that the existing anonymous routing is vulnerable to machine learning (ML) based flow correlation attacks on NoCs. We propose a lightweight anonymous routing that use traffic obfuscation techniques which can defend against ML-based flow correlation attacks. Experimental studies using both real and synthetic traffic reveal that our proposed attack is successful against state-of-the-art anonymous routing in NoC architectures with a high accuracy (up to 99%) for diverse traffic patterns, while our lightweight countermeasure can defend against ML-based attacks with minor hardware and performance overhead.",
-      "authors": ["Hansika Weerasena", "Pan Zhixin", "Khushboo Rani", "Prabath Mishra"],
-      "downloadLink": "https://arxiv.org/pdf/2309.15687.pdf",
-      "proceedingLink": "https://arxiv.org/abs/2309.15687"
-    },
+      "title": "Modeling and Exploration of Gain Competition Attacks in Optical Network-on-Chip Architectures",
+      "venue": "2023 Mar",
+      "text": "Network-on-Chip (NoC) enables energy-efficient communication between numerous components in System-on-Chip architectures. The optical NoC is widely considered a key technology to overcome the bandwidth and energy limitations of traditional electrical on-chip interconnects. While optical NoC can offer high performance, they come with inherent security vulnerabilities due to the nature of optical interconnects. In this paper, we investigate the gain competition attack in optical NoCs, which can be initiated by an attacker injecting a high-power signal to the optical waveguide, robbing the legitimate signals of amplification. To the best of our knowledge, our proposed approach is the first attempt to investigate gain competition attacks as a security threat in optical NoCs. We model the attack and analyze its effects on optical NoC performance. We also propose potential attack detection techniques and countermeasures to mitigate the attack. Our experimental evaluation using different NoC topologies and diverse traffic patterns demonstrates the effectiveness of our modeling and exploration of gain competition attacks in optical NoC architectures.",
+      "authors": ["Khushboo Rani", "Hansika Weerasena", "Stephen A. Butler", "Subodha Charles", "Prabhat Mishra"],
+      "downloadLink": "https://arxiv.org/pdf/2303.01550.pdf",
+      "proceedingLink": "https://arxiv.org/abs/2303.01550"
+    }
+  ],
+  "non-ref": [
     {
       "img": "gain.png",
       "type": "Preprint",
