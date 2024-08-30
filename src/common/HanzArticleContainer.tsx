@@ -18,7 +18,7 @@ export function HanzArticleContainer(props: HanzArticleContainerProps) {
     return (
         <div className={`container shadow-sm hanz-container bg-${theme} text-${theme}`}>
             <div className="row">
-                <div className="col-2">
+                <div className="col-3">
                     <img className="hanz-img-responsive" src={props.img} alt={props.title} />
                 </div>
                 <div className="col">
