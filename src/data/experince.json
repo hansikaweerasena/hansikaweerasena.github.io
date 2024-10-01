@@ -3,7 +3,29 @@
     {
       "logo": "img/uf_logo.png",
       "title": "Research Assistant - Embedded Systems Lab",
-      "subtitle": "University of Florida | Jan 2021 - Present",
+      "subtitle": "University of Florida | May 2024 - Present",
+      "points": [
+        "Leading SRC-funded research project on Compositional Security Verification of Trusted Execution Environments (TEEs).",
+        "Conducting research in verifying confidential computing architectures",
+        "Conducting research in formal verification of Intel TDX and VM-based TEEs",
+        "Peer reviewing conference articles.",
+        "Assisting new proposal writing for research projects."
+      ]
+    },
+    {
+      "logo": "img/uf_logo.png",
+      "title": "Teaching Assistant - Embedded Systems",
+      "subtitle": "University of Florida | Jan 2024 - May 2024",
+      "points": [
+        "Lead TA for class of 90+ students",
+        "Conducted office hours helping students on understanding concepts and designing and programming embedded systems",
+        "Preparing, reviewing and marking assignments, projects and exams"
+      ]
+    },
+    {
+      "logo": "img/uf_logo.png",
+      "title": "Research Assistant - Embedded Systems Lab",
+      "subtitle": "University of Florida | Jan 2021 - Dec 2023",
       "points": [
         "Leading NSF-funded research project on Designing Secure and Trustworthy Network-on-Chip (NoC) Architectures.",
         "Conducting research in securing on-chip communication in diverse architectures and technologies.",
@@ -20,6 +42,18 @@
         "DevOps for R&D division: containerization, cloud computing, continuous integration, application monitoring and server security.",
         "Planning and Full-stack Development of peer-to-peer chat platform and integration with in-house developed travel domain chatbot.",
         "Mentoring junior developers and introducing best practices for CI/CD, Docker, Kubernetes, and React for R&D division."
+      ]
+    },
+    {
+      "logo": "img/cg_logo.jpeg",
+      "title": "Software Engineer - Research and Development Division",
+      "subtitle": "CodeGen International | Jan 2018 - Jan 2020",
+      "points": [
+        "DevOps for R&D division: containerization, cloud computing, continuous integration, application monitoring and server security.",
+        "Member of Machine Learning and Data Mining Team ",
+        "Collaborative filtering and associative rule mining on travel domain datasets to make travel recommendations",
+        "Natural language processing and image processing to profile users for their interests",
+        "Full-stack development of user profiling and recommendation engine for personalized travel suggestion"
       ]
     }
   ]

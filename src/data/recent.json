@@ -3,8 +3,18 @@
     {
       "descriptions": [
         {
-          "preText": "Received a travel grant from National Science Foundation (NSF) to attend",
+          "preText": "Presented our paper on Formal verification of VM-based Trusted Execution Environments (TEEs) at",
           "link": "",
+          "linkText": "",
+          "postText": " CASES'24  - Sep 30, 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Received a travel grant from National Science Foundation (NSF) to attend",
+          "link": "https://web.eng.fiu.edu/gaquan/Papers/ESWEEK24Papers/CASES/CASES_124_Witharana",
           "linkText": "",
           "postText": " ESWEEK 2024  - Aug 2024"
         }
