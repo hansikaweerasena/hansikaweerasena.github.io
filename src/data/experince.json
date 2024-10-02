@@ -6,10 +6,8 @@
       "subtitle": "University of Florida | May 2024 - Present",
       "points": [
         "Leading SRC-funded research project on Compositional Security Verification of Trusted Execution Environments (TEEs).",
-        "Conducting research in verifying confidential computing architectures",
-        "Conducting research in formal verification of Intel TDX and VM-based TEEs",
-        "Peer reviewing conference articles.",
-        "Assisting new proposal writing for research projects."
+        "Conducting research in verifying confidential computing architectures, specifically VM-based TEEs (e.g. Intel TDX)",
+        "Peer reviewing conference articles and assisting new proposal writing."
       ]
     },
     {
@@ -30,8 +28,7 @@
         "Leading NSF-funded research project on Designing Secure and Trustworthy Network-on-Chip (NoC) Architectures.",
         "Conducting research in securing on-chip communication in diverse architectures and technologies.",
         "Conducting research in accelerator security and confidential computing.",
-        "Peer reviewing conference articles.",
-        "Assisting new proposal writing for research projects."
+        "Peer reviewing conference articles and assisting new proposal writing."
       ]
     },
     {
