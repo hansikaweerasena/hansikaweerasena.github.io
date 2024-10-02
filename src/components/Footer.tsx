@@ -28,7 +28,7 @@ export function Footer() {
                         </svg>
                     </li>
                 </ul>
-                <p className="mb-0">Copyright © 2022 Hansika Weerasena</p>
+                <p className="mb-0">Copyright © {new Date().getFullYear()} Hansika Weerasena</p>
             </div>
         </footer>
     );
