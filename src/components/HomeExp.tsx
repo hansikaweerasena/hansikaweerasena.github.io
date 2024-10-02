@@ -4,7 +4,7 @@ import data from '../data/experince.json';
 
 export function HomeExp() {
 
-    const experiences = data.experiences.slice(0, 2);
+    const experiences = data.experiences.slice(0, 4);
 
     return (
         <HanzHeaderContainer title="Professional Experience" buttonText="View All" buttonPath="/experience">
@@ -28,7 +28,7 @@ export function HomeExp() {
                             )}
                         </div>
                     </div>
-                    {index < data.experiences.length - 1 && <hr/>}
+                    {index < experiences.length - 1 && <hr/>}
                 </React.Fragment>
             ))}
         </HanzHeaderContainer>

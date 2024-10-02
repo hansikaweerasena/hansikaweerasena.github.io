@@ -8,7 +8,7 @@ export function HomeAbout() {
                 of
                 Computer &amp; Information Science &amp; Engineering, University of Florida, researching on
                 communication
-                security, network-on-chip and computer architecture.</p>
+                security, network-on-chip, computer architecture and applied machine learning for security.</p>
         </HanzHeaderContainer>
     );
 }
