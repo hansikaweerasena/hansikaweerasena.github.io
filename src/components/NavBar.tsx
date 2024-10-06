@@ -23,6 +23,7 @@ export function NavBar() {
                         <li className="nav-item"><a className="nav-link active" href="/">Home</a></li>
                         <li className="nav-item"><a className="nav-link" href="/publications">Research</a></li>
                         <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
+                        <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
                         <li className="nav-item d-flex align-items-center">
                             <ThemeToggle/>
                         </li>

@@ -9,6 +9,7 @@ import {NotFound} from "./pages/NotFound";
 import {About} from "./pages/About";
 import {Publications} from "./pages/Publications";
 import {ThemeProvider, useTheme} from './ThemeContext';
+import {Blog} from "./pages/Blog";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                         <Route path="/experience" element={<Experience/>}/>
                         <Route path="/publications" element={<Publications/>}/>
                         <Route path="/about" element={<About/>}/>
+                        <Route path="/blog" element={<Blog/>}/>
                         <Route path="*" element={<NotFound/>}/>
                     </Routes>
                 </Router>
