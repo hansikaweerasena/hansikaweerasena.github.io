@@ -30,7 +30,7 @@ export function HomePub() {
     };
 
     return (
-        <HanzHeaderContainer title="Publications" buttonText="View All" buttonPath={"publications"}>
+        <HanzHeaderContainer title="Publications" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath={"publications"}>
             <ul className={listGroupClass}>
                 <li className={listItemClass}><span className="fw-bold">Journal Proceedings <span
                     className="badge bg-secondary">{journals.length}</span></span>

@@ -31,6 +31,7 @@ export function HanzHeaderContainer(props: HanzHeaderContainerProps) {
                             {props.buttonText}
                         </button>
                     </div>
+
                 )}
             </div>
             {props.children}

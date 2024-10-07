@@ -7,7 +7,7 @@ export function Experience() {
     return (<div className="container">
             <div className="row">
                 <HanzFullWidthContainer>
-                    <HanzHeaderContainer title="Professional Experience" buttonText="View All" buttonPath="/experience">
+                    <HanzHeaderContainer title="Professional Experience" buttonText="" buttonPath="/experience">
                         {data.experiences.map((exp : any, index : React.Key) => (
                             <React.Fragment key={index}>
                                 <div className="row">

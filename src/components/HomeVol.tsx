@@ -11,7 +11,7 @@ export function HomeVol() {
                         <div className="col-lg-2 d-none d-lg-block"><img
                             className="rounded-circle hanz-edu-logo" src={cg_logo}/></div>
                         <div className="col">
-                            <h1 className="fs-5 hanz-edu-title">Welfare Vice President - Codegen International<br/></h1>
+                            <h1 className="fs-5 hanz-edu-title">Welfare Vice President - CodeGen International<br/></h1>
                             <h1 className="fs-6 hanz-edu-subtitle"> Jan 2020 - Dec 2020</h1>
                         </div>
                     </div>

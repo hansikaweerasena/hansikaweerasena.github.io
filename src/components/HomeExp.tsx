@@ -7,7 +7,7 @@ export function HomeExp() {
     const experiences = data.experiences.slice(0, 4);
 
     return (
-        <HanzHeaderContainer title="Professional Experience" buttonText="View All" buttonPath="/experience">
+        <HanzHeaderContainer title="Professional Experience" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath="/experience">
             {experiences.map((exp : any, index : React.Key) => (
                 <React.Fragment key={index}>
                     <div className="row">

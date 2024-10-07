@@ -5,7 +5,7 @@ import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeEdu() {
     return (
-        <HanzHeaderContainer title="Education" buttonText="View All">
+        <HanzHeaderContainer title="Education" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L">
                     <div className="row">
                         <div className="col-lg-2 d-none d-lg-block"><img className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
                         <div className="col">
