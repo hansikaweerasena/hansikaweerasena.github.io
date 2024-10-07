@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
-import { HanzFullWidthContainer } from "../common/HanzFullWidthContainer";
 import { HanzCardArticleContainer } from "../common/HanzCardArticleContainer";
-import {HanzArticleContainer} from "../common/HanzArticleContainer";
-import publicationsData from "../data/publications.json";
 import {useTheme} from "../ThemeContext";
 
 export function Blog() {
