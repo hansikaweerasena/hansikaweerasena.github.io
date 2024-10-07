@@ -1,22 +1,59 @@
 import React, { useState, useEffect } from 'react';
-import axios from "axios";
+import axios from 'axios';
+import { XMLParser } from 'fast-xml-parser';
 import { HanzCardArticleContainer } from "../common/HanzCardArticleContainer";
 import {useTheme} from "../ThemeContext";
 
+interface RssItem {
+    title: string;
+    pubDate: string;
+    link: string;
+    guid: string;
+    "dc:creator"?: string;
+    description: string;
+}
 export function Blog() {
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState<Array<{
+        title: string,
+        pubDate: string,
+        link: string,
+        guid: string,
+        author: string,
+        thumbnail: string,
+        description: string
+    }>>([]);
 
     const { theme } = useTheme();
 
-    const getPostData = () => {
-        axios
-            .get("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@hansikaweerasena")
-            .then((res) => {
-                setPosts(res.data.items);
-            })
-            .catch((error) => {
-                console.error("Error fetching blog posts:", error);
+    const getPostData = async () => {
+        try {
+            const response = await axios.get('https://medium.com/feed/@hansikaweerasena', {
+                headers: {
+                    'Content-Type': 'application/xml',
+                },
             });
+
+            const parser = new XMLParser({
+                ignoreAttributes: false,
+                attributeNamePrefix: "@_"
+            });
+            const parsedResult = parser.parse(response.data);
+
+            const items: RssItem[] = parsedResult.rss.channel.item;
+            const formattedPosts = items.map((item: RssItem) => ({
+                title: item.title,
+                pubDate: item.pubDate,
+                link: item.link,
+                guid: item.guid,
+                author: item["dc:creator"] || "",
+                thumbnail: "", // You can add logic to extract the thumbnail if needed
+                description: item.description
+            }));
+
+            setPosts(formattedPosts);
+        } catch (error) {
+            console.error("Error fetching blog posts:", error);
+        }
     };
 
     useEffect(() => {
