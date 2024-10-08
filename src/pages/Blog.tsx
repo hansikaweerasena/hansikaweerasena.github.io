@@ -4,8 +4,24 @@ import { HanzCardArticleContainer } from "../common/HanzCardArticleContainer";
 import {useTheme} from "../ThemeContext";
 import axios from "axios";
 
+interface RssItem {
+    title: string;
+    pubDate: string;
+    link: string;
+    guid: string;
+    "dc:creator"?: string;
+    description: string;
+}
 export function Blog() {
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState<Array<{
+        title: string,
+        pubDate: string,
+        link: string,
+        guid: string,
+        author: string,
+        thumbnail: string,
+        description: string
+    }>>([]);
 
     const { theme } = useTheme();
 
