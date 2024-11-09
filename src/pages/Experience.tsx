@@ -8,7 +8,7 @@ export function Experience() {
             <div className="row">
                 <HanzFullWidthContainer>
                     <HanzHeaderContainer title="Professional Experience" buttonText="" buttonPath="/experience">
-                        {data.experiences.map((exp : any, index : React.Key) => (
+                        {data.experiences.teaching.map((exp : any, index : React.Key) => (
                             <React.Fragment key={index}>
                                 <div className="row">
                                     <div className="col-lg-2 d-none d-lg-block">
@@ -28,7 +28,7 @@ export function Experience() {
                                         )}
                                     </div>
                                 </div>
-                                {index < data.experiences.length - 1 && <hr/>}
+                                {index < data.experiences.teaching.length - 1 && <hr/>}
                             </React.Fragment>
                         ))}
                     </HanzHeaderContainer>
