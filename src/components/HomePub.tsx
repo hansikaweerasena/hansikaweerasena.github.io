@@ -32,36 +32,24 @@ export function HomePub() {
     return (
         <HanzHeaderContainer title="Publications" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath={"publications"}>
             <ul className={listGroupClass}>
-                <li className={listItemClass}><span className="fw-bold">Journal Proceedings <span
-                    className="badge bg-secondary">{journals.length}</span></span>
-                    <ul className={listGroupClass}>
-                    {journals.slice(0, 2).map((journal, index) => (
-                            <li key={index} className={listItemClass}>
-                                {journal.title} - {formatAuthors(journal.authors)}, {journal.venue}
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                <li className={listItemClass}><span className="fw-bold">Conference Proceedings<span
-                    className="badge bg-secondary">{confs.length}</span></span>
-                    <ul className={listGroupClass}>
-                    {confs.slice(0, 2).map((conf, index) => (
-                            <li key={index} className={listItemClass}>
-                                {conf.title} - {formatAuthors(conf.authors)}, {conf.venue}
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                <li className={listItemClass}><span className="fw-bold">Patents
-                <span className="badge bg-secondary">{patents.length}</span></span>
-                    <ul className={listGroupClass}>
-                    {patents.slice(0, 2).map((patent, index) => (
-                            <li key={index} className={listItemClass}>
-                                {patent.title} - {formatAuthors(patent.authors)}, {patent.venue}
-                            </li>
-                        ))}
-                    </ul>
-                </li>
+                {[
+                    { label: "Journal Proceedings", items: journals },
+                    { label: "Conference Proceedings", items: confs },
+                    { label: "Patents", items: patents }
+                ].map((section, index) => (
+                    <li key={index} className={listItemClass}>
+                <span className="fw-bold">
+                    {section.label} <span className="badge bg-secondary">{section.items.length}</span>
+                </span>
+                        <ul className={listGroupClass}>
+                            {section.items.slice(0, 2).map((item, itemIndex) => (
+                                <li key={itemIndex} className={listItemClass}>
+                                    {item.title} - {formatAuthors(item.authors)}, {item.venue}
+                                </li>
+                            ))}
+                        </ul>
+                    </li>
+                ))}
             </ul>
         </HanzHeaderContainer>
     );

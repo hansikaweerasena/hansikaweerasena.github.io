@@ -56,8 +56,9 @@
     "professional": [
       {
         "logo": "img/cg_logo.jpeg",
-        "role": "Senior Software Engineer - Research and Development Division",
+        "role": "Senior Software Engineer",
         "aff": "CodeGen International Pvt. Ltd, Sri Lanka",
+        "dept": "Research and Development Division",
         "period": "Feb 2020 - Dec 2020",
         "points": [
           "DevOps for R&D division: containerization, cloud computing, continuous integration, application monitoring and server security.",
@@ -67,16 +68,76 @@
       },
       {
         "logo": "img/cg_logo.jpeg",
-        "role": "Software Engineer - Research and Development Division",
+        "role": "Software Engineer",
         "aff": "CodeGen International Pvt. Ltd, Sri Lanka",
         "period": "Jan 2018 - Jan 2020",
-        "dept": null,
+        "dept": "Research and Development Division",
         "points": [
           "DevOps for R&D division: containerization, cloud computing, continuous integration, application monitoring and server security.",
           "Member of Machine Learning and Data Mining Team ",
           "Collaborative filtering and associative rule mining on travel domain datasets to make travel recommendations",
           "Natural language processing and image processing to profile users for their interests",
           "Full-stack development of user profiling and recommendation engine for personalized travel suggestion"
+        ]
+      },
+      {
+        "logo": "img/cg_logo.jpeg",
+        "role": "Software Engineering Intern",
+        "aff": "CodeGen International Pvt. Ltd, Sri Lanka",
+        "period": "July 2016 - Dec 2016",
+        "dept": "Research and Development Division",
+        "points": [
+          "Advanced semantic analysis of reviews",
+          "Classification of browser history data for personalization",
+          "Developed in-house Elasticsearch wrapper to support multiple projects."
+        ]
+      },
+      {
+        "logo": "img/sprintylab.jpg",
+        "role": "Co-Founder",
+        "aff": "SprintyLab",
+        "period": "Mar 2017 - Dec 2017",
+        "dept": null,
+        "points": [
+          "First runners-up at Mora Ventures 2.0, the biggest university-level multi-stage startup competition in Sri Lanka",
+          "A digital platform that seamlessly links customers with print shops for convenient printing solutions",
+          "product architecture designing",
+          "Handled digital marketing"
+        ]
+      }
+
+    ],
+    "volunteer": [
+      {
+        "logo": "img/cg_logo.jpeg",
+        "role": "Welfare Vice President - CodeGen International",
+        "aff": "CodeGen International Pvt. Ltd, Sri Lanka",
+        "dept": null,
+        "period": "Jan 2020 - Dec 2020",
+        "points": [
+          "Annual budget and event planning",
+          "Organizing events"
+        ]
+      },
+      {
+        "logo": "img/aiesec_logo.jpeg",
+        "role": "National Coordinator",
+        "aff": "AIESEC in Sri Lanka",
+        "period": "Aug 2016 - July 2017",
+        "dept": null,
+        "points": [
+          "World's largest youth run organization",
+          "Outgoing Exchange (OGX) National Coordinator for Sri Lanka"
+        ]
+      },
+      {
+        "logo": "img/aiesec_logo.jpeg",
+        "role": "Team Leader",
+        "aff": "AIESEC Colombo South, Sri Lanka",
+        "period": "Aug 2016 - July 2017",
+        "dept": "Sales and Marketing Team Leader",
+        "points": [
+          "Led the team to promote a global volunteering program through a range of marketing strategies."
         ]
       }
     ]
