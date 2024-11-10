@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.453c9f5f.css",
-    "main.js": "/static/js/main.27b3bc01.js",
+    "main.js": "/static/js/main.021a787e.js",
     "static/js/787.69ce51e1.chunk.js": "/static/js/787.69ce51e1.chunk.js",
     "static/media/photo_no_back.jpg": "/static/media/photo_no_back.7129fc6ad73d837f0fea.jpg",
     "static/media/uom_logo.png": "/static/media/uom_logo.4ac81fce801bfb7352f0.png",
@@ -10,11 +10,11 @@
     "static/media/cg_logo.jpeg": "/static/media/cg_logo.d30c025dae870022bb05.jpeg",
     "index.html": "/index.html",
     "main.453c9f5f.css.map": "/static/css/main.453c9f5f.css.map",
-    "main.27b3bc01.js.map": "/static/js/main.27b3bc01.js.map",
+    "main.021a787e.js.map": "/static/js/main.021a787e.js.map",
     "787.69ce51e1.chunk.js.map": "/static/js/787.69ce51e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.453c9f5f.css",
-    "static/js/main.27b3bc01.js"
+    "static/js/main.021a787e.js"
   ]
 }
