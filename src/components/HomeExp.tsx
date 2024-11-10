@@ -49,9 +49,9 @@ export function HomeExp() {
 
     // Array defining the experience sections
     const sections = [
-        { title: "Teaching", data: experiences.teaching },
         { title: "Research", data: experiences.research },
-        { title: "Professional", data: experiences.professional }
+        { title: "Professional", data: experiences.professional },
+        { title: "Teaching", data: experiences.teaching },
     ];
 
     return (
