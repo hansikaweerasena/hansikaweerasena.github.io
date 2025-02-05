@@ -3,6 +3,16 @@
     {
       "descriptions": [
         {
+          "preText": "Security Assertions for Trusted Execution Environments in NoC-based SoCs was accepted at",
+          "link": "https://www.date-conference.com/",
+          "linkText": "Design Automation and Test in Europe",
+          "postText": " DATE'25 - Dec 2024"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": "Presented our paper on Formal verification of VM-based Trusted Execution Environments (TEEs) at",
           "link": "",
           "linkText": "",

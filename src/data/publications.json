@@ -27,7 +27,7 @@
       "venue": "ACM Journal on Emerging Technologies in Computing Systems (JETC), 2024",
       "text": "Network-on-Chip (NoC) is widely used as the internal communication fabric in today’s multicore System-onChip (SoC) designs. Security of the on-chip communication is crucial because exploiting any vulnerability in shared NoC would be a goldmine for an attacker. NoC security relies on effective countermeasures against diverse attacks. We investigate the security strength of existing anonymous routing protocols in NoC architectures. Specifically, this paper makes two important contributions. We show that the existing anonymous routing is vulnerable to machine learning (ML) based flow correlation attacks on NoCs. We propose a lightweight anonymous routing that use traffic obfuscation techniques which can defend against ML-based flow correlation attacks. Experimental studies using both real and synthetic traffic reveal that our proposed attack is successful against state-of-the-art anonymous routing in NoC architectures with a high accuracy (up to 99%) for diverse traffic patterns, while our lightweight countermeasure can defend against ML-based attacks with minor hardware and performance overhead.",
       "authors": ["Hansika Weerasena", "Prabhat Mishra"],
-      "downloadLink": "https://arxiv.org/pdf/2309.15687.pdf",
+      "downloadLink": "https://www.cise.ufl.edu/research/cad/Publications/jetc24.pdf",
       "proceedingLink": "https://dl.acm.org/doi/abs/10.1145/3677034"
     },
     {
@@ -42,6 +42,16 @@
     }
   ],
   "conf": [
+    {
+      "img": "ass.png",
+      "type": "Conference",
+      "title": "Security Assertions for Trusted Execution Environments",
+      "venue": "Design Automation and Test in Europe (DATE), Lyon, France, March 31 - April 2, 2025",
+      "text": "Trusted Execution Environment (TEE) provides a secure and isolated execution environment for sensitive applications. In order to design secure and trustworthy TEE-based systems, it is crucial to verify the trustworthiness of TEE implementations. Property checking is a promising avenue to guarantee that the TEE implementation satisfies the security properties. In the presence of a vulnerability, property checking will fail and provide a counterexample that can be utilized to fix the vulnerability. A major challenge in TEE property checking is that it relies on manual definition of the security properties, which can be cumbersome and error-prone. In this paper, we propose an efficient framework for automated generation and verification of TEE specific properties. Specifically, we leverage Finite State Machine (FSM) analysis to automatically derive and validate security properties utilizing templates. The effectiveness of the proposed method is demonstrated through experimental evaluation of Intel Trust Domain Extension (TDX), highlighting its potential for verifying security and trustworthiness of modern trusted execution environments.",
+      "authors": ["Hasini Witharana","Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://esl.cise.ufl.edu/Publications/date25.pdf",
+      "proceedingLink": "https://www.date-conference.com/"
+    },
     {
       "img": "tee.png",
       "type": "Conference",
