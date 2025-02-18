@@ -1,14 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import profile_photo from "../assets/img/photo_no_back.jpg";
+import profile_photo_c from "../assets/img/photo_casual.jpg";
 import {HanzContainer} from "../common/HanzContainer";
 
 export function HomeMain() {
+
+    const [flipped, setFlipped] = useState(false);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setFlipped(prev => !prev);
+        }, 5000); // Flip every 10 seconds
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <HanzContainer>
             <div className="row">
                 <div className="col-lg-4 text-center text-lg-start">
-                    <img id="hanz-home-about-img" className="rounded-circle"
-                         src={profile_photo}/>
+                    <div className={`flip-container ${flipped ? "flipped" : ""}`}>
+                        <div className="flipper">
+                            <img className="front rounded-circle" src={profile_photo} alt="Professional"/>
+                            <img className="back rounded-circle" src={profile_photo_c} alt="Casual"/>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-lg-8 align-self-center text-center text-lg-start">
                     <h4 className="fw-bold">Hansika Weerasena</h4>
