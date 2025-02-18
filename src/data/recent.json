@@ -3,10 +3,20 @@
     {
       "descriptions": [
         {
-          "preText": "Security Assertions for Trusted Execution Environments in NoC-based SoCs was accepted at",
+          "preText": "Our Paper titled \"Traffic Analysis Attacks on Wireless NoC-based SoCs\" was accepted at",
+          "link": "http://www.hostsymposium.org/",
+          "linkText": " HOST'25",
+          "postText": " - Feb 2025"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Our Paper titled \"Security Assertions for Trusted Execution Environments\" was accepted at",
           "link": "https://www.date-conference.com/",
-          "linkText": "Design Automation and Test in Europe",
-          "postText": " DATE'25 - Dec 2024"
+          "linkText": " DATE'25",
+          "postText": " - Dec 2024"
         }
       ]
     },
@@ -14,9 +24,9 @@
       "descriptions": [
         {
           "preText": "Presented our paper on Formal verification of VM-based Trusted Execution Environments (TEEs) at",
-          "link": "",
-          "linkText": "",
-          "postText": " CASES'24  - Sep 30, 2024"
+          "link": "https://esweek.org/cases/",
+          "linkText": " CASES'24",
+          "postText": " - Sep 2024"
         }
       ]
     },
@@ -25,8 +35,8 @@
         {
           "preText": "Received a travel grant from National Science Foundation (NSF) to attend",
           "link": "https://web.eng.fiu.edu/gaquan/Papers/ESWEEK24Papers/CASES/CASES_124_Witharana",
-          "linkText": "",
-          "postText": " ESWEEK 2024  - Aug 2024"
+          "linkText": " ACM/IEEE ESWEEK'24",
+          "postText": " - Aug 2024"
         }
       ]
     },
@@ -35,7 +45,7 @@
         {
           "preText": " Formal Verification of Virtualization-based Trusted Execution Environments was accepted at",
           "link": "https://esweek.org/cases/",
-          "linkText": " IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+          "linkText": " IEEE TCAD",
           "postText": " - Aug 2024"
         }
       ]
@@ -43,9 +53,9 @@
     {
       "descriptions": [
         {
-          "preText": " Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators was accepted at",
+          "preText": "Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators was accepted at",
           "link": "https://dl.acm.org/doi/abs/10.1145/3688001",
-          "linkText": " ACM Transactions on Embedded Computing Systems (TECS)",
+          "linkText": " ACM TECS",
           "postText": " - Jul 2024"
         }
       ]
@@ -55,7 +65,7 @@
         {
           "preText": " Formal Verification of Virtualization-based Trusted Execution Environments was accepted at",
           "link": "https://esweek.org/cases/",
-          "linkText": " ACM/IEEE International Conference on Compilers, Architectures, and Synthesis for Embedded Systems (CASES)",
+          "linkText": " ACM/IEEE CASES'24",
           "postText": " - Jul 2024"
         }
       ]
@@ -65,7 +75,7 @@
         {
           "preText": " Breaking On-Chip Communication Anonymity using Flow Correlation Attacks was accepted at 2024 25th",
           "link": "https://dl.acm.org/doi/abs/10.1145/3677034",
-          "linkText": " ACM Journal on Emerging Technologies in Computing Systems (JETC)",
+          "linkText": " ACM JETC",
           "postText": " - Jul 2024"
         }
       ]
@@ -85,7 +95,7 @@
         {
           "preText": "Lightweight Multicast Authentication in NoC-based SoCs was accepted at 2024 25th",
           "link": "https://ieeexplore.ieee.org/abstract/document/10528746",
-          "linkText": " International Symposium on Quality Electronic Design (ISQED)",
+          "linkText": " ISQED'24",
           "postText": " - Jan 2024"
         }
       ]
@@ -95,7 +105,7 @@
         {
           "preText": "Security of Electrical, Optical and Wireless On-Chip Interconnects: A Survey was accepted at",
           "link": "https://dl.acm.org/doi/10.1145/3631117",
-          "linkText": " ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+          "linkText": " ACM TODAES",
           "postText": " - Nov 2023"
         }
       ]
@@ -115,7 +125,7 @@
         {
           "preText": "Preserving Confidentiality and Anonymity in NoC-based SoCs was accepted at ",
           "link": "https://www.gomactech.net/",
-          "linkText": " GOMACTech-23",
+          "linkText": " GOMACTech'23",
           "postText": " for a poster presentation - Nov 2022"
         }
       ]
@@ -125,7 +135,7 @@
         {
           "preText": "Lightweight Encryption Using Chaffing and Winnowing with All-or-Nothing Transform for Network-on-Chip Architectures was accepted at ",
           "link": "https://ieeexplore.ieee.org/xpl/conhome/9702149/proceeding",
-          "linkText": " 2021 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+          "linkText": " HOST'21",
           "postText": "."
         }
       ]
