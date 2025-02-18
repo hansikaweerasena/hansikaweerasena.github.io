@@ -72,12 +72,24 @@ export function HomeMain() {
             </div>
             <div className="row">
                 <div id="hanz-home-badge" className="col text-center">
-                    <span className="badge bg-primary">Network on chip</span>
-                    <span className="badge bg-secondary">Hardware Security</span>
-                    <span className="badge bg-success">Communication Security</span>
-                    <span className="badge bg-danger">Machine Learning</span>
-                    <span className="badge bg-warning text-dark">Computer Architecture</span>
-                    <span className="badge bg-info text-dark">Computer Networks</span>
+                    <span className="badge" style={{backgroundColor: "#6B705C", color: "white"}}>
+                        Network on Chip
+                    </span>
+                                <span className="badge" style={{backgroundColor: "#A3B18A", color: "black"}}>
+                        Confidential Computing
+                    </span>
+                                <span className="badge" style={{backgroundColor: "#7F5539", color: "white"}}>
+                        Computer & Network Security
+                    </span>
+                                <span className="badge" style={{backgroundColor: "#B08968", color: "white"}}>
+                        Computer Architecture
+                    </span>
+                                <span className="badge" style={{backgroundColor: "#DDBEA9", color: "black"}}>
+                        Applied Machine Learning
+                    </span>
+                                <span className="badge" style={{backgroundColor: "#A68A64", color: "white"}}>
+                        Computer Networks
+                    </span>
                 </div>
             </div>
         </HanzContainer>

@@ -7,6 +7,6 @@ interface HanzContainerProps {
 
 export function HanzContainer({ children }: HanzContainerProps) {
     const { theme } = useTheme();
-    const containerClass = `container shadow-sm hanz-container ${theme === 'light' ? 'hanz-container-light' : 'hanz-container-dark'}`;
+    const containerClass = `container shadow-sm hanz-container bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`;
     return <div className={containerClass}>{children}</div>;
 }
