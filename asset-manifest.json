@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.453c9f5f.css",
-    "main.js": "/static/js/main.bd29d1cd.js",
+    "main.css": "/static/css/main.5c33e3fa.css",
+    "main.js": "/static/js/main.a8ae5117.js",
     "static/js/787.69ce51e1.chunk.js": "/static/js/787.69ce51e1.chunk.js",
+    "static/media/photo_casual.jpg": "/static/media/photo_casual.97b5befcfab00de00106.jpg",
     "static/media/photo_no_back.jpg": "/static/media/photo_no_back.7129fc6ad73d837f0fea.jpg",
     "static/media/uom_logo.png": "/static/media/uom_logo.4ac81fce801bfb7352f0.png",
     "static/media/photo.jpeg": "/static/media/photo.e661a2c9ec29aabc0fcd.jpeg",
     "static/media/aiesec_logo.jpeg": "/static/media/aiesec_logo.d61a4ef287c4a09c8f22.jpeg",
     "static/media/cg_logo.jpeg": "/static/media/cg_logo.d30c025dae870022bb05.jpeg",
     "index.html": "/index.html",
-    "main.453c9f5f.css.map": "/static/css/main.453c9f5f.css.map",
-    "main.bd29d1cd.js.map": "/static/js/main.bd29d1cd.js.map",
+    "main.5c33e3fa.css.map": "/static/css/main.5c33e3fa.css.map",
+    "main.a8ae5117.js.map": "/static/js/main.a8ae5117.js.map",
     "787.69ce51e1.chunk.js.map": "/static/js/787.69ce51e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.453c9f5f.css",
-    "static/js/main.bd29d1cd.js"
+    "static/css/main.5c33e3fa.css",
+    "static/js/main.a8ae5117.js"
   ]
 }
