@@ -5,6 +5,7 @@ export function HomeAward() {
     return (
         <HanzHeaderContainer title="Awards and Achievements">
                     <ul>
+                        <li>Travel grant from National Science Foundation (NSF), 2024 to attend IEEE/ACM Embedded Systems Week.</li>
                         <li>Gartner Group Graduate Fellowship - for outstanding CISE Ph.D. students by CISE department
                             of University of Florida <br/></li>
                         <li>Full assistantship - for PhD program in Computer Science (CISE) from University of
