@@ -128,4 +128,24 @@
 }
 
 
+.theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none; /* Removes focus outline */
+}
 
+.theme-toggle-btn svg {
+    width: 20px;
+    height: 20px;
+    color: inherit; /* Takes text color based on the theme */
+    transition: transform 0.2s ease-in-out;
+}
+
+.theme-toggle-btn:hover svg {
+    transform: scale(1.1);
+}

@@ -29,20 +29,22 @@ export function HanzCardArticleContainer(props: HanzCardArticleContainerProps) {
                                     <h5 className="card-title">{props.title}</h5>
                                     <div className="mb-2">
                                         {props.authors && props.authors.map((category, index) => (
-                                            <span key={index} className="badge bg-secondary me-1">{category}</span>
+                                            <span key={index} className="badge me-1"
+                                                  style={{backgroundColor: "#6B705C", color: "white"}}>{category}</span>
                                         ))}
                                     </div>
                                     {/* Venue Display */}
                                     {props.venue && (
                                         <div className="mb-2 text-start"> {/* Added text-start for left alignment */}
                                             <span
-                                                className="badge bg-success text-wrap"
+                                                className="badge text-wrap"
                                                 style={{
                                                     maxWidth: '100%',
                                                     whiteSpace: 'normal',
                                                     wordBreak: 'break-word',
                                                     display: 'inline-block',
-                                                    textAlign: 'left' // Ensure left alignment
+                                                    textAlign: 'left', // Ensure left alignment
+                                                    backgroundColor: "#A3B18A", color: "black"
                                                 }}
                                             >
                                             {props.venue}
@@ -70,7 +72,8 @@ export function HanzCardArticleContainer(props: HanzCardArticleContainerProps) {
                                     <p className="card-text">{props.text}</p>
                                     <div className="mb-2">
                                         {props.categories && props.categories.map((category, index) => (
-                                            <span key={index} className="badge bg-success me-1">{category}</span>
+                                            <span key={index} className="badge me-1"
+                                                  style={{backgroundColor: "#A68A64", color: "white"}}>{category}</span>
                                         ))}
                                     </div>
                                     <hr/>
