@@ -149,3 +149,31 @@
 .theme-toggle-btn:hover svg {
     transform: scale(1.1);
 }
+
+.article-image-box {
+    max-width: 200px;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-image-caption {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+
+
