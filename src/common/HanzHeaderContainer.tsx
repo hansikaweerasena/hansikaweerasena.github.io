@@ -22,7 +22,7 @@ export function HanzHeaderContainer(props: HanzHeaderContainerProps) {
     return (
         <div className={`container shadow-sm hanz-container bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`}>
             <div className="row">
-                <div className="col-8">
+                <div className={props.buttonText ? "col-8" : ""}>
                     <h4 className={`fw-bold text-secondary hanz-section-header`}>{props.title}</h4>
                 </div>
                 {props.buttonText && (
