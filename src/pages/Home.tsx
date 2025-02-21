@@ -10,6 +10,7 @@ import {HomeEdu} from "../components/HomeEdu";
 import {HomeAward} from "../components/HomeAward";
 import {HomeVol} from "../components/HomeVol";
 import {HomeAbout} from "../components/HomeAbout";
+import {HomeService} from "../components/HomeService";
 
 export function Home() {
     return (<div className="container">
@@ -18,6 +19,7 @@ export function Home() {
                     <HomeMain></HomeMain>
                     <HomeAbout></HomeAbout>
                     <HomeRecent></HomeRecent>
+                    <HomeService></HomeService>
                     <HomeInsta></HomeInsta>
                 </HanzNarrowContainer>
                 <HanzSpaciousContainer>
