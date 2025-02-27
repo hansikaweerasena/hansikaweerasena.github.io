@@ -56,15 +56,11 @@ export function About() {
                                 {/* Wrapped Text */}
                                 <div>
                                     <p className="fw-normal" style={{marginLeft: "25px"}}>
-                                        He completed his early education up to grade five at
-                                        <a href="https://www.facebook.com/p/Olcott-Model-School-Matara-100083076765458/">Olcott
-                                            Model School</a>.
-                                        After excelling in the national scholarship examination in 2004, scoring 160
-                                        marks (well above the pass mark of 130), he transferred to
-                                        <a href="https://stcmatara.lk/">St. Thomas' College, Matara</a>, where he
-                                        developed a strong passion for mathematics, science, and computing.
-                                        During this time, he actively participated in chess tournaments and various
-                                        clubs.
+                                        He completed his early education up to grade five at <a href="https://www.facebook.com/p/Olcott-Model-School-Matara-100083076765458/">
+                                        Olcott Model School</a>. After excelling in the national scholarship examination in 2004, scoring 160
+                                        marks (well above the pass mark of 130), he transferred to <a href="https://stcmatara.lk/">St. Thomas'
+                                        College, Matara</a>, where he developed a strong passion for mathematics, science, and computing.
+                                        During this time, he actively participated in chess tournaments and various clubs.
 
                                         In grade 8, he transferred to <a href="https://rahulacollege.lk/">Rahula
                                         College, Matara</a>, where he completed his high school education.
@@ -86,6 +82,19 @@ export function About() {
                                         o sports and clubs. Looking back, he deeply appreciates his school years—the
                                         friendships, the fun moments, the teachers who guided him, and
                                         the friends who inspired him.
+                                    </p>
+                                    <p className="fw-normal" style={{marginLeft: "25px"}}>
+                                        Apart from school I spend lot of time with friends, playing sports, e-games and
+                                        roaming around the city with bicycles. Yes, I spend most of my travelling in late
+                                        school period via bicycle (going to school, classes, friends places, eat). The road
+                                        to our home (5km + in one way) to school had portion parallel to Matara beach and
+                                        also crossing the famous Nilwala river. I have regular access to sea breeze and beautiful
+                                        beaches throughout my childhood, which I still love the feeling of beaches.
+
+                                        I got my first computer in 2002 which was a Intel Pentium II PC. It had a old CRT monitor
+                                        with floppy disk drive as CDs were pretty new at that time. My interests to computers heighten
+                                        with this, disassembling it and cleaning it was regular part of my routine since it was highly
+                                        sensitive to dust. I used to play lot of e-games with friends
 
                                     </p>
 
