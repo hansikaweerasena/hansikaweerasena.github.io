@@ -7,7 +7,7 @@ import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeVol() {
     return (
-        <HanzHeaderContainer title="Volunteer Experience">
+        <HanzHeaderContainer title="Volunteer and Leadership">
             <div className="row">
                 <div className="col-lg-2 d-none d-lg-block"><img
                     className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
