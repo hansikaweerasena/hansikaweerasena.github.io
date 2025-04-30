@@ -107,10 +107,12 @@ export function About() {
                                 Hansika pursued a Bachelor’s degree in Computer Science and Engineering at the
                                 University of Moratuwa, Sri Lanka, graduating with honors (GPA: 3.94/4.2).
                                 During his undergraduate years, he was actively involved in AIESEC, serving as a
-                                National Coordinator for Outgoing Exchange. Additionally, he competed in
+                                Team Leader at AIESEC at University of Moratuwa and National Coordinator for Outgoing
+                                Exchange at national level. Additionally, he competed in
                                 programming contests such as IEEEXtreme and startup competitions like Mora
                                 Ventures. (More details on AIESEC experiences and Competitions are available on
-                                dedicated pages.)
+                                dedicated pages.) In Mora Ventures 2.0 our team was the runners-up, where rest of the team
+                                members initiated a company while Hansika pursue a different path.
                             </p>
 
                             {/* Career Section */}
@@ -221,15 +223,12 @@ export function About() {
                             <p className="fw-normal">
                                 Outside his professional and academic pursuits, Hansika enjoys:
                                 <ul>
-                                    <li>Traveling and hiking – exploring Zion National Park and Bryce Canyon.</li>
-                                    <li>Anime and pop culture – a fan of Steins;Gate, Attack on Titan, and Fullmetal
-                                        Alchemist.
+                                    <li>Traveling and hiking – Hansika is a habitual globetrotter who likes to enjoy nature and travel.</li>
+                                    <li>Anime and pop culture – A super fan of Attack on Titan, and other Anime series including full-metal alchemist, death note, monster, etc.
                                     </li>
-                                    <li>Soccer – actively plays and follows Manchester United in the English Premier
-                                        League.
+                                    <li>Soccer – Actively plays soccer for recreation and follows Real Madrid in Spanish Laliga. #HalaMadrid
                                     </li>
-                                    <li>Coffee brewing – a daily ritual of café lattes using low and medium roast
-                                        beans.
+                                    <li>Music – though I don't have a talent in singing (unless with friends and Kareoke) I like whole range of music and enjoy them daily.
                                     </li>
                                 </ul>
                             </p>
@@ -237,7 +236,7 @@ export function About() {
                             {/* Closing Statement */}
                             <p className="fw-normal">
                                 With a unique blend of industry experience, research expertise, and leadership, Hansika
-                                is dedicated to advancing secure computing and AI-driven security solutions.
+                                is dedicated to advancing secure computing architectures and AI-driven security solutions.
                             </p>
                         </div>
                     </div>
