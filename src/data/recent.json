@@ -3,6 +3,16 @@
     {
       "descriptions": [
         {
+          "preText": "I received Master of Science, Computer Science from University of Florida",
+          "link": "",
+          "linkText": "",
+          "postText": " - May 2025"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": "Our Paper titled \"Traffic Analysis Attacks on Wireless NoC-based SoCs\" was accepted at",
           "link": "http://www.hostsymposium.org/",
           "linkText": " HOST'25",
