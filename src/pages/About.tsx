@@ -8,6 +8,34 @@ export function About() {
 
     return (
         <div className="container">
+            <HanzFullWidthContainer>
+                <div className="container shadow-sm hanz-container">
+                    <div className="row">
+                        <h2>Hansika Weerasena</h2>
+                        <p className="fw-normal">
+                            Hansika is a computer science researcher and engineer with a passion for learning new
+                            things. His research interests span computer architecture, computer and network
+                            security, and applied machine learning for security. Beyond research, he enjoys
+                            traveling, hiking, watching anime, playing and watching soccer, and seeking new
+                            experiences. Hansika is currently a Ph.D. candidate in the Department of Computer &
+                            Information Science & Engineering at the University of Florida, where he focuses on
+                            communication security, network-on-chip architectures, confidential computing, and
+                            machine learning applications in security. Before pursuing a Ph.D., he was a research
+                            and development senior software engineer at CodeGen, one of the leading software
+                            companies in Sri Lanka.
+                        </p>
+                    </div>
+
+                    <h1>Page is under construction</h1>
+
+                </div>
+            </HanzFullWidthContainer>
+        </div>
+    );
+
+
+    return (
+        <div className="container">
                 <HanzFullWidthContainer>
                     <div className="container shadow-sm hanz-container">
                         <div className="row">
