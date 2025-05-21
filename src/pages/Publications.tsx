@@ -114,7 +114,7 @@ export function Publications() {
                                 </ul>
                                 <ul>
                                     <li>
-                                        Joint Proposal development for <b>3D and Heterogeneous Systems Security</b> with <b>Dr. John Jose</b> (IIT Guwahati, India) <br/>
+                                        Joint Proposal development for <b>3D and Heterogeneous Systems Security</b> with <b>Prof. John Jose</b> (IIT Guwahati, India) <br/>
                                     </li>
                                 </ul>
 
@@ -145,7 +145,7 @@ export function Publications() {
                                         semi-automated security
                                         verification for LLMs.
                                         <br/>
-                                        <b>Publications:</b> N/A
+                                        <b>Publications:</b> N/A (Ongoing Collaboration)
                                     </li>
                                 </ul>
 
