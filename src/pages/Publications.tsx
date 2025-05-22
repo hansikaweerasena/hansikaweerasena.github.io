@@ -67,7 +67,7 @@ export function Publications() {
                                         </a>, a NSF funded research grant: SaTC-1936040 (role: lead researcher).
                                     </li>
                                     <li>
-                                        <a href="https://www.src.org/program/jump2/prism/" target="_blank"
+                                        <a href="https://www.cise.ufl.edu/research/cad/NoC.html" target="_blank"
                                            rel="noopener noreferrer">
                                             Compositional Security Verification of Trusted Execution Environments
                                         </a>, a semiconductor Research Corporation (SRC) grant 2022-HW-3128 (roles:
