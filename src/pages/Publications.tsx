@@ -37,7 +37,11 @@ export function Publications() {
                                         vulnerability analysis,
                                         traffic monitoring, attack and countermeasure development, and designing
                                         secure-by-design
-                                        architectures for networks-on-chip. In addition, I have had the opportunity
+                                        architectures for networks-on-chip. You can find my candidacy presentation slides here
+                                        ([<a href="https://drive.google.com/file/d/1z79Rp1o83TJWaRLyLs-Qhfy5P593Lhu_/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf</a>] |
+                                        [<a href="https://docs.google.com/presentation/d/12e8Cnxn5Q8rx2amy4kmuPDHeIG0srrOa/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>]).
+
+                                        In addition, I have had the opportunity
                                         to collaborate on several exciting projects and people across related domains
                                         (see full collaboration list).
                                         These include research in confidential computing (trusted execution
@@ -71,6 +75,48 @@ export function Publications() {
                                         researcher).
                                     </li>
                                 </ul>
+
+                                <h4 className="fw-semibold mt-4">Conference Talks</h4>
+                                <ul>
+                                    <li>
+                                        HOST, 2025
+                                        [<a
+                                        href="https://docs.google.com/presentation/d/1BIe_xkdh-cH8DHpqJ9tsQvG5i2GzCZrp/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true"
+                                        target="_blank" rel="noopener noreferrer">slides</a>]
+                                        [<a
+                                        href="https://drive.google.com/file/d/1ob0iaKIBMBMd2UiYDUorpjNs6hQrcEHH/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">pdf</a>]
+                                    </li>
+                                    <li>
+                                        CASES, 2024
+                                        [<a
+                                        href="https://docs.google.com/presentation/d/1AmPho0UI0HvyTKnie0kMdXJ8LP2RHdWK/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true"
+                                        target="_blank" rel="noopener noreferrer">slides</a>]
+                                        [<a
+                                        href="https://drive.google.com/file/d/1-lHifrqfyOARYo0PjL6u_NqqS9PcXJSF/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">pdf</a>]
+                                    </li>
+                                    <li>
+                                        ISQED, 2024
+                                        [<a
+                                        href="https://docs.google.com/presentation/d/1HWjWYn-D6rgzeJnFhk0u8QK4kRES2snR/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true"
+                                        target="_blank" rel="noopener noreferrer">slides</a>]
+                                        [<a
+                                        href="https://drive.google.com/file/d/1GSTvsSacNVig5n50BdF5EfuRJ6wZYb9E/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">pdf</a>]
+                                    </li>
+                                    <li>
+                                        HOST, 2022
+                                        [<a
+                                        href="https://docs.google.com/presentation/d/1BCrFYeKKnaeYNpPn8EujfTxZ4rYYBKtR/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true"
+                                        target="_blank" rel="noopener noreferrer">slides</a>]
+                                        [<a
+                                        href="https://drive.google.com/file/d/1LsVd9YnX2LL0wioYE5xUtdXwYiC1vdy0/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">pdf</a>]
+                                    </li>
+                                </ul>
+
+
                                 <h4>Research Collaborations and Mentoring</h4>
                                 <p className="fw-normal">
                                     During my Ph.D. and before that, I have been fortunate to collaborate with following
@@ -114,7 +160,8 @@ export function Publications() {
                                 </ul>
                                 <ul>
                                     <li>
-                                        Joint Proposal development for <b>3D and Heterogeneous Systems Security</b> with <b>Prof. John Jose</b> (IIT Guwahati, India) <br/>
+                                        Joint Proposal development for <b>3D and Heterogeneous Systems
+                                        Security</b> with <b>Prof. John Jose</b> (IIT Guwahati, India) <br/>
                                     </li>
                                 </ul>
 
