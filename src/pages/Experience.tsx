@@ -48,7 +48,7 @@ export function Experience() {
         { title: "Research", data: experiences.research },
         { title: "Professional", data: experiences.professional },
         { title: "Teaching", data: experiences.teaching },
-        { title: "Volunteer", data: experiences.volunteer }
+        { title: "Volunteer and Leadership", data: experiences.volunteer }
     ];
 
     return (

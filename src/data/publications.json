@@ -121,6 +121,17 @@
   ],
   "preprints": [
     {
+      "img": "gnn.png",
+      "type": "Preprint",
+      "title": "Topology-aware Detection and Localization of Distributed Denial-of-Service Attacks in Network-on-Chips",
+      "venue": "",
+      "text": "Network-on-Chip (NoC) enables on-chip communication between diverse cores in modern System-on-Chip (SoC) designs. With its shared communication fabric, NoC has become a focal point for various security threats, especially in heterogeneous and high-performance computing platforms. Among these attacks, Distributed Denial of Service (DDoS) attacks occur when multiple malicious entities collaborate to overwhelm and disrupt access to critical system components, potentially causing severe performance degradation or complete disruption of services. These attacks are particularly challenging to detect due to their distributed nature and dynamic traffic patterns in NoC, which often evade static detection rules or simple profiling. This paper presents a framework to conduct topology-aware detection and localization of DDoS attacks using Graph Neural Networks (GNNs) by analyzing NoC traffic patterns. Specifically, by modeling the NoC as a graph, our method utilizes spatiotemporal traffic features to effectively identify and localize DDoS attacks. Unlike prior works that rely on handcrafted features or threshold-based detection, our GNN-based approach operates directly on raw inter-flit delay data, learning complex traffic dependencies without manual intervention. Experimental results demonstrate that our approach can detect and localize DDoS attacks with high accuracy (up to 99\\%) while maintaining consistent performance under diverse attack strategies. Furthermore, the proposed method exhibits strong robustness across varying numbers and placements of malicious IPs, different packet injection rates, application workloads, and architectural configurations, including both 2D mesh and 3D TSV-based NoCs. Our work provides a scalable, flexible, and architecture-agnostic defense mechanism, significantly improving the availability and trustworthiness of on-chip communication in future SoC designs.",
+      "authors": ["Hansika Weerasena", "Xiaguao Jia", "Prabhat Mishra"],
+      "downloadLink": "https://arxiv.org/pdf/2505.14898",
+      "proceedingLink": "https://arxiv.org/pdf/2505.14898",
+      "keyWords": ["Network-on-Chip", "On-chip Communication Security", "Graph Neural Networks", "Denial-of-Service"]
+    },
+    {
       "img": "gain.png",
       "type": "Preprint",
       "title": "Modeling and Exploration of Gain Competition Attacks in Optical Network-on-Chip Architectures",
