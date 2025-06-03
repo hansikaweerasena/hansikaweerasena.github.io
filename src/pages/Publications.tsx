@@ -45,8 +45,7 @@ export function Publications() {
                                         to collaborate on several exciting projects and people across related domains
                                         (see full collaboration list).
                                         These include research in confidential computing (trusted execution
-                                        environments),
-                                        bioinformatics, remote sensing and formal security verification.
+                                        environments), formal security verification, bioinformatics, and remote sensing.
                                     </p>
                                 </div>
                                 <h4>Research Grants</h4>
@@ -130,11 +129,11 @@ export function Publications() {
                                         Traditional, Computational biology pipelines typically involve two major steps:
                                         bioinformatics-based data analysis and subsequent biological interpretation or
                                         further experiments informed by the results. Even subtle software bugs, such as
-                                        memory errors, pointer overflows, or crashes during read alignment, can silently
+                                        memory errors, pointer overflows, or implementation errors, can silently
                                         propagate incorrect outputs in bioinformatics softwares. In this collaboration,
                                         we aim to provide a formal verification framework for bioinfromatics software.
                                         <br/>
-                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - under minor revision
+                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - under revision
                                     </li>
                                 </ul>
                                 <ul>
