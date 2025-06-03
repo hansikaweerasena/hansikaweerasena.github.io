@@ -51,7 +51,7 @@ export function Publications() {
                                 </div>
                                 <h4>Research Grants</h4>
                                 <p className="fw-normal mt-3">
-                                    During my Ph.D. and before that as well, I worked as a research assistant at <a
+                                    I'm currently working as a research assistant at <a
                                     href="https://www.cise.ufl.edu/research/cad/index.html" target="_blank"
                                     rel="noopener noreferrer">Embedded
                                     Systems Lab </a> at UF. I have been fortunate to be involved with the following
