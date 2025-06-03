@@ -19,7 +19,7 @@ export function HomeService() {
                 (<em>CODES+ISSS</em>), 2022, 2023
             </li>
             <li>Engineering Research Unit (<em>ERU</em>) Symposium by University of Moratuwa, 2024</li>
-            <li>International Multidisciplinary Engineering Research Conference (<em>MERCon</em>), 2022</li>
+            <li>International Multidisciplinary Engineering Research Conference (<em>MERCon</em>), 2022, 2025</li>
             <li>IESL Young Members’ Section Technical Conference, 2021</li>
         </ul>
     </HanzHeaderContainer>
