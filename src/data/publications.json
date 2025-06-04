@@ -159,6 +159,14 @@
   "patents": [
     {
       "type": "Patent",
+      "title": "Mitigation of Traffic Analysis Vulnerability on Wireless Network-on-Chip-Based System-on-Chips",
+      "venue": "U.S. Provisional Patent Application No. 63/816,229, filed June 2, 2025 (pending)",
+      "authors": [ "Prabhat Mishra", "Hansika Weerasena"],
+      "link": "",
+      "keyWords": ["Multicast Communication, Network-on-Chip, Spoofing Attacks, Authentication"]
+    },
+    {
+      "type": "Patent",
       "title": "System and Method for Performing Multicast Authentication in Network-on-Chip Systems",
       "venue": "U.S. Provisional Patent Application No. 63/573,708, filed April 3, 2024 (pending)",
       "authors": [ "Prabhat Mishra", "Hansika Weerasena"],
