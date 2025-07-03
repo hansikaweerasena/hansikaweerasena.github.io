@@ -1,6 +1,17 @@
 {
   "journal": [
     {
+      "img": "bioinfo.png",
+      "type": "Journal",
+      "title": "Formal Verification of Bioinformatics Software using Model Checking and Theorem Proving",
+      "venue": "Briefings in Bioinformatics, 2025",
+      "text": "While there is explosive growth in the creation of biological data, researchers rely on ad-hoc verification methods such as testing with small simulated datasets. Due to their importance in biology and biomedicine, there is a critical need to verify these algorithms as well as their implementations to ensure that the results and conclusions are trustworthy.  In this paper, we explore an effective combination of model checking and theorem proving of bioinformatics software",      ",authors": ["Hansika Weerasena", "Aruna Jayasena", "Christina Boucher", "Prabhat Mishra"],
+      "authors": ["Hansika Weerasena","Aruna Jayasena" , "Christina Boucher", "Prabhat Mishra"],
+      "downloadLink": "https://drive.google.com/file/d/1ccQyD9NFsEjMMMej0jlh45_0VZ-kbdRs/view?usp=sharing",
+      "proceedingLink": "https://academic.oup.com/bib",
+      "keyWords": ["Property Checking", "Bioinformatics", "Theorem Proving", "Model Checking", "Formal Verification"]
+    },
+    {
       "img": "tee.png",
       "type": "Journal",
       "title": "Formal Verification of Virtualization-based Trusted Execution Environments",

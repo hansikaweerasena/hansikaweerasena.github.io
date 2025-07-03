@@ -3,6 +3,16 @@
     {
       "descriptions": [
         {
+          "preText": "Our Paper titled \"Formal Verification of Bioinformatics Software using Model Checking and Theorem Proving\" was accepted at",
+          "link": "https://academic.oup.com/bib",
+          "linkText": " Briefings in Bioinformatics",
+          "postText": " - July 2025"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": "I am excited to work in my first ",
           "link": "https://esweek.org/codesisss-program-committee/",
           "linkText": "technical program committee",

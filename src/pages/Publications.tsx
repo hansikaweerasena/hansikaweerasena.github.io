@@ -133,7 +133,7 @@ export function Publications() {
                                         propagate incorrect outputs in bioinformatics softwares. In this collaboration,
                                         we aim to provide a formal verification framework for bioinfromatics software.
                                         <br/>
-                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - under revision
+                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - just accepted (July 2025)
                                     </li>
                                 </ul>
                                 <ul>
