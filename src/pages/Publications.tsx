@@ -212,7 +212,7 @@ export function Publications() {
                                 <ul>
                                     <li>
                                         <b>Formal verification </b> with <b>Aruna Jayasena </b> (UF, USA) <br/>
-                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - under minor revision
+                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - Just Accepted (July 2025)
                                     </li>
                                 </ul>
                                 <ul>
