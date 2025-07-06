@@ -48,7 +48,7 @@
       "img": "survey.png",
       "type": "Journal",
       "title": "Security of Electrical, Optical and Wireless On-Chip Interconnects: A Survey",
-      "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES), 2023",
+      "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES), 2024",
       "text": "The advancement of manufacturing technologies has enabled the integration of more intellectual property (IP) cores on the same system-on-chip (SoC). Scalable and high throughput on-chip communication architecture has become a vital component in today’s SoCs. Diverse technologies such as electrical, wireless, optical, and hybrid are available for on-chip communication with different architectures supporting them. On-chip communication sub-system is shared across all the IPs and continuously used throughout the lifetime of the SoC. Therefore, the security of the on-chip communication is crucial because exploiting any vulnerability would be a goldmine for an attacker. In this survey, we provide a comprehensive review of threat models, attacks and countermeasures over diverse on-chip communication technologies as well as sophisticated architectures.",
       "authors": ["Hansika Weerasena", "Prabhat Mishra"],
       "downloadLink": "https://www.cise.ufl.edu/research/cad/Publications/host21noc.pdf",
