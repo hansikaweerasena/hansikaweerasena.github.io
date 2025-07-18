@@ -31,17 +31,16 @@ export function Publications() {
                                     <hr/>
                                     <p className="fw-normal">
                                         My research interests lie at the intersection of computer architecture, computer
-                                        and network security, and applied machine learning for security. During my
-                                        Ph.D.,
-                                        I primarily focused on on-chip communication security, specifically
-                                        vulnerability analysis,
-                                        traffic monitoring, attack and countermeasure development, and designing
-                                        secure-by-design
-                                        architectures for networks-on-chip. You can find my candidacy presentation slides here
+                                        and network security, and applied machine learning for security. My Ph.D dissertation
+                                        focused on securing on chip communication. There,
+                                        I work in four main areas: (1). Applied machine learning for spatiotemporal traffic analysis, (2).
+                                        secure by design NoC architectures, (3). network side-channel analysis and (4) Attacks and countermeasures. You can find my final dissertation presentation slides here
+                                        ([<a href="https://drive.google.com/file/d/1JGxpUIsdP-2dTNkT5BZHDCJh9df5TwFc/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf</a>] |
+                                        [<a href="https://docs.google.com/presentation/d/1BWqnCaQIbYSQ8frPricOYRyN96jSnuRy/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>]). You can also find my candidacy presentation slides here
                                         ([<a href="https://drive.google.com/file/d/1z79Rp1o83TJWaRLyLs-Qhfy5P593Lhu_/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf</a>] |
-                                        [<a href="https://docs.google.com/presentation/d/12e8Cnxn5Q8rx2amy4kmuPDHeIG0srrOa/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>]).
+                                        [<a href="https://docs.google.com/presentation/d/12e8Cnxn5Q8rx2amy4kmuPDHeIG0srrOa/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>])
 
-                                        In addition, I have had the opportunity
+                                        In addition to my main research in the Ph.D., I have had the opportunity
                                         to collaborate on several exciting projects and people across related domains
                                         (see full collaboration list).
                                         These include research in confidential computing (trusted execution
