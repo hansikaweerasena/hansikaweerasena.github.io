@@ -45,6 +45,8 @@ export function Publications() {
                                         (see full collaboration list).
                                         These include research in confidential computing (trusted execution
                                         environments), formal security verification, bioinformatics, and remote sensing.
+                                        I have recently started working on quantum computing architectures and communication,
+                                        and I plan to continue exploring this area as part of my future research.
                                     </p>
                                 </div>
                                 <h4>Research Grants</h4>
