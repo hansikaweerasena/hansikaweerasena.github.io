@@ -31,21 +31,35 @@ export function Publications() {
                                     <hr/>
                                     <p className="fw-normal">
                                         My research interests lie at the intersection of computer architecture, computer
-                                        and network security, and applied machine learning for security. My Ph.D dissertation
+                                        and network security, and applied machine learning for security. My Ph.D
+                                        dissertation
                                         focused on securing on chip communication. There,
-                                        I work in four main areas: (1). Applied machine learning for spatiotemporal traffic analysis, (2).
-                                        secure by design NoC architectures, (3). network side-channel analysis and (4) Attacks and countermeasures. You can find my final dissertation presentation slides here
-                                        ([<a href="https://drive.google.com/file/d/1JGxpUIsdP-2dTNkT5BZHDCJh9df5TwFc/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf</a>] |
-                                        [<a href="https://docs.google.com/presentation/d/1BWqnCaQIbYSQ8frPricOYRyN96jSnuRy/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>]). You can also find my candidacy presentation slides here
-                                        ([<a href="https://drive.google.com/file/d/1z79Rp1o83TJWaRLyLs-Qhfy5P593Lhu_/view?usp=sharing" target="_blank" rel="noopener noreferrer">pdf</a>] |
-                                        [<a href="https://docs.google.com/presentation/d/12e8Cnxn5Q8rx2amy4kmuPDHeIG0srrOa/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>])
+                                        I work in four main areas: (1). Applied machine learning for spatiotemporal
+                                        traffic analysis, (2).
+                                        secure by design NoC architectures, (3). network side-channel analysis and (4)
+                                        Attacks and countermeasures. You can find my final dissertation presentation
+                                        slides here
+                                        ([<a
+                                        href="https://drive.google.com/file/d/1JGxpUIsdP-2dTNkT5BZHDCJh9df5TwFc/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">pdf</a>] |
+                                        [<a
+                                        href="https://docs.google.com/presentation/d/1BWqnCaQIbYSQ8frPricOYRyN96jSnuRy/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true"
+                                        target="_blank" rel="noopener noreferrer">slides</a>]). You can also find my
+                                        candidacy presentation slides here
+                                        ([<a
+                                        href="https://drive.google.com/file/d/1z79Rp1o83TJWaRLyLs-Qhfy5P593Lhu_/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">pdf</a>] |
+                                        [<a
+                                        href="https://docs.google.com/presentation/d/12e8Cnxn5Q8rx2amy4kmuPDHeIG0srrOa/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true"
+                                        target="_blank" rel="noopener noreferrer">slides</a>])
 
                                         In addition to my main research in the Ph.D., I have had the opportunity
                                         to collaborate on several exciting projects and people across related domains
                                         (see full collaboration list).
                                         These include research in confidential computing (trusted execution
                                         environments), formal security verification, bioinformatics, and remote sensing.
-                                        I have recently started working on quantum computing architectures and communication,
+                                        I have recently started working on quantum computing architectures and
+                                        communication,
                                         and I plan to continue exploring this area as part of my future research.
                                     </p>
                                 </div>
@@ -134,7 +148,8 @@ export function Publications() {
                                         propagate incorrect outputs in bioinformatics softwares. In this collaboration,
                                         we aim to provide a formal verification framework for bioinfromatics software.
                                         <br/>
-                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - just accepted (July 2025)
+                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - just accepted (July
+                                        2025)
                                     </li>
                                 </ul>
                                 <ul>
@@ -213,12 +228,19 @@ export function Publications() {
                                 <ul>
                                     <li>
                                         <b>Formal verification </b> with <b>Aruna Jayasena </b> (UF, USA) <br/>
-                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - Just Accepted (July 2025)
+                                        <b>Publications:</b> Briefings in Bioinformatics, 2025 - Just Accepted (July
+                                        2025)
                                     </li>
                                 </ul>
                                 <ul>
                                     <li>
                                         <b>Accelerator Security </b> with <b>Sahan Sanjaya </b> (UF, USA) <br/>
+                                        <b>Publications:</b> N/A (Ongoing Collaboration)
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <b>Verifying ARM TrustZone  </b> with <b>Hari Krishna Parvatham </b> (UF, USA) <br/>
                                         <b>Publications:</b> N/A (Ongoing Collaboration)
                                     </li>
                                 </ul>
