@@ -170,6 +170,14 @@
   "patents": [
     {
       "type": "Patent",
+      "title": "Detection and localization of distributed denial-of-service attacks in network-on-chips",
+      "venue": "U.S. Provisional Patent Application Serial No. 63/842,431, filed July 11, 2023 (pending)",
+      "authors": [ "Prabhat Mishra", "Hansika Weerasena", "Xiaoguo Jia"],
+      "link": "",
+      "keyWords": ["Network-on-Chip", "Distributed DoS", "Applied Machine Learning"]
+    },
+    {
+      "type": "Patent",
       "title": "Mitigation of Traffic Analysis Vulnerability on Wireless Network-on-Chip-Based System-on-Chips",
       "venue": "U.S. Provisional Patent Application No. 63/816,229, filed June 2, 2025 (pending)",
       "authors": [ "Prabhat Mishra", "Hansika Weerasena"],
@@ -190,7 +198,7 @@
       "venue": "U.S. Patent Application Serial No 17/973,768, filed August 3, 2023 (pending)",
       "authors": [ "Prabhat Mishra", "Hansika Weerasena", "Subodha Charles"],
       "link": "https://patents.google.com/patent/US20230244819A1/en",
-      "keyWords": ["Property Checking", "Confidential Computing", "Confidentiality", "Integrity", "Trusted Execution Environments"]
+      "keyWords": ["NoC", "Chaffing and Winnowing", "Confidentiality", "All-or-Nothing-Transform"]
     }
   ]
 }
