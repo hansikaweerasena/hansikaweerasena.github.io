@@ -3,10 +3,30 @@
     {
       "descriptions": [
         {
+          "preText": "I joined as a postdoctoral researcher at NCSU on Sep 8",
+          "link": "",
+          "linkText": "",
+          "postText": ""
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": "I successfully defended my PhD dissertation on 11th of July, 2025",
           "link": "",
           "linkText": "",
           "postText": ""
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "I am excited to work in my second ",
+          "link": "https://www.hostsymposium.org/",
+          "linkText": "technical program committee",
+          "postText": " at HOST 2026"
         }
       ]
     },
