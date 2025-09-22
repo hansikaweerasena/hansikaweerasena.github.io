@@ -34,6 +34,9 @@ export function About() {
     );
 
 
+    // Highest lepord density, elephant density
+    // Good for 3 things : nice people, diverse vibe, best food
+
     return (
         <div className="container">
                 <HanzFullWidthContainer>

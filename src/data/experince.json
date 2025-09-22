@@ -3,6 +3,16 @@
     "research": [
       {
         "logo": "img/uf_logo.png",
+        "role": "Postdoctoral Researcher",
+        "aff": "North Carolina State University, USA",
+        "period": "Sep 2025 - Sep 2026",
+        "dept": "Department of Computer Science",
+        "points": [
+          "Differential Privacy by design for memories"
+        ]
+      },
+      {
+        "logo": "img/uf_logo.png",
         "role": "Research Assistant",
         "aff": "University of Florida, USA",
         "period": "May 2024 - Aug 2025",
