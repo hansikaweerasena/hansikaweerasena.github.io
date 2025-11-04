@@ -12,6 +12,7 @@ export function HomePub() {
     const confs = data.conf
     const journals = data.journal
     const patents = data.patents
+    const books = data.books
 
     const formatAuthors = (authors: string[]): string => {
         if (authors.length === 0) {
@@ -33,6 +34,7 @@ export function HomePub() {
         <HanzHeaderContainer title="Publications" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath={"publications"}>
             <ul className={listGroupClass}>
                 {[
+                    { label: "Book Chapters", items: books },
                     { label: "Journal Proceedings", items: journals },
                     { label: "Conference Proceedings", items: confs },
                     { label: "Patents", items: patents }

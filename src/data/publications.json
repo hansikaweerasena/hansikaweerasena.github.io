@@ -1,4 +1,18 @@
 {
+  "books": [
+    {
+      "img": "qc.ipg",
+      "type": "book",
+      "title": "Quantum Computing Architectures” In Design Automation for Quantum Computing, ed. Prabhat Mishra. Springer, accepted, publication expected January 2026",
+      "venue": "Springer, 2026",
+      "text": "Quantum computing is promising to solve certain classes of problems more efficiently than classical computers by leveraging the principles of quantum mechanics. As quantum hardware continues to evolve, it is important to view these systems from a computer architecture perspective. For example, it is necessary to examine how qubits are arranged, controlled, and interconnected to form gates and circuits. Similarly, we need to explore how data and entanglement are routed within and between quantum processors. This chapter provides an overview of the architectural structure of quantum processing units, including both single-core and modular multi-core configurations. It also explores how communication is managed in quantum computing systems, introducing the concept of quantum on-chip networks. Finally, we discuss quantum computing simulators that are essential tools for exploring quantum computer architectures.",      ",authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "authors": ["Hansika Weerasena", "Prabhat Mishra"],
+      "downloadLink": "https://www.amazon.com.au/Design-Automation-Quantum-Computing-Prabhat/dp/3032093023",
+      "proceedingLink": "https://www.amazon.com.au/Design-Automation-Quantum-Computing-Prabhat/dp/3032093023",
+      "keyWords": ["Quantum Computing Architectures", "Modular QC", "Quantum interconnects"]
+    }
+    ],
+
   "journal": [
     {
       "img": "bioinfo.png",
