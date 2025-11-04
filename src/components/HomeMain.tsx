@@ -92,7 +92,7 @@ export function HomeMain() {
                         Network on Chip
                     </span>
                                 <span className="badge" style={{backgroundColor: "#A3B18A", color: "black"}}>
-                        Confidential Computing
+                        Quantum Computing
                     </span>
                                 <span className="badge" style={{backgroundColor: "#7F5539", color: "white"}}>
                         Computer & Network Security
