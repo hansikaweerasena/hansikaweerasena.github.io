@@ -146,6 +146,17 @@
   ],
   "preprints": [
     {
+      "img": "aont.png",
+      "type": "Preprint",
+      "title": "Secure Multi-Path Routing with All-or-Nothing Transform for Network-on-Chip Architectures",
+      "venue": "",
+      "text": "Ensuring Network-on-Chip (NoC) security is crucial to design trustworthy NoC-based System-on-Chip (SoC) architectures. While there are various threats that exploit on-chip communication vulnerabilities, eavesdropping attacks via malicious nodes are among the most common and stealthy. Although encryption can secure packets for confidentiality, it may introduce unacceptable overhead for resource-constrained SoCs. In this paper, we propose a lightweight confidentiality-preserving framework that utilizes a quasi-group based All-Or-Nothing Transform (AONT) combined with secure multi-path routing in NoC-based SoCs. By applying AONT to each packet and distributing its transformed blocks across multiple non-overlapping routes, we ensure that no intermediate router can reconstruct the original data without all blocks. Extensive experimental evaluation demonstrates that our method effectively mitigates eavesdropping attacks by malicious routers with negligible area and performance overhead. Our results also reveal that AONT-based multi-path routing can provide 7.3x reduction in overhead compared to traditional encryption for securing against eavesdropping attacks.",
+      "authors": ["Hansika Weerasena", "Matthew Randall", "Prabhat Mishra"],
+      "downloadLink": "https://arxiv.org/pdf/2601.13610",
+      "proceedingLink": "https://arxiv.org/pdf/2601.13610",
+      "keyWords": ["Network-on-Chip", "On-chip Communication Security", "Confidentiality", "All-or-Nothing", "Secure Routing"]
+    },
+    {
       "img": "gnn.png",
       "type": "Preprint",
       "title": "Topology-aware Detection and Localization of Distributed Denial-of-Service Attacks in Network-on-Chips",
