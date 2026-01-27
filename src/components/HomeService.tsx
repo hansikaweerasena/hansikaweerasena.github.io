@@ -14,6 +14,7 @@ export function HomeService() {
             </ul>
             <strong>Reviewer:</strong>
             <ul>
+                <li>IEEE Journal on Selected Areas in Communications, 2025</li>
                 <li>IEEE Transactions on Computers, 2025 </li>
                 <li>Design, Automation, and Test in Europe (<em>DATE</em>), 2024 and 2025</li>
                 <li>IEEE International Symposium on Hardware Oriented Security and Trust (<em>HOST</em>), 2023 and 2024
