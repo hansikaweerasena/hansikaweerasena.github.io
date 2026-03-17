@@ -5,6 +5,9 @@ export function HomeService() {
     return (<HanzHeaderContainer title="Professional Services" buttonText="" buttonPath="">
         <strong>Technical Program Committee:</strong>
             <ul>
+                <li>ACM/IEEE International Conference on Codesign of Embedded Systems
+                    (<em>CODES</em>) 2026
+                </li>
                 <li>IEEE International Symposium on Hardware Oriented Security and Trust
                     (<em>HOST</em>) 2026
                 </li>
