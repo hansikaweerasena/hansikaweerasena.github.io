@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import profile_photo from "../assets/img/photo_no_back.jpg";
+import profile_photo from "../assets/img/headshot_casual.png";
 import profile_photo_c from "../assets/img/photo_casual.jpg";
 import {HanzContainer} from "../common/HanzContainer";
 
