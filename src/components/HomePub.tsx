@@ -31,7 +31,7 @@ export function HomePub() {
     };
 
     return (
-        <HanzHeaderContainer title="Publications" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath={"publications"}>
+        <HanzHeaderContainer title="Selected Publications" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath={"publications"}>
             <ul className={listGroupClass}>
                 {[
                     { label: "Book Chapters", items: books },
