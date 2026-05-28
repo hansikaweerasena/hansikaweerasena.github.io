@@ -88,23 +88,20 @@ export function HomeMain() {
             </div>
             <div className="row">
                 <div id="hanz-home-badge" className="col text-center">
-                    <span className="badge" style={{backgroundColor: "#6B705C", color: "white"}}>
-                        Network on Chip
-                    </span>
-                                <span className="badge" style={{backgroundColor: "#A3B18A", color: "black"}}>
-                        Quantum Computing
-                    </span>
-                                <span className="badge" style={{backgroundColor: "#7F5539", color: "white"}}>
-                        Computer & Network Security
-                    </span>
-                                <span className="badge" style={{backgroundColor: "#B08968", color: "white"}}>
+                    <span className="badge" style={{backgroundColor: "#B08968", color: "white"}}>
                         Computer Architecture
                     </span>
-                                <span className="badge" style={{backgroundColor: "#DDBEA9", color: "black"}}>
-                        Applied Machine Learning
+                    <span className="badge" style={{backgroundColor: "#A3B18A", color: "black"}}>
+                        Quantum Computing
                     </span>
-                                <span className="badge" style={{backgroundColor: "#A68A64", color: "white"}}>
-                        Computer Networks
+                    <span className="badge" style={{backgroundColor: "#7F5539", color: "white"}}>
+                        Computer & Network Security
+                    </span>
+                    <span className="badge" style={{backgroundColor: "#6B705C", color: "white"}}>
+                        On-Chip Interconnects
+                    </span>
+                    <span className="badge" style={{backgroundColor: "#DDBEA9", color: "black"}}>
+                        Applied Machine Learning
                     </span>
                 </div>
             </div>
