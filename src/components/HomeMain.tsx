@@ -97,11 +97,11 @@ export function HomeMain() {
                     <span className="badge" style={{backgroundColor: "#7F5539", color: "white"}}>
                         Computer & Network Security
                     </span>
-                    <span className="badge" style={{backgroundColor: "#6B705C", color: "white"}}>
-                        On-Chip Interconnects
-                    </span>
                     <span className="badge" style={{backgroundColor: "#DDBEA9", color: "black"}}>
                         Applied Machine Learning
+                    </span>
+                    <span className="badge" style={{backgroundColor: "#6B705C", color: "white"}}>
+                        On-Chip Interconnects
                     </span>
                 </div>
             </div>

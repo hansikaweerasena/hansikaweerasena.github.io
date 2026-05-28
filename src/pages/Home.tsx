@@ -23,8 +23,8 @@ export function Home() {
                     <HomeInsta></HomeInsta>
                 </HanzNarrowContainer>
                 <HanzSpaciousContainer>
-                    <HomeExp></HomeExp>
                     <HomePub></HomePub>
+                    <HomeExp></HomeExp>
                     <HomeEdu></HomeEdu>
                     <HomeAward></HomeAward>
                     <HomeVol></HomeVol>
