@@ -30,6 +30,9 @@ export function HomeService() {
             <li>International Multidisciplinary Engineering Research Conference (<em>MERCon</em>), 2022, 2025</li>
             <li>IESL Young Members’ Section Technical Conference, 2021</li>
         </ul>
+            <strong>Judge:</strong>
+            <ul><li>North Carolina Postdoc Research Symposium by UNC, 2026</li></ul>
+
     </HanzHeaderContainer>
 );
 }

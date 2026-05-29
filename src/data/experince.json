@@ -3,12 +3,14 @@
     "research": [
       {
         "logo": "img/ncsu_logo.png",
-        "role": "Postdoctoral Researcher",
+        "role": "Postdoctoral Research Scholar",
         "aff": "North Carolina State University, USA",
         "period": "Sep 2025 - Sep 2026",
         "dept": "Department of Computer Science",
         "points": [
-          "Modular quantum computing architectures and interconnects"
+          "Research and publishing on modular and heterogeneous quantum computing architectures and interconnects",
+          "Mentoring and collaborating with graduate students on multiple quantum computing projects",
+          "Leading proposal development and external collaborations representing the lab"
         ]
       },
       {
@@ -19,8 +21,8 @@
         "dept": "Embedded Systems Lab",
         "points": [
           "Leading SRC-funded research project on Compositional Security Verification of Trusted Execution Environments (TEEs).",
-          "Conducting research in verifying confidential computing architectures, specifically VM-based TEEs (e.g. Intel TDX)",
-          "Peer reviewing conference articles and assisting new proposal writing."
+          "Research and publishing on verifying confidential computing architectures, specifically VM-based TEEs (e.g. Intel TDX)",
+          "Assisting advisor with peer reviewing, proposal writing and undergraduate research."
         ]
       },
       {
@@ -31,9 +33,9 @@
         "period": "Jan 2021 - Dec 2023",
         "points": [
           "Leading NSF-funded research project on Designing Secure and Trustworthy Network-on-Chip (NoC) Architectures.",
-          "Conducting research in securing on-chip communication in diverse architectures and technologies.",
-          "Conducting research in accelerator security and confidential computing.",
-          "Peer reviewing conference articles and assisting new proposal writing."
+          "Research and publishing on designing secure and efficient on-chip communication architectures.",
+          "Research and publishing on accelerator security and confidential computing.",
+          "Assisting advisor with peer reviewing, proposal writing and undergraduate research."
         ]
       }
     ],
@@ -57,9 +59,9 @@
         "period": "Aug 2017 - Dec 2017",
         "dept": "Dept. of Computer Science and Engineering",
         "points": [
-          "Lead TA for class of 90+ students",
+          "Lead TA for class of 25+ students",
           "Conducted office hours helping students on understanding concepts and designing and programming embedded systems",
-          "Preparing, reviewing and marking assignments, projects and exams"
+          "Reviewing projects and presentations"
         ]
       }
     ],

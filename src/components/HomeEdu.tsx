@@ -13,9 +13,8 @@ export function HomeEdu() {
                     <h1 className="fs-5 hanz-edu-title">Doctor of Philosophy, Computer Science - University of
                         Florida</h1>
                     <h1 className="fs-6 hanz-edu-subtitle"></h1>
-                    <p className="hanz-edu-para">Jan 2021 - Aug 2025 <br/> Network on Chip Security | Advisor: Dr.
-                        Prabhat Mishra <br/>
-                        Current GPA: 3.91 / 4.0</p>
+                    <p className="hanz-edu-para">Jan 2021 - Aug 2025 <br/> Dissertation title: Securing On-Chip Communication with Machine Learning <br/>
+                        Advisor: Prof. Prabhat Mishra </p>
                 </div>
                 <div className="col-lg-9"></div>
             </div>

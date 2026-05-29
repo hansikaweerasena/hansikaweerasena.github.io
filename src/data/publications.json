@@ -18,7 +18,7 @@
       "img": "bioinfo.png",
       "type": "Journal",
       "title": "Formal Verification of Bioinformatics Software using Model Checking and Theorem Proving",
-      "venue": "Briefings in Bioinformatics, 2025",
+      "venue": "OUP Briefings in Bioinformatics (BiB), 2025",
       "text": "While there is explosive growth in the creation of biological data, researchers rely on ad-hoc verification methods such as testing with small simulated datasets. Due to their importance in biology and biomedicine, there is a critical need to verify these algorithms as well as their implementations to ensure that the results and conclusions are trustworthy.  In this paper, we explore an effective combination of model checking and theorem proving of bioinformatics software",      ",authors": ["Hansika Weerasena", "Aruna Jayasena", "Christina Boucher", "Prabhat Mishra"],
       "authors": ["Hansika Weerasena","Aruna Jayasena" , "Christina Boucher", "Prabhat Mishra"],
       "downloadLink": "https://drive.google.com/file/d/1ccQyD9NFsEjMMMej0jlh45_0VZ-kbdRs/view?usp=sharing",
@@ -196,24 +196,24 @@
   "patents": [
     {
       "type": "Patent",
-      "title": "Detection and localization of distributed denial-of-service attacks in network-on-chips",
-      "venue": "U.S. Provisional Patent Application Serial No. 63/842,431, filed July 11, 2023 (pending)",
-      "authors": [ "Prabhat Mishra", "Hansika Weerasena", "Xiaoguo Jia"],
-      "link": "",
-      "keyWords": ["Network-on-Chip", "Distributed DoS", "Applied Machine Learning"]
-    },
-    {
-      "type": "Patent",
       "title": "Mitigation of Traffic Analysis Vulnerability on Wireless Network-on-Chip-Based System-on-Chips",
-      "venue": "U.S. Provisional Patent Application No. 63/816,229, filed June 2, 2025 (pending)",
+      "venue": "U.S. Non-Provisional Patent Application No. 19/637,509, filed April 2, 2026 (pending)",
       "authors": [ "Prabhat Mishra", "Hansika Weerasena"],
       "link": "",
       "keyWords": ["Wireless NoCs, Network-on-Chip, Traffic Analysis, Applied ML"]
     },
     {
       "type": "Patent",
+      "title": "Detection and localization of distributed denial-of-service attacks in network-on-chips",
+      "venue": "U.S. Provisional Patent Application Serial No. 63/842,431, filed July 11, 2025 (pending)",
+      "authors": [ "Prabhat Mishra", "Hansika Weerasena", "Xiaoguo Jia"],
+      "link": "",
+      "keyWords": ["Network-on-Chip", "Distributed DoS", "Applied Machine Learning"]
+    },
+    {
+      "type": "Patent",
       "title": "System and Method for Performing Multicast Authentication in Network-on-Chip Systems",
-      "venue": "U.S. Provisional Patent Application No. 63/573,708, filed April 3, 2024 (pending)",
+      "venue": "U.S. Non-Provisional Patent Application No. 19/025,063, filed January 16, 2025 (pending)",
       "authors": [ "Prabhat Mishra", "Hansika Weerasena"],
       "link": "",
       "keyWords": ["Multicast Communication, Network-on-Chip, Spoofing Attacks, Authentication"]
@@ -221,7 +221,7 @@
     {
       "type": "Patent",
       "title": "Securing on-chip communication using chaffing and winnowing with all-or-nothing transform",
-      "venue": "U.S. Patent Application Serial No 17/973,768, filed August 3, 2023 (pending)",
+      "venue": "U.S. Patent Application Serial No 17/973,768, filed August 3, 2023 (abandoned)",
       "authors": [ "Prabhat Mishra", "Hansika Weerasena", "Subodha Charles"],
       "link": "https://patents.google.com/patent/US20230244819A1/en",
       "keyWords": ["NoC", "Chaffing and Winnowing", "Confidentiality", "All-or-Nothing-Transform"]
