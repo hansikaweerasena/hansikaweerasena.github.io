@@ -2,7 +2,7 @@ import React from 'react';
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
 export function HomeAbout() {
-    return (<HanzHeaderContainer title="About Me" buttonText="Read More" buttonPath="/about">
+    return (<HanzHeaderContainer title="About Me" buttonText="" buttonPath="/about">
             <div id="hanz-home-about-p">
                 <p className="fw-normal"> I am a postdoctoral researcher in the Department of Computer Science at North Carolina State University, where I work with Prof. Jianqing Liu. My current research focuses on system-level methods for modular and heterogeneous quantum computing architectures, interconnects, and scheduling. I received my Ph.D. in Computer Science from the University of Florida in August 2025, advised by Prof. Prabhat Mishra, where my research focused on secure and efficient on-chip interconnects, trusted execution environments, and machine learning for secure computing architectures. </p>
                 <p className="fw-normal"> More broadly, my interests lie at the intersection of computer architecture, quantum computing, computer networks, systems security, and machine learning for systems. My research vision is to develop scalable, efficient, and secure computing architectures, interconnects, and system-level orchestration for emerging classical and quantum systems. Specifically, my research agenda centers on two connected directions: developing systems-level methods for modular and heterogeneous quantum computing architectures, and designing efficient, reliable, and secure interconnects for emerging computing systems. </p>
