@@ -139,6 +139,152 @@
     outline: none; /* Removes focus outline */
 }
 
+.hanz-research-lead {
+    width: 100%;
+}
+
+.hanz-research-project-container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+}
+
+.hanz-research-project-img {
+    width: 100%;
+    aspect-ratio: 4 / 1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid #b8b4b43d;
+    margin-bottom: 1rem;
+}
+
+.hanz-research-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.hanz-research-tag {
+    background-color: #6B705C;
+    color: white;
+    font-weight: 500;
+    white-space: normal;
+    text-align: left;
+}
+
+.hanz-research-publication-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.hanz-research-publication-list li {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.hanz-research-publication-index {
+    flex: 0 0 32px;
+    font-weight: 600;
+}
+
+.hanz-research-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+@media (min-width: 992px) {
+    .hanz-research-logo-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.hanz-research-details {
+    border: 1px solid #b8b4b43d;
+    border-radius: 0.5rem;
+    padding: 12px;
+}
+
+.hanz-research-details summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.hanz-research-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.hanz-research-logo-tile {
+    min-height: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hanz-research-logo-tile img {
+    max-width: 110px;
+    max-height: 62px;
+    object-fit: contain;
+}
+
+.hanz-research-logo-text {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.hanz-research-logo-label {
+    font-size: 13px;
+    text-align: center;
+}
+
+.hanz-research-see-more {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.hanz-research-funding-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hanz-research-funding-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(140px, 220px) 1fr;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #b8b4b43d;
+    border-radius: 0.5rem;
+    padding: 16px;
+}
+
+.hanz-research-funding-card .hanz-research-logo-tile {
+    min-height: 90px;
+}
+
+.hanz-research-funding-card ul {
+    margin-bottom: 0;
+}
+
+.hanz-research-section-action {
+    margin-top: -2.25rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+    .hanz-research-funding-card {
+        grid-template-columns: 1fr;
+    }
+}
+
 .theme-toggle-btn svg {
     width: 20px;
     height: 20px;
@@ -174,6 +320,3 @@
     line-height: 1.4;
     font-weight: 500;
 }
-
-
-

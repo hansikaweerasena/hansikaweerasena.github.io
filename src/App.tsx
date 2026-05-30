@@ -8,6 +8,7 @@ import {Experience} from "./pages/Experience";
 import {NotFound} from "./pages/NotFound";
 import {About} from "./pages/About";
 import {Publications} from "./pages/Publications";
+import {Research} from "./pages/Research";
 import {ThemeProvider, useTheme} from './ThemeContext';
 import {Blog} from "./pages/Blog";
 
@@ -22,6 +23,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/experience" element={<Experience/>}/>
+                        <Route path="/research" element={<Research/>}/>
                         <Route path="/publications" element={<Publications/>}/>
                         <Route path="/about" element={<About/>}/>
                         <Route path="/blog" element={<Blog/>}/>
