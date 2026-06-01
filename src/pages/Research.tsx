@@ -2,17 +2,7 @@ import React from 'react';
 import { HanzFullWidthContainer } from "../common/HanzFullWidthContainer";
 import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
 import publicationsData from "../data/publications.json";
-
-const scholarUrl = "https://scholar.google.com/citations?user=ZN96WzcAAAAJ&hl=en";
-
-type Publication = {
-    title: string;
-    venue?: string;
-    authors?: string[];
-    downloadLink?: string;
-    proceedingLink?: string;
-    link?: string;
-};
+import { Publication, PublicationList } from "../common/ResearchPublicationList";
 
 type Project = {
     title: string;
@@ -43,9 +33,9 @@ const projectPublicationList = (titles: string[]): Publication[] => {
 
 const projects: Project[] = [
     {
-        title: "Design and Orchestration for Modular and Heterogeneous Quantum Computing Architectures",
+        title: "Architecture and Systems Methods for Heterogeneous and Modular Quantum Computing Platforms",
         image: "img/article/qc.jpg",
-        description: "This project studies system-level architecture and orchestration for heterogeneous quantum computing, with emphasis on modular quantum systems, interconnects, scheduling, and scalable execution models.",
+        description: "Scalable quantum computing was long framed as a race to build larger, lower-error homogeneous processors. Today, that view is shifting as industry roadmaps increasingly move toward modular quantum architectures. At the same time, quantum modalities such as superconducting qubits, neutral atoms, trapped ions, and photonics are advancing rapidly, each with different strengths in gate speed, coherence, connectivity, communication, and scalability. Since no single modality is ideal for all quantum computing tasks, these complementary advantages motivate heterogeneous and modular quantum computing.\n\nHowever, heterogeneous quantum computing requires system-level methods to effectively harness the advantages provided by heterogeneity. In this project, I build on my background in systems and architecture to develop architectural and system-level methods that can help make heterogeneous and modular quantum computing practical for future quantum systems. Specifically, this project focuses on systems-level co-design methods that translate hardware heterogeneity into realized space-time efficiency for fault-tolerant quantum computation. My current work emphasizes architecture abstractions, qubit scheduling, runtime orchestration, resource optimization, and interconnect-aware system co-design for heterogeneous and modular quantum computing.",
         tags: ["Computer Architecture", "Quantum Computing", "Distributed Systems", "Interconnects", "Scheduling"],
         publications: [
             ...projectPublicationList([
@@ -60,6 +50,7 @@ const projects: Project[] = [
                 title: "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
                 venue: "Under review, IEEE Global Communications Conference (GLOBECOM), 2026",
                 authors: ["Thinh Le", "Hansika Weerasena", "Jianqing Liu"],
+                downloadLink: "https://arxiv.org/pdf/2605.30234v1",
             },
             {
                 title: "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
@@ -70,29 +61,31 @@ const projects: Project[] = [
     },
     {
         title: "Compositional Security Verification of Trusted Execution Environments",
-        image: "img/article/tee.png",
-        description: "This SRC-funded project develops compositional methods for verifying Trusted Execution Environments. The work combines architecture modeling, security property generation, abstraction, and property checking to reason about confidentiality, integrity, and availability in confidential computing platforms.",
+        image: "img/project/tee.png",
+        description: "Trusted Execution Environments (TEEs) provide isolated execution environments for protecting sensitive code and data while they are in use. They are increasingly used in high-stakes domains such as banking systems to protect workloads from privileged software, including operating systems, hypervisors, and cloud providers. However, the security of a TEE depends on the correctness of the underlying HW-SW framework, architecture, firmware, memory protection mechanisms, and security enforcement logic. If the TEE framework is buggy, incomplete, or incorrectly specified, the trust assumptions of the entire system can collapse.\n\nThis project develops formal methods for verifying the security of virtualization-based TEEs. The goal is to ensure that TEE designs satisfy critical confidentiality, integrity, and isolation properties before they are deployed in real systems. Rather than treating TEE verification as a monolithic task, this project focuses on compositional security verification, where complex TEE mechanisms are abstracted, decomposed, and verified through reusable security properties. In this project we developed design-based abstraction, property-based abstraction, security property generation, symbolic execution, property decomposition, and automatic security assertion generation for TEE verification with a special focus on VM-based TEEs. These methods aim to bridge the gap between informal architecture specifications and machine-checkable security guarantees, enabling systematic verification of TEE designs such as Intel TDX and AMD SEV-SNP.",
         tags: ["Computer Architecture", "Systems Security", "Virtualization", "Formal Verification", "Property Checking", "Symbolic Execution"],
-        publications: projectPublicationList([
-            "Formal Verification of Virtualization-based Trusted Execution Environments",
-            "Security Assertions for Trusted Execution Environments",
-        ]).concat([
+        publications: [
             {
                 title: "Formal Verification of Secure Encrypted Virtualization",
                 venue: "Under review, ACM Transactions on Embedded Computing Systems (TECS), 2026",
                 authors: ["Hansika Weerasena", "Amitabh Das", "Prabhat Mishra"],
             },
-        ]),
+            ...projectPublicationList([
+                "Security Assertions for Trusted Execution Environments",
+                "Formal Verification of Virtualization-based Trusted Execution Environments",
+            ]),
+        ],
     },
     {
-        title: "Design of Secure and Trustworthy Network-on-Chip Architectures",
-        image: "img/article/survey.png",
-        description: "This NSF-funded project focuses on security and privacy of on-chip communication across diverse architectures and interconnect technologies. The work spans threat modeling, attacks, countermeasures, secure routing, traffic analysis, and ML-assisted defenses for electrical, wireless, and optical NoC systems.",
-        tags: ["Computer Architecture", "Computer & Network Security", "On-Chip Interconnects", "Cryptography", "Machine Learning", "gem5", "Noxim"],
+        title: "Designing Secure and Efficient On-Chip Communication Architectures",
+        image: "img/project/noc_sec.png",
+        description: "System-on-Chip (SoC) platforms are the computational backbone of a wide range of systems, from handheld devices to high-performance computing platforms. As applications become increasingly complex, modern SoCs integrate a growing number of heterogeneous Intellectual Property (IP) blocks, often sourced from multiple third-party vendors. For example, automotive and high-performance SoCs may contain hundreds of diverse IP blocks that must communicate efficiently and reliably. The on-chip communication architecture, typically known as a Network-on-Chip (NoC), is responsible for coordinating this communication across the system. Since the NoC connects many critical components, compromising the communication fabric can give an attacker broad visibility into system behavior and potential access to sensitive interactions across the SoC.\n\nThis project developed secure and efficient on-chip communication architectures for NoC-based SoCs. The goal was to enable trusted communication among heterogeneous and potentially third-party IP blocks while preserving the performance, area, and energy efficiency required for practical hardware deployment. This is challenging because conventional security mechanisms are often too expensive for resource-constrained on-chip networks, and emerging NoC technologies, including electrical, wireless, optical, and 3D interconnects, introduce different vulnerabilities, topologies, and threat models. I worked on multiple security requirements, including confidentiality, integrity, authentication, availability, and anonymity. My work in this direction studied both attacks and defenses, including spatio-temporal traffic analysis, side-channel leakage, and secure-by-design systems. I also considered the growing use of machine learning from both attacker and defender perspectives, specifically how sophisticated attacks can be launched using ML and how ML can be used for protection, such as runtime detection and localization of attacks. Together, these efforts aim to build trustworthy on-chip communication architectures for future heterogeneous SoCs.",
+        tags: ["Computer Architecture", "Computer & Network Security", "On-Chip Interconnects", "Cryptography", "Machine Learning for Systems"],
         publications: projectPublicationList([
-            "Security of Electrical, Optical and Wireless On-Chip Interconnects",
             "Traffic Analysis Attacks on Wireless NoC-based SoCs",
+            "Security of Electrical, Optical and Wireless On-Chip Interconnects",
             "Breaking On-Chip Communication Anonymity",
+            "Revealing CNN Architectures",
             "Lightweight Multicast Authentication",
             "Lightweight Encryption using Chaffing",
             "Secure Multi-Path Routing",
@@ -103,9 +96,9 @@ const projects: Project[] = [
     },
     {
         title: "Audio Characterization for Bio Acoustic Monitoring Applications",
-        image: "img/article/bio.png",
-        description: "This project performs signal processing on real-world audio data sets of bird calls using low-complexity local processing suitable for embedded devices. It combines feature engineering and machine learning to enable continuous automatic species identification in resource-constrained monitoring systems.",
-        tags: ["Applied Machine Learning", "Signal Processing", "Feature Engineering", "Embedded Systems", "Anomaly Detection"],
+        image: "img/project/bioacoustics.png",
+        description: "Bioacoustic monitoring enables continuous observation of wildlife and biodiversity through audio data collected in natural environments. However, deploying such systems in remote or resource-constrained settings is challenging because continuous audio recording generates large volumes of data, and transmitting all raw audio to a central server can be costly in terms of storage, bandwidth, energy, and processing time. At the same time, performing full audio analysis directly on low-cost sensor nodes is difficult due to limited computational resources.\n\nThis project explores lightweight audio characterization methods for scalable bioacoustic monitoring. The main idea is to reduce unnecessary data transmission through low-cost local processing at the sensor-node level, where candidate acoustic regions are identified before sending data for more detailed analysis. The selected audio segments can then be processed more effectively at the server level using preprocessing, segmentation, feature extraction, and machine learning-based classification. This edge-assisted monitoring approach aims to make long-term biodiversity monitoring more practical, efficient, and deployable in remote environments.",
+        tags: ["Applied Machine Learning", "Signal Processing", "Feature Engineering", "Embedded Systems", "Edge Computing"],
         publications: projectPublicationList([
             "Continuous Automatic Bioacoustics Monitoring",
         ]),
@@ -206,80 +199,6 @@ const funding = [
     },
 ];
 
-const allPublicationGroups = [
-    { title: "Book Chapters", items: publicationsData.books },
-    { title: "Journal Publications", items: publicationsData.journal },
-    { title: "Conference Publications", items: publicationsData.conf },
-    { title: "Preprints", items: publicationsData.preprints },
-    { title: "Non-Refereed Manuscripts", items: publicationsData["non-ref"] },
-    { title: "Patents", items: publicationsData.patents },
-];
-
-const presentationLinks = [
-    {
-        title: "Ph.D. dissertation presentation",
-        links: [
-            { label: "slides", href: "https://docs.google.com/presentation/d/1BWqnCaQIbYSQ8frPricOYRyN96jSnuRy/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" },
-            { label: "pdf", href: "https://drive.google.com/file/d/1JGxpUIsdP-2dTNkT5BZHDCJh9df5TwFc/view?usp=sharing" },
-        ],
-    },
-    {
-        title: "Ph.D. candidacy presentation",
-        links: [
-            { label: "slides", href: "https://docs.google.com/presentation/d/12e8Cnxn5Q8rx2amy4kmuPDHeIG0srrOa/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true" },
-            { label: "pdf", href: "https://drive.google.com/file/d/1z79Rp1o83TJWaRLyLs-Qhfy5P593Lhu_/view?usp=sharing" },
-        ],
-    },
-];
-
-const conferenceTalks = [
-    {
-        title: "HOST, 2025",
-        slides: "https://docs.google.com/presentation/d/1BIe_xkdh-cH8DHpqJ9tsQvG5i2GzCZrp/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true",
-        pdf: "https://drive.google.com/file/d/1ob0iaKIBMBMd2UiYDUorpjNs6hQrcEHH/view?usp=sharing",
-    },
-    {
-        title: "CASES, 2024",
-        slides: "https://docs.google.com/presentation/d/1AmPho0UI0HvyTKnie0kMdXJ8LP2RHdWK/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true",
-        pdf: "https://drive.google.com/file/d/1-lHifrqfyOARYo0PjL6u_NqqS9PcXJSF/view?usp=sharing",
-    },
-    {
-        title: "ISQED, 2024",
-        slides: "https://docs.google.com/presentation/d/1HWjWYn-D6rgzeJnFhk0u8QK4kRES2snR/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true",
-        pdf: "https://drive.google.com/file/d/1GSTvsSacNVig5n50BdF5EfuRJ6wZYb9E/view?usp=sharing",
-    },
-    {
-        title: "HOST, 2022",
-        slides: "https://docs.google.com/presentation/d/1BCrFYeKKnaeYNpPn8EujfTxZ4rYYBKtR/edit?usp=sharing&ouid=118323130311806292826&rtpof=true&sd=true",
-        pdf: "https://drive.google.com/file/d/1LsVd9YnX2LL0wioYE5xUtdXwYiC1vdy0/view?usp=sharing",
-    },
-];
-
-function PublicationList({ items }: { items: Publication[] }) {
-    return (
-        <ol className="hanz-research-publication-list">
-            {items.map((pub, index) => (
-                <li key={`${pub.title}-${index}`}>
-                    <span className="hanz-research-publication-index">[{index + 1}]</span>
-                    <span>
-                        {pub.authors && `${pub.authors.join(", ")}. `}
-                        <b>{pub.title}</b>
-                        {pub.venue && `, ${pub.venue}`}
-                        {(pub.downloadLink || pub.proceedingLink || pub.link) && (
-                            <>
-                                {" "}
-                                <a href={pub.downloadLink || pub.proceedingLink || pub.link} target="_blank" rel="noopener noreferrer">
-                                    link
-                                </a>
-                            </>
-                        )}
-                    </span>
-                </li>
-            ))}
-        </ol>
-    );
-}
-
 function LogoTile({ logo, logoText, label }: { logo?: string; logoText?: string; label: string }) {
     return (
         <div className="hanz-research-logo-tile">
@@ -311,7 +230,9 @@ export function Research() {
                             <div className="container shadow-sm hanz-container hanz-research-project-container" key={project.title}>
                                 <img className="hanz-research-project-img" src={project.image} alt={project.title}/>
                                 <h4 className="fw-bold text-secondary hanz-section-header">{project.title}</h4>
-                                <p className="fw-normal">{project.description}</p>
+                                {project.description.split("\n\n").map((paragraph) => (
+                                    <p className="fw-normal" key={`${project.title}-${paragraph.substring(0, 24)}`}>{paragraph}</p>
+                                ))}
                                 <div className="hanz-research-tag-list">
                                     {project.tags.map((tag) => (
                                         <span className="badge hanz-research-tag" key={`${project.title}-${tag}`}>{tag}</span>
@@ -358,42 +279,6 @@ export function Research() {
                         </div>
                     </HanzHeaderContainer>
 
-                    <HanzHeaderContainer title="Publications">
-                        <div className="text-end hanz-research-section-action">
-                            <a href={scholarUrl} target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                        </div>
-                        {allPublicationGroups.map((group) => (
-                            <div key={group.title}>
-                                <h5 className="fw-semibold mt-3">{group.title}</h5>
-                                <PublicationList items={group.items}/>
-                            </div>
-                        ))}
-                    </HanzHeaderContainer>
-
-                    <HanzHeaderContainer title="Presentations and Conference Talks">
-                        <h5 className="fw-semibold">Presentation Links</h5>
-                        <ul>
-                            {presentationLinks.map((item) => (
-                                <li key={item.title}>
-                                    {item.title}{" "}
-                                    {item.links.map((link) => (
-                                        <span key={link.label}>
-                                            [<a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>]{" "}
-                                        </span>
-                                    ))}
-                                </li>
-                            ))}
-                        </ul>
-
-                        <h5 className="fw-semibold mt-3">Conference Talks</h5>
-                        <ul>
-                            {conferenceTalks.map((talk) => (
-                                <li key={talk.title}>
-                                    {talk.title} [<a href={talk.slides} target="_blank" rel="noopener noreferrer">slides</a>] [<a href={talk.pdf} target="_blank" rel="noopener noreferrer">pdf</a>]
-                                </li>
-                            ))}
-                        </ul>
-                    </HanzHeaderContainer>
                 </HanzFullWidthContainer>
             </div>
         </div>

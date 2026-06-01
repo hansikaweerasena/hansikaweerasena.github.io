@@ -8,9 +8,8 @@
         "period": "Sep 2025 - Sep 2026",
         "dept": "Department of Computer Science",
         "points": [
-          "Research and publishing on modular and heterogeneous quantum computing architectures and interconnects",
-          "Mentoring and collaborating with graduate students on multiple quantum computing projects",
-          "Leading proposal development and external collaborations representing the lab"
+          "Researching architecture and systems methods for heterogeneous modular quantum computing with Prof. Jianqing Liu, including qubit scheduling, resource optimization, and interconnect-aware system co-design.",
+          "Mentoring and collaborating with graduate students on multiple quantum computing projects, including hardware-native quantum algorithms and resource-aware synthesis for hybrid and photonic quantum platforms."
         ]
       },
       {
