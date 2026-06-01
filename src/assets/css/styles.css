@@ -189,6 +189,13 @@
     font-weight: 600;
 }
 
+.hanz-research-publication-more summary {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
 .hanz-research-logo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -277,6 +284,10 @@
 .hanz-research-section-action {
     margin-top: -2.25rem;
     margin-bottom: 1rem;
+}
+
+.hanz-news-list li {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {

@@ -22,7 +22,9 @@ export function NavBar() {
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item"><a className="nav-link active" href="/">Home</a></li>
                         <li className="nav-item"><a className="nav-link" href="/research">Research</a></li>
-                        <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
+                        <li className="nav-item"><a className="nav-link" href="/publications">Publications</a></li>
+                        <li className="nav-item"><a className="nav-link" href="/news">News</a></li>
+                        {/*<li className="nav-item"><a className="nav-link" href="/about">About</a></li>*/}
                         <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
                         <li className="nav-item d-flex align-items-center">
                             <ThemeToggle/>
