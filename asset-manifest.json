@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.908a5233.css",
-    "main.js": "/static/js/main.cc0a4eb5.js",
+    "main.css": "/static/css/main.3017e4b6.css",
+    "main.js": "/static/js/main.b31aaf60.js",
     "static/js/787.69ce51e1.chunk.js": "/static/js/787.69ce51e1.chunk.js",
     "static/media/photo_casual.jpg": "/static/media/photo_casual.97b5befcfab00de00106.jpg",
     "static/media/headshot_casual.png": "/static/media/headshot_casual.913e76ea205980040cea.png",
@@ -10,12 +10,12 @@
     "static/media/aiesec_logo.jpeg": "/static/media/aiesec_logo.d61a4ef287c4a09c8f22.jpeg",
     "static/media/cg_logo.jpeg": "/static/media/cg_logo.d30c025dae870022bb05.jpeg",
     "index.html": "/index.html",
-    "main.908a5233.css.map": "/static/css/main.908a5233.css.map",
-    "main.cc0a4eb5.js.map": "/static/js/main.cc0a4eb5.js.map",
+    "main.3017e4b6.css.map": "/static/css/main.3017e4b6.css.map",
+    "main.b31aaf60.js.map": "/static/js/main.b31aaf60.js.map",
     "787.69ce51e1.chunk.js.map": "/static/js/787.69ce51e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.908a5233.css",
-    "static/js/main.cc0a4eb5.js"
+    "static/css/main.3017e4b6.css",
+    "static/js/main.b31aaf60.js"
   ]
 }
