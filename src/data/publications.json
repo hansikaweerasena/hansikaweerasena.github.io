@@ -146,6 +146,28 @@
   ],
   "preprints": [
     {
+      "img": "qc.jpg",
+      "type": "Preprint",
+      "title": "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
+      "venue": "Under review, IEEE Global Communications Conference (GLOBECOM), 2026",
+      "text": "",
+      "authors": ["Thinh Le", "Hansika Weerasena", "Jianqing Liu"],
+      "downloadLink": "https://arxiv.org/pdf/2605.30234v1",
+      "proceedingLink": "https://arxiv.org/pdf/2605.30234v1",
+      "keyWords": ["Quantum Computing", "QAOA", "Hybrid Quantum Processors"]
+    },
+    {
+      "img": "tee.png",
+      "type": "Preprint",
+      "title": "Formal Verification of Secure Encrypted Virtualization",
+      "venue": "Under review, ACM Transactions on Embedded Computing Systems (TECS), 2026",
+      "text": "",
+      "authors": ["Hansika Weerasena", "Amitabh Das", "Prabhat Mishra"],
+      "downloadLink": "https://arxiv.org/pdf/2605.30234v1",
+      "proceedingLink": "https://arxiv.org/pdf/2605.30234v1",
+      "keyWords": ["Trusted Execution Environments", "Formal Verification", "Secure Encrypted Virtualization"]
+    },
+    {
       "img": "aont.png",
       "type": "Preprint",
       "title": "Secure Multi-Path Routing with All-or-Nothing Transform for Network-on-Chip Architectures",
