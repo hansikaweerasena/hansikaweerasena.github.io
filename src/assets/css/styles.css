@@ -149,6 +149,10 @@
     max-width: none;
 }
 
+.hanz-research-project-title {
+    margin-bottom: 14px;
+}
+
 .hanz-research-project-img {
     width: 100%;
     aspect-ratio: 4 / 1;

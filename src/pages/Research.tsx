@@ -228,8 +228,8 @@ export function Research() {
                     <HanzHeaderContainer title="Research Projects">
                         {projects.map((project) => (
                             <div className="container shadow-sm hanz-container hanz-research-project-container" key={project.title}>
+                                <h4 className="fw-bold text-secondary hanz-section-header hanz-research-project-title">{project.title}</h4>
                                 <img className="hanz-research-project-img" src={project.image} alt={project.title}/>
-                                <h4 className="fw-bold text-secondary hanz-section-header">{project.title}</h4>
                                 {project.description.split("\n\n").map((paragraph) => (
                                     <p className="fw-normal" key={`${project.title}-${paragraph.substring(0, 24)}`}>{paragraph}</p>
                                 ))}

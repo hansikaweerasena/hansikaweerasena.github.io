@@ -3,7 +3,7 @@ import './App.css';
 import {NavBar} from "./components/NavBar";
 import {Footer} from "./components/Footer";
 import {Home} from "./pages/Home"
-import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Experience} from "./pages/Experience";
 import {NotFound} from "./pages/NotFound";
 import {About} from "./pages/About";
@@ -11,7 +11,7 @@ import {Publications as PublicationsLegacy} from "./pages/Publications";
 import {Research} from "./pages/Research";
 import {ResearchPublications} from "./pages/ResearchPublications";
 import {News} from "./pages/News";
-import {ThemeProvider, useTheme} from './ThemeContext';
+import {ThemeProvider} from './ThemeContext';
 import {Blog} from "./pages/Blog";
 
 
@@ -19,9 +19,9 @@ function App() {
 
     return (
         <ThemeProvider>
-            <div className={`App`}>
-                <NavBar></NavBar>
-                <Router>
+            <Router>
+                <div className={`App`}>
+                    <NavBar></NavBar>
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/experience" element={<Experience/>}/>
@@ -33,9 +33,9 @@ function App() {
                         <Route path="/blog" element={<Blog/>}/>
                         <Route path="*" element={<NotFound/>}/>
                     </Routes>
-                </Router>
-                <Footer></Footer>
-            </div>
+                    <Footer></Footer>
+                </div>
+            </Router>
         </ThemeProvider>
     );
 }
