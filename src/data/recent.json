@@ -4,10 +4,30 @@
     {
       "descriptions": [
         {
-          "preText": "Our book chapter \"Quantum Computing Architectures\" in Design Automation for Quantum Computing, Springer is published and available",
+          "preText": "Our paper \"",
+          "link": "https://arxiv.org/abs/2605.30234v1",
+          "linkText": "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
+          "postText": "\" is now available on arXiv - May 2026"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "I will be attending the 2026 Quantum Summer Learning Workshop by NC State Quantum Initiative and would be happy to connect",
           "link": "",
           "linkText": "",
-          "postText": " - Apr 2026"
+          "postText": " - Jun 1-5, 2026"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Our book chapter \"",
+          "link": "https://books.google.com/books?hl=en&lr=&id=30fOEQAAQBAJ&oi=fnd&pg=PA31&dq=info:fLgjfD0hWVEJ:scholar.google.com&ots=5Ootsne0eH&sig=mTtZ8XgkACxsFyMjwBNgGamYmho#v=onepage&q&f=false",
+          "linkText": "Quantum Computing Architectures",
+          "postText": "\" in Design Automation for Quantum Computing, Springer is published and available - Apr 2026"
         }
       ]
     },
@@ -24,7 +44,7 @@
     {
       "descriptions": [
         {
-          "preText": "I joined as a postdoctoral researcher at NCSU on Sep 8",
+          "preText": "I joined as a postdoctoral researcher at NCSU in Sep, 2025",
           "link": "",
           "linkText": "",
           "postText": ""

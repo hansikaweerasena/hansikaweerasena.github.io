@@ -2,7 +2,7 @@ import React from 'react';
 import {HanzNarrowContainer} from "../common/HanzNarrowContainer";
 import {HomeMain} from "../components/HomeMain";
 import {HomeRecent} from "../components/HomeRecent";
-import {HomeInsta} from "../components/HomeInsta";
+// import {HomeInsta} from "../components/HomeInsta";
 import {HanzSpaciousContainer} from "../common/HanzSpaciousContainer";
 import {HomeExp} from "../components/HomeExp";
 import {HomePub} from "../components/HomePub";
@@ -20,7 +20,7 @@ export function Home() {
                     <HomeAbout></HomeAbout>
                     <HomeRecent></HomeRecent>
                     <HomeService></HomeService>
-                    <HomeInsta></HomeInsta>
+                    {/* <HomeInsta></HomeInsta> */}
                 </HanzNarrowContainer>
                 <HanzSpaciousContainer>
                     <HomePub></HomePub>

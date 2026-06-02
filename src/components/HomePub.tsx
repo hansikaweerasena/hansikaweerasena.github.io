@@ -1,7 +1,6 @@
 import React from 'react';
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 import {useTheme} from "../ThemeContext";
-import data from '../data/publications.json';
 
 export function HomePub() {
     const { theme } = useTheme();
@@ -9,44 +8,35 @@ export function HomePub() {
     const listGroupClass = `list-group bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`;
     const listItemClass = `list-group-item bg-${theme} text-${theme === 'light' ? 'dark' : 'white'} hanz-group-item`;
 
-    const confs = data.conf
-    const journals = data.journal
-    const patents = data.patents
-    const books = data.books
-
-    const formatAuthors = (authors: string[]): string => {
-        if (authors.length === 0) {
-            return "";
+    const selectedSections = [
+        {
+            label: "Quantum Computing Architecture and Systems",
+            items: [
+                "Quantum Computing Architectures - book chapter, in Design Automation for Quantum Computing, ed. Prabhat Mishra, Springer Nature, 2026.",
+                "A Learning-based Scheduler for Qubit Assignment in Heterogeneous Modular Quantum Computing Architectures - H. Weerasena, J. Liu. Under review, 2026."
+            ]
+        },
+        {
+            label: "Secure Architectures and Interconnects",
+            items: [
+                "Security of Electrical, Optical, and Wireless On-chip Interconnects: A Survey - H. Weerasena, P. Mishra. ACM TODAES, 2024.",
+                "Traffic Analysis Attacks on Wireless NoC-based SoCs - H. Weerasena, P. Mishra. IEEE HOST, 2025."
+            ]
         }
-        // Split the first author's name into parts
-        const nameParts = authors[0].split(" ");
-        const firstNameInitial = nameParts[0][0]; // First character of first name
-        const lastName = nameParts.pop()!; // Last element of the split, which is the last name
-
-        if (authors.length === 1) {
-            return `${firstNameInitial}. ${lastName}`; // Return the formatted name if only one author
-        } else {
-            return `${firstNameInitial}. ${lastName} et al.`; // Append 'et al.' if more than one author
-        }
-    };
+    ];
 
     return (
         <HanzHeaderContainer title="Selected Publications" buttonText="V I E W &nbsp;&nbsp;&nbsp;&nbsp; A L L" buttonPath={"publications"}>
             <ul className={listGroupClass}>
-                {[
-                    { label: "Book Chapters", items: books },
-                    { label: "Journal Proceedings", items: journals },
-                    { label: "Conference Proceedings", items: confs },
-                    { label: "Patents", items: patents }
-                ].map((section, index) => (
+                {selectedSections.map((section, index) => (
                     <li key={index} className={listItemClass}>
                 <span className="fw-bold">
-                    {section.label} <span className="badge bg-secondary">{section.items.length}</span>
+                    {section.label}
                 </span>
-                        <ul className={listGroupClass}>
-                            {section.items.slice(0, 2).map((item, itemIndex) => (
+                        <ul className={`${listGroupClass} list-group-flush`}>
+                            {section.items.map((item, itemIndex) => (
                                 <li key={itemIndex} className={listItemClass}>
-                                    {item.title} - {formatAuthors(item.authors)}, {item.venue}
+                                    <span className="me-2">•</span>{item}
                                 </li>
                             ))}
                         </ul>
