@@ -5,11 +5,11 @@
         "logo": "img/ncsu_logo.png",
         "role": "Postdoctoral Research Scholar",
         "aff": "North Carolina State University, USA",
-        "period": "Sep 2025 - Sep 2026",
+        "period": "Sep 2025 - Present",
         "dept": "Department of Computer Science",
         "points": [
-          "Researching architecture and systems methods for heterogeneous modular quantum computing with Prof. Jianqing Liu, including qubit scheduling, resource optimization, and interconnect-aware system co-design.",
-          "Mentoring and collaborating with graduate students on multiple quantum computing projects, including hardware-native quantum algorithms and resource-aware synthesis for hybrid and photonic quantum platforms."
+          "Researching architecture and systems methods for heterogeneous modular quantum computing with Prof. Jianqing Liu, including scheduling, runtime optimization, and interconnect/protocol co-design.",
+          "Mentoring and collaborating with graduate students on multiple quantum computing projects, including hardware-native quantum algorithms and resource optimization for hybrid and photonic quantum platforms."
         ]
       },
       {
