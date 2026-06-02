@@ -294,6 +294,84 @@
     margin-bottom: 10px;
 }
 
+.hanz-publications-page {
+    padding: 30px 20px;
+}
+
+.hanz-publications-top-link {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.hanz-publication-section {
+    margin-bottom: 30px;
+    scroll-margin-top: 90px;
+}
+
+.hanz-publication-section h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 8px 0 14px;
+}
+
+.hanz-publication-card-list {
+    overflow: hidden;
+    border: 1px solid #e2e4e8;
+    border-radius: 0.6rem;
+    background: inherit;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.hanz-publication-card {
+    padding: 18px 20px;
+    color: inherit;
+    border-bottom: 1px solid #e2e4e8;
+}
+
+.hanz-publication-card:last-child {
+    border-bottom: none;
+}
+
+.hanz-publication-card h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.hanz-publication-index {
+    display: inline-block;
+    min-width: 42px;
+    font-weight: 600;
+}
+
+.hanz-publication-card h4 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hanz-publication-card h4 a:hover {
+    text-decoration: underline;
+}
+
+.hanz-publication-authors,
+.hanz-publication-venue {
+    margin-bottom: 2px;
+    font-size: 0.96rem;
+}
+
+.hanz-publication-venue {
+    font-style: italic;
+}
+
+.bg-dark .hanz-publication-card-list {
+    border-color: #495057;
+    box-shadow: none;
+}
+
+.bg-dark .hanz-publication-card {
+    border-bottom-color: #495057;
+}
+
 @media (max-width: 767px) {
     .hanz-research-funding-card {
         grid-template-columns: 1fr;

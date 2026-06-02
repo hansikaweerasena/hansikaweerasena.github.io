@@ -69,6 +69,7 @@ const projects: Project[] = [
                 title: "Formal Verification of Secure Encrypted Virtualization",
                 venue: "Under review, ACM Transactions on Embedded Computing Systems (TECS), 2026",
                 authors: ["Hansika Weerasena", "Amitabh Das", "Prabhat Mishra"],
+                downloadLink: "https://arxiv.org/pdf/2606.01381",
             },
             ...projectPublicationList([
                 "Security Assertions for Trusted Execution Environments",

@@ -2,17 +2,22 @@ import React from 'react';
 import { HanzFullWidthContainer } from "../common/HanzFullWidthContainer";
 import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
 import publicationsData from "../data/publications.json";
-import { PublicationList } from "../common/ResearchPublicationList";
+import { getPublicationYear, Publication } from "../common/ResearchPublicationList";
+import {useTheme} from "../ThemeContext";
 
 const scholarUrl = "https://scholar.google.com/citations?user=ZN96WzcAAAAJ&hl=en";
 
-const allPublicationGroups = [
-    { title: "Book Chapters", items: publicationsData.books },
-    { title: "Journal Publications", items: publicationsData.journal },
-    { title: "Conference Publications", items: publicationsData.conf },
-    { title: "Preprints", items: publicationsData.preprints },
-    { title: "Non-Refereed Manuscripts", items: publicationsData["non-ref"] },
-    { title: "Patents", items: publicationsData.patents },
+type PublicationWithType = Publication & {
+    type?: string;
+};
+
+const publicationGroups: { title: string; id: string; items: PublicationWithType[] }[] = [
+    { title: "Book Chapters", id: "book-chapters", items: publicationsData.books },
+    { title: "Journal Articles", id: "journal-publications", items: publicationsData.journal },
+    { title: "Conference Publications", id: "conference-publications", items: publicationsData.conf },
+    { title: "Preprint and Under Review", id: "preprints", items: publicationsData.preprints },
+    { title: "Non-Refereed Manuscripts", id: "non-refereed-manuscripts", items: publicationsData["non-ref"] },
+    { title: "Patents", id: "patents", items: publicationsData.patents },
 ];
 
 const presentationLinks = [
@@ -55,22 +60,58 @@ const conferenceTalks = [
     },
 ];
 
+function PublicationCard({ publication, index }: { publication: PublicationWithType; index: number }) {
+    const year = getPublicationYear(publication);
+    const venueHasYear = Boolean(year && publication.venue?.includes(year));
+    const link = publication.downloadLink || publication.proceedingLink || publication.link;
+
+    return (
+        <div className="hanz-publication-card">
+            <h4>
+                <span className="hanz-publication-index">[{index + 1}]</span>
+                {link ? <a href={link} target="_blank" rel="noopener noreferrer">{publication.title}</a> : publication.title}
+            </h4>
+            {publication.authors && (
+                <p className="hanz-publication-authors">
+                    {publication.authors.map((author, index) => (
+                        <React.Fragment key={`${publication.title}-${author}-${index}`}>
+                            {author === "Hansika Weerasena" ? <u>{author}</u> : author}
+                            {index < (publication.authors?.length || 0) - 1 ? ", " : ""}
+                        </React.Fragment>
+                    ))}
+                </p>
+            )}
+            <p className="hanz-publication-venue">
+                {publication.venue || publication.type || "Preprint"}
+                {year && !venueHasYear && `, ${year}`}
+            </p>
+        </div>
+    );
+}
+
 export function ResearchPublications() {
+    const { theme } = useTheme();
+    const themedContainerClass = `container shadow-sm hanz-container hanz-publications-page bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`;
+
     return (
         <div className="container">
             <div className="row">
                 <HanzFullWidthContainer>
-                    <HanzHeaderContainer title="Publications">
-                        <div className="text-end hanz-research-section-action">
+                    <div className={themedContainerClass}>
+                        <div className="hanz-publications-top-link">
                             <a href={scholarUrl} target="_blank" rel="noopener noreferrer">Google Scholar</a>
                         </div>
-                        {allPublicationGroups.map((group) => (
-                            <div key={group.title}>
-                                <h5 className="fw-semibold mt-3">{group.title}</h5>
-                                <PublicationList items={group.items} limit={group.items.length}/>
-                            </div>
+                        {publicationGroups.map((group) => (
+                            <section id={group.id} className="hanz-publication-section" key={group.id}>
+                                <h1>{group.title}</h1>
+                                <div className="hanz-publication-card-list">
+                                    {group.items.map((publication, index) => (
+                                        <PublicationCard publication={publication} index={index} key={publication.title}/>
+                                    ))}
+                                </div>
+                            </section>
                         ))}
-                    </HanzHeaderContainer>
+                    </div>
 
                     <HanzHeaderContainer title="Presentations and Conference Talks">
                         <h5 className="fw-semibold">Presentation Links</h5>
