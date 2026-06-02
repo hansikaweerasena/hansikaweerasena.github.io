@@ -28,8 +28,7 @@ export function HomeMain() {
                 </div>
                 <div className="col-lg-8 align-self-center text-center text-lg-start">
                     <h4 className="fw-bold">Hansika Weerasena</h4>
-                    <h6 id="">Computer Systems Researcher | Engineer | Habitual
-                        Globetrotter</h6>
+                    <h6 id="">Computer Systems Researcher | Engineer</h6>
                 </div>
             </div>
             <div className="row text-center">
