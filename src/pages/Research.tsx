@@ -220,7 +220,7 @@ export function Research() {
                 <HanzFullWidthContainer>
                     <HanzHeaderContainer title="Research Overview">
                         <p className="fw-normal hanz-research-lead">
-                            I design and reason about communication and coordination in emerging computing systems. Specifically, my research vision is to develop scalable, efficient, and secure computing architectures, interconnects, and system-level orchestration for emerging classical and quantum systems in order to improve the performance, reliability, and trustworthiness of next-generation computing infrastructure. My interests lie at the intersection of computer architecture, quantum computing, computer networks, systems security, and machine learning for systems. During my doctoral studies and postdoctoral research, I have had the opportunity to work on challenging research problems alongside talented collaborators.
+                            I design and reason about communication and coordination in emerging computing systems. Specifically, my research vision is to develop scalable, secure, and intelligent computing architectures, interconnects, and system-level orchestration for emerging classical and quantum systems in order to improve the performance, reliability, and trustworthiness of next-generation computing infrastructure. My interests lie at the intersection of computer architecture, quantum computing, computer networks, systems security, and machine learning for systems. During my doctoral studies and postdoctoral research, I have had the opportunity to work on challenging research problems alongside talented collaborators.
                         </p>
                     </HanzHeaderContainer>
 
