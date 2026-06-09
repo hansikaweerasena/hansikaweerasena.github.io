@@ -12,7 +12,7 @@ export function HomePub() {
         {
             label: "Quantum Computing Architecture and Systems",
             items: [
-                "Quantum Computing Architectures - book chapter, in Design Automation for Quantum Computing, ed. Prabhat Mishra, Springer Nature, 2026.",
+                "Quantum Computing Architectures, in Design Automation for Quantum Computing, ed. Prabhat Mishra, Springer Nature, 2026.",
                 "A Learning-based Scheduler for Qubit Assignment in Heterogeneous Modular Quantum Computing Architectures - H. Weerasena, J. Liu. Under review, 2026."
             ]
         },
