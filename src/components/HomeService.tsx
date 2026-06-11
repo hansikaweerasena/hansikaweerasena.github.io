@@ -5,11 +5,11 @@ export function HomeService() {
     return (<HanzHeaderContainer title="Professional Services" buttonText="" buttonPath="">
         <strong>Technical Program Committee:</strong>
             <ul>
-                <li>ACM/IEEE International Conference on Codesign of Embedded Systems
-                    (<em>CODES</em>) 2026
-                </li>
                 <li>IEEE International Symposium on Hardware Oriented Security and Trust
                     (<em>HOST</em>) 2027
+                </li>
+                <li>ACM/IEEE International Conference on Codesign of Embedded Systems
+                    (<em>CODES</em>) 2026
                 </li>
                 <li>IEEE International Symposium on Hardware Oriented Security and Trust
                     (<em>HOST</em>) 2026
@@ -29,8 +29,8 @@ export function HomeService() {
             <li>ACM/IEEE International Conference on Hardware/Software Codesign and System Synthesis
                 (<em>CODES+ISSS</em>), 2022, 2023, and 2025
             </li>
-            <li>Engineering Research Unit (<em>ERU</em>) Symposium by University of Moratuwa, 2024</li>
             <li>International Multidisciplinary Engineering Research Conference (<em>MERCon</em>), 2022, 2025</li>
+            <li>Engineering Research Unit (<em>ERU</em>) Symposium by University of Moratuwa, 2024</li>
             <li>IESL Young Members’ Section Technical Conference, 2021</li>
         </ul>
             <strong>Judge:</strong>
