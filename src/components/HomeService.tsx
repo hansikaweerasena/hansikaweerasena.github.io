@@ -9,6 +9,9 @@ export function HomeService() {
                     (<em>CODES</em>) 2026
                 </li>
                 <li>IEEE International Symposium on Hardware Oriented Security and Trust
+                    (<em>HOST</em>) 2027
+                </li>
+                <li>IEEE International Symposium on Hardware Oriented Security and Trust
                     (<em>HOST</em>) 2026
                 </li>
                 <li>ACM/IEEE International Conference on Hardware/Software Codesign and System Synthesis
