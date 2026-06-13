@@ -15,6 +15,16 @@
       "descriptions": [
         {
           "preText": "Our paper \"",
+          "link": "https://arxiv.org/abs/2606.02880",
+          "linkText": "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
+          "postText": "\" is now available on arXiv - June 2026"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
+          "preText": "Our paper \"",
           "link": "https://arxiv.org/abs/2605.30234v1",
           "linkText": "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
           "postText": "\" is now available on arXiv - May 2026"
