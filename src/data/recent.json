@@ -4,6 +4,16 @@
     {
       "descriptions": [
         {
+          "preText": "I will be a TCP in IEEE HOST 2027, please consider submitting your work",
+          "link": "",
+          "linkText": "",
+          "postText": " - June 2026"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": "Our paper \"",
           "link": "https://arxiv.org/abs/2605.30234v1",
           "linkText": "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
@@ -34,7 +44,7 @@
     {
       "descriptions": [
         {
-          "preText": "I am excited to be in the TPC of CODES 2026; please consider submitting your work",
+          "preText": "I am excited to be in the TPC of IEEE/ACM CODES 2026; please consider submitting your work",
           "link": "",
           "linkText": "",
           "postText": "- Feb 2026"
@@ -57,7 +67,7 @@
           "preText": "I am excited to work in my second ",
           "link": "https://www.hostsymposium.org/",
           "linkText": "technical program committee",
-          "postText": " at HOST 2026"
+          "postText": " at IEEE HOST 2026"
         }
       ]
     },
@@ -88,7 +98,7 @@
           "preText": "I am excited to work in my first ",
           "link": "https://esweek.org/codesisss-program-committee/",
           "linkText": "technical program committee",
-          "postText": " at CODES+ISSS in Embedded Systems Week"
+          "postText": " at IEEE/ACM CODES+ISSS in Embedded Systems Week"
         }
       ]
     },
@@ -107,7 +117,7 @@
         {
           "preText": "Our Paper titled \"Traffic Analysis Attacks on Wireless NoC-based SoCs\" was accepted at",
           "link": "http://www.hostsymposium.org/",
-          "linkText": " HOST'25",
+          "linkText": " IEEE HOST'25",
           "postText": " - Feb 2025"
         }
       ]
@@ -237,7 +247,7 @@
         {
           "preText": "Lightweight Encryption Using Chaffing and Winnowing with All-or-Nothing Transform for Network-on-Chip Architectures was accepted at ",
           "link": "https://ieeexplore.ieee.org/xpl/conhome/9702149/proceeding",
-          "linkText": " HOST'21",
+          "linkText": " IEEE HOST'21",
           "postText": "."
         }
       ]
