@@ -1,5 +1,4 @@
 import React from 'react';
-import {HanzFullWidthContainer} from "../common/HanzFullWidthContainer";
 import data from "../data/experince.json";
 import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 
@@ -9,22 +8,24 @@ function ExperienceSection({ title, experiences }: { title: string, experiences:
     return (
         <HanzHeaderContainer title={title}>
             {experiences.map((exp : any, index : React.Key) => (
-                <React.Fragment key={index}>
-                    <div className="row">
-                        <div className="col-lg-2 d-none d-lg-block">
-                            <img className="rounded-circle hanz-edu-logo" src={exp.logo} alt="Logo" />
+                <div className="hanz-experience-item" key={index}>
+                    <div className="row g-3 align-items-start">
+                        <div className="col-auto d-none d-md-block">
+                            <img className="rounded-circle hanz-experience-logo" src={exp.logo} alt={`${exp.aff} logo`} />
                         </div>
                         <div className="col">
-                            <div className="d-flex justify-content-between align-items-center">
-                                <h1 className="fs-4 hanz-edu-title">{exp.role}</h1>
-                                <h1 className="fs-6 text-end">{exp.period}</h1>
+                            <div className="hanz-experience-heading">
+                                <div>
+                                    <h2 className="hanz-experience-role">{exp.role}</h2>
+                                    <p className="hanz-experience-affiliation">{exp.aff}</p>
+                                    {exp.dept && <p className="hanz-experience-dept">{exp.dept}</p>}
+                                </div>
+                                <span className="hanz-experience-period">{exp.period}</span>
                             </div>
-                            <h1 className="fs-5 hanz-edu-subtitle">{exp.aff}</h1>
-                            <h1 className="fs-6 hanz-edu-subtitle">{exp.dept}</h1>
                             {exp.description ? (
-                                <p className="hanz-edu-para">{exp.description}</p>
+                                <p className="hanz-experience-para">{exp.description}</p>
                             ) : (
-                                <ul className="hanz-edu-list">
+                                <ul className="hanz-experience-list">
                                     {exp.points.map((point : any, pointIndex : React.Key) => (
                                         <li key={pointIndex}>{point}</li>
                                     ))}
@@ -32,8 +33,7 @@ function ExperienceSection({ title, experiences }: { title: string, experiences:
                             )}
                         </div>
                     </div>
-                    {index < experiences.length - 1 && <hr />}
-                </React.Fragment>
+                </div>
             ))}
         </HanzHeaderContainer>
     );
@@ -52,18 +52,17 @@ export function Experience() {
     ];
 
     return (
-        <div className="container">
-            <div className="row">
-                <HanzFullWidthContainer>
-        <HanzHeaderContainer title="Experience">
+        <div className="container hanz-page">
+            <header className="hanz-page-header">
+                <h1>Experience</h1>
+            </header>
             {sections.map((section, index) => (
                 <ExperienceSection
                     key={index}
                     title={section.title}
-                    experiences={section.data} // Displaying only the first experience of each section
+                    experiences={section.data}
                 />
             ))}
-        </HanzHeaderContainer>
-                </HanzFullWidthContainer></div></div>
+        </div>
     );
 }

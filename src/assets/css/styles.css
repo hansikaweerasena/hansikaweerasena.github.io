@@ -60,6 +60,211 @@
     font-size: 14px;
 }
 
+.hanz-page {
+    margin-bottom: 20px;
+}
+
+.hanz-page-header {
+    margin: 6px 0 14px;
+    padding: 0 4px;
+}
+
+.hanz-page-header h1 {
+    color: #6c757d;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+body:has(.bg-dark) .hanz-page-header h1 {
+    color: #d7dce1;
+}
+
+.hanz-page-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hanz-page-section-title {
+    color: #6c757d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 18px 4px 8px;
+}
+
+body:has(.bg-dark) .hanz-page-section-title {
+    color: #d7dce1;
+}
+
+.hanz-home-experience-summary {
+    border-bottom: 1px solid #b8b4b43d;
+    padding: 14px 0;
+}
+
+.hanz-home-experience-summary:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hanz-home-experience-summary:first-child {
+    padding-top: 0;
+}
+
+.hanz-home-experience-section-title {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.hanz-home-experience-logo {
+    height: 56px;
+    object-fit: cover;
+    width: 56px;
+}
+
+.hanz-home-experience-heading {
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.hanz-home-experience-role {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 3px;
+}
+
+.hanz-home-experience-affiliation,
+.hanz-home-experience-dept {
+    margin: 0 0 3px;
+}
+
+.hanz-home-experience-affiliation {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.hanz-home-experience-dept,
+.hanz-home-experience-period {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.hanz-home-experience-period {
+    flex: 0 0 auto;
+    line-height: 1.4;
+    text-align: right;
+}
+
+.hanz-home-experience-para,
+.hanz-home-experience-list {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.hanz-home-experience-list {
+    padding-left: 1.1rem;
+}
+
+.hanz-home-experience-list li + li {
+    margin-top: 3px;
+}
+
+.hanz-experience-item {
+    border-bottom: 1px solid #b8b4b43d;
+    padding: 16px 0;
+}
+
+.hanz-experience-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hanz-experience-item:first-of-type {
+    padding-top: 4px;
+}
+
+.hanz-experience-logo {
+    height: 72px;
+    object-fit: cover;
+    width: 72px;
+}
+
+.hanz-experience-heading {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.hanz-experience-role {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 4px;
+}
+
+.hanz-experience-affiliation,
+.hanz-experience-dept {
+    margin: 0 0 3px;
+}
+
+.hanz-experience-affiliation {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hanz-experience-dept,
+.hanz-experience-period {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.hanz-experience-period {
+    flex: 0 0 auto;
+    line-height: 1.4;
+    text-align: right;
+}
+
+.hanz-experience-para,
+.hanz-experience-list {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.hanz-experience-list {
+    padding-left: 1.15rem;
+}
+
+.hanz-experience-list li + li {
+    margin-top: 3px;
+}
+
+@media (max-width: 767.98px) {
+    .hanz-home-experience-heading {
+        display: block;
+    }
+
+    .hanz-home-experience-period {
+        display: block;
+        margin-top: 2px;
+        text-align: left;
+    }
+
+    .hanz-experience-heading {
+        display: block;
+    }
+
+    .hanz-experience-period {
+        display: block;
+        margin-top: 2px;
+        text-align: left;
+    }
+}
+
 .hanz-container {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -84,6 +289,10 @@
 
 .hanz-section-header {
     padding: 5px;
+}
+
+.bg-dark .hanz-section-header {
+    color: #d7dce1 !important;
 }
 
 .hanz-show-more {
@@ -143,10 +352,8 @@
     width: 100%;
 }
 
-.hanz-research-project-container {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: none;
+.hanz-research-project {
+    padding-top: 4px;
 }
 
 .hanz-research-project-title {
@@ -294,24 +501,19 @@
     margin-bottom: 10px;
 }
 
-.hanz-publications-page {
-    padding: 30px 20px;
+.hanz-publications-page-header {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
 }
 
-.hanz-publications-top-link {
-    text-align: right;
-    margin-bottom: 10px;
+.hanz-publications-page-header a {
+    font-size: 0.95rem;
 }
 
 .hanz-publication-section {
-    margin-bottom: 30px;
     scroll-margin-top: 90px;
-}
-
-.hanz-publication-section h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 8px 0 14px;
 }
 
 .hanz-publication-card-list {
@@ -373,6 +575,15 @@
 }
 
 @media (max-width: 767px) {
+    .hanz-publications-page-header {
+        display: block;
+    }
+
+    .hanz-publications-page-header a {
+        display: inline-block;
+        margin-top: 4px;
+    }
+
     .hanz-research-funding-card {
         grid-template-columns: 1fr;
     }

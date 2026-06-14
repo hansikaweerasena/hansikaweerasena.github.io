@@ -1,9 +1,7 @@
 import React from 'react';
-import { HanzFullWidthContainer } from "../common/HanzFullWidthContainer";
 import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
 import publicationsData from "../data/publications.json";
 import { getPublicationYear, Publication } from "../common/ResearchPublicationList";
-import {useTheme} from "../ThemeContext";
 
 const scholarUrl = "https://scholar.google.com/citations?user=ZN96WzcAAAAJ&hl=en";
 
@@ -90,55 +88,48 @@ function PublicationCard({ publication, index }: { publication: PublicationWithT
 }
 
 export function ResearchPublications() {
-    const { theme } = useTheme();
-    const themedContainerClass = `container shadow-sm hanz-container hanz-publications-page bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`;
-
     return (
-        <div className="container">
-            <div className="row">
-                <HanzFullWidthContainer>
-                    <div className={themedContainerClass}>
-                        <div className="hanz-publications-top-link">
-                            <a href={scholarUrl} target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <div className="container hanz-page">
+            <header className="hanz-page-header hanz-publications-page-header">
+                <h1>Publications</h1>
+                <a href={scholarUrl} target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            </header>
+            {publicationGroups.map((group) => (
+                <HanzHeaderContainer title={group.title} key={group.id}>
+                    <section id={group.id} className="hanz-publication-section">
+                        <div className="hanz-publication-card-list">
+                            {group.items.map((publication, index) => (
+                                <PublicationCard publication={publication} index={index} key={publication.title}/>
+                            ))}
                         </div>
-                        {publicationGroups.map((group) => (
-                            <section id={group.id} className="hanz-publication-section" key={group.id}>
-                                <h1>{group.title}</h1>
-                                <div className="hanz-publication-card-list">
-                                    {group.items.map((publication, index) => (
-                                        <PublicationCard publication={publication} index={index} key={publication.title}/>
-                                    ))}
-                                </div>
-                            </section>
-                        ))}
-                    </div>
+                    </section>
+                </HanzHeaderContainer>
+            ))}
 
-                    <HanzHeaderContainer title="Presentations and Conference Talks">
-                        <h5 className="fw-semibold">Presentation Links</h5>
-                        <ul>
-                            {presentationLinks.map((item) => (
-                                <li key={item.title}>
-                                    {item.title}{" "}
-                                    {item.links.map((link) => (
-                                        <span key={link.label}>
-                                            [<a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>]{" "}
-                                        </span>
-                                    ))}
-                                </li>
+            <HanzHeaderContainer title="Presentations and Conference Talks">
+                <h5 className="fw-semibold">Presentation Links</h5>
+                <ul>
+                    {presentationLinks.map((item) => (
+                        <li key={item.title}>
+                            {item.title}{" "}
+                            {item.links.map((link) => (
+                                <span key={link.label}>
+                                    [<a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>]{" "}
+                                </span>
                             ))}
-                        </ul>
+                        </li>
+                    ))}
+                </ul>
 
-                        <h5 className="fw-semibold mt-3">Conference Talks</h5>
-                        <ul>
-                            {conferenceTalks.map((talk) => (
-                                <li key={talk.title}>
-                                    {talk.title} [<a href={talk.slides} target="_blank" rel="noopener noreferrer">slides</a>] [<a href={talk.pdf} target="_blank" rel="noopener noreferrer">pdf</a>]
-                                </li>
-                            ))}
-                        </ul>
-                    </HanzHeaderContainer>
-                </HanzFullWidthContainer>
-            </div>
+                <h5 className="fw-semibold mt-3">Conference Talks</h5>
+                <ul>
+                    {conferenceTalks.map((talk) => (
+                        <li key={talk.title}>
+                            {talk.title} [<a href={talk.slides} target="_blank" rel="noopener noreferrer">slides</a>] [<a href={talk.pdf} target="_blank" rel="noopener noreferrer">pdf</a>]
+                        </li>
+                    ))}
+                </ul>
+            </HanzHeaderContainer>
         </div>
     );
 }

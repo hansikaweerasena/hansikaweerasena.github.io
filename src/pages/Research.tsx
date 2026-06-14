@@ -1,5 +1,4 @@
 import React from 'react';
-import { HanzFullWidthContainer } from "../common/HanzFullWidthContainer";
 import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
 import publicationsData from "../data/publications.json";
 import { Publication, PublicationList } from "../common/ResearchPublicationList";
@@ -216,71 +215,71 @@ function LogoTile({ logo, logoText, label }: { logo?: string; logoText?: string;
 
 export function Research() {
     return (
-        <div className="container">
-            <div className="row">
-                <HanzFullWidthContainer>
-                    <HanzHeaderContainer title="Research Overview">
-                        <p className="fw-normal hanz-research-lead">
-                            I design and reason about communication and coordination in emerging computing systems. Specifically, my research vision is to develop scalable, secure, and intelligent computing architectures, interconnects, and system-level orchestration for emerging classical and quantum systems in order to improve the performance, reliability, and trustworthiness of next-generation computing infrastructure. My interests lie at the intersection of computer architecture, quantum computing, computer networks, systems security, and machine learning for systems. During my doctoral studies and postdoctoral research, I have had the opportunity to work on challenging research problems alongside talented collaborators.
-                        </p>
-                    </HanzHeaderContainer>
+        <div className="container hanz-page">
+            <header className="hanz-page-header">
+                <h1>Research</h1>
+            </header>
+            <HanzHeaderContainer title="Research Overview">
+                <p className="fw-normal hanz-research-lead">
+                    I design and reason about communication and coordination in emerging computing systems. Specifically, my research vision is to develop scalable, secure, and intelligent computing architectures, interconnects, and system-level orchestration for emerging classical and quantum systems in order to improve the performance, reliability, and trustworthiness of next-generation computing infrastructure. My interests lie at the intersection of computer architecture, quantum computing, computer networks, systems security, and machine learning for systems. During my doctoral studies and postdoctoral research, I have had the opportunity to work on challenging research problems alongside talented collaborators.
+                </p>
+            </HanzHeaderContainer>
 
-                    <HanzHeaderContainer title="Research Projects">
-                        {projects.map((project) => (
-                            <div className="container shadow-sm hanz-container hanz-research-project-container" key={project.title}>
-                                <h4 className="fw-bold text-secondary hanz-section-header hanz-research-project-title">{project.title}</h4>
-                                <img className="hanz-research-project-img" src={project.image} alt={project.title}/>
-                                {project.description.split("\n\n").map((paragraph) => (
-                                    <p className="fw-normal" key={`${project.title}-${paragraph.substring(0, 24)}`}>{paragraph}</p>
+            <section className="hanz-page-section">
+                <h2 className="hanz-page-section-title">Research Projects</h2>
+                {projects.map((project) => (
+                    <HanzHeaderContainer title={project.title} key={project.title}>
+                        <div className="hanz-research-project">
+                            <img className="hanz-research-project-img" src={project.image} alt={project.title}/>
+                            {project.description.split("\n\n").map((paragraph) => (
+                                <p className="fw-normal" key={`${project.title}-${paragraph.substring(0, 24)}`}>{paragraph}</p>
+                            ))}
+                            <div className="hanz-research-tag-list">
+                                {project.tags.map((tag) => (
+                                    <span className="badge hanz-research-tag" key={`${project.title}-${tag}`}>{tag}</span>
                                 ))}
-                                <div className="hanz-research-tag-list">
-                                    {project.tags.map((tag) => (
-                                        <span className="badge hanz-research-tag" key={`${project.title}-${tag}`}>{tag}</span>
-                                    ))}
-                                </div>
-                                <h6 className="fw-semibold mt-3">Selected Publications</h6>
-                                <PublicationList items={project.publications}/>
                             </div>
-                        ))}
-                    </HanzHeaderContainer>
-
-                    <HanzHeaderContainer title="Collaborators">
-                        <div className="hanz-research-logo-grid">
-                            {collaborators.map((collaborator) => (
-                                <details className="hanz-research-details" key={collaborator.institution}>
-                                    <summary>
-                                        <LogoTile logo={collaborator.logo} logoText={collaborator.logoText} label={collaborator.institution}/>
-                                        <span className="hanz-research-see-more">See more</span>
-                                    </summary>
-                                    <ul>
-                                        {collaborator.people.map((person) => (
-                                            <li key={person}>{person}</li>
-                                        ))}
-                                    </ul>
-                                </details>
-                            ))}
+                            <h6 className="fw-semibold mt-3">Selected Publications</h6>
+                            <PublicationList items={project.publications}/>
                         </div>
                     </HanzHeaderContainer>
+                ))}
+            </section>
 
-                    <HanzHeaderContainer title="Funding">
-                        <div className="hanz-research-funding-list">
-                            {funding.map((source) => (
-                                <div className="hanz-research-funding-card" key={source.sponsor}>
-                                    <LogoTile logoText={source.logoText} label={source.sponsor}/>
-                                    <ul>
-                                        {source.grants.map((grant) => (
-                                            <li key={grant.title}>
-                                                <a href={grant.link} target="_blank" rel="noopener noreferrer">{grant.title}</a>, {grant.detail}.
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            ))}
+            <HanzHeaderContainer title="Collaborators">
+                <div className="hanz-research-logo-grid">
+                    {collaborators.map((collaborator) => (
+                        <details className="hanz-research-details" key={collaborator.institution}>
+                            <summary>
+                                <LogoTile logo={collaborator.logo} logoText={collaborator.logoText} label={collaborator.institution}/>
+                                <span className="hanz-research-see-more">See more</span>
+                            </summary>
+                            <ul>
+                                {collaborator.people.map((person) => (
+                                    <li key={person}>{person}</li>
+                                ))}
+                            </ul>
+                        </details>
+                    ))}
+                </div>
+            </HanzHeaderContainer>
+
+            <HanzHeaderContainer title="Funding">
+                <div className="hanz-research-funding-list">
+                    {funding.map((source) => (
+                        <div className="hanz-research-funding-card" key={source.sponsor}>
+                            <LogoTile logoText={source.logoText} label={source.sponsor}/>
+                            <ul>
+                                {source.grants.map((grant) => (
+                                    <li key={grant.title}>
+                                        <a href={grant.link} target="_blank" rel="noopener noreferrer">{grant.title}</a>, {grant.detail}.
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
-                    </HanzHeaderContainer>
-
-                </HanzFullWidthContainer>
-            </div>
+                    ))}
+                </div>
+            </HanzHeaderContainer>
         </div>
     );
 }

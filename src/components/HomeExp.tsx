@@ -1,34 +1,32 @@
 import React from 'react';
 import { HanzHeaderContainer } from "../common/HanzHeaderContainer";
 import data from '../data/experince.json';
-import {useTheme} from "../ThemeContext";
 
 function ExperienceSection({ title, experiences }: { title: string, experiences: any }) {
-    const { theme } = useTheme();
 
     return (
-        <div className={`container shadow-sm bg-${theme} text-${theme === 'light' ? 'dark' : 'white'}`}>
-            <span className="fw-bold">
-                    {title} Experience <span className="badge bg-secondary">{experiences.length}</span>
-                </span>
-            <hr/>
+        <div className="hanz-home-experience-summary">
+            <div className="hanz-home-experience-section-title">
+                <span className="fw-bold">{title} Experience</span>
+                <span className="badge bg-secondary">{experiences.length}</span>
+            </div>
             {experiences.slice(0,1).map((exp : any, index : React.Key) => (
                 <React.Fragment key={index}>
-                    <div className="row">
-                        <div className="col-lg-2 d-none d-lg-block">
-                            <img className="rounded-circle hanz-edu-logo" src={exp.logo} alt="Logo" />
+                    <div className="row g-3 align-items-start">
+                        <div className="col-auto d-none d-lg-block">
+                            <img className="rounded-circle hanz-home-experience-logo" src={exp.logo} alt={`${exp.aff} logo`} />
                         </div>
                         <div className="col">
-                            <div className="d-flex justify-content-between align-items-center">
-                                <h1 className="fs-5 hanz-edu-title">{exp.role}</h1>
-                                <h1 className="fs-6 text-end">{exp.period}</h1>
+                            <div className="hanz-home-experience-heading">
+                                <h2 className="hanz-home-experience-role">{exp.role}</h2>
+                                <span className="hanz-home-experience-period">{exp.period}</span>
                             </div>
-                            <h1 className="fs-5 hanz-edu-subtitle">{exp.aff}</h1>
-                            <h1 className="fs-6 hanz-edu-subtitle">{exp.dept}</h1>
+                            <p className="hanz-home-experience-affiliation">{exp.aff}</p>
+                            {exp.dept && <p className="hanz-home-experience-dept">{exp.dept}</p>}
                             {exp.description ? (
-                                <p className="hanz-edu-para">{exp.description}</p>
+                                <p className="hanz-home-experience-para">{exp.description}</p>
                             ) : (
-                                <ul className="hanz-edu-list">
+                                <ul className="hanz-home-experience-list">
                                     {exp.points.map((point : any, pointIndex : React.Key) => (
                                         <li key={pointIndex}>{point}</li>
                                     ))}
