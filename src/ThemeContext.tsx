@@ -33,7 +33,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
     };
 
     useEffect(() => {
-        document.body.style.backgroundColor = theme === 'light' ? '#ffffff' : '#202123';
+        document.body.style.backgroundColor = theme === 'light' ? '#ffffff' : '#171a1d';
     }, [theme]);
 
     return (

@@ -273,13 +273,21 @@ body:has(.bg-dark) .hanz-page-section-title {
     border-radius: 0.8rem;
 }
 
+.hanz-container.bg-dark {
+    background-color: #24282c !important;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.04) inset,
+        0 12px 28px rgba(0, 0, 0, 0.28) !important;
+}
+
 .hanz-container-light {
     background-color: white;
     color: black;
 }
 
 .hanz-container-dark {
-    background-color: #212528;
+    background-color: #24282c;
     color: #ffffff;
 }
 
@@ -566,12 +574,24 @@ body:has(.bg-dark) .hanz-page-section-title {
 }
 
 .bg-dark .hanz-publication-card-list {
-    border-color: #495057;
-    box-shadow: none;
+    background-color: #1f2327;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.03) inset,
+        0 8px 18px rgba(0, 0, 0, 0.2);
 }
 
 .bg-dark .hanz-publication-card {
-    border-bottom-color: #495057;
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.bg-dark .hanz-research-details,
+.bg-dark .hanz-research-funding-card {
+    background-color: #1f2327;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.03) inset,
+        0 8px 18px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 767px) {
