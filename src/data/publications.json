@@ -72,6 +72,17 @@
   ],
   "conf": [
     {
+      "img": "qc.jpg",
+      "type": "Conference",
+      "title": "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
+      "venue": "IEEE International Conference on Quantum Computing and Engineering (QCE), 2026",
+      "text": "Photonic graph states with advanced topologies can enable measurement-based quantum computing, distributed quantum sensing, and quantum interconnects. However, the efficient generation of photonic graph states is limited by the probabilistic nature of photonic entangling operations and the exponential dependence of generation rate on resource cost. In this work, we study photonic graph state synthesis as a cost-aware decomposition problem, exploiting local Clifford (LC) equivalence to identify more synthesis-friendly representations of the target graph state before decomposition. Specifically, we propose Cost-aware Fusion-based Decomposition (CFD), a three-stage heuristic framework that decomposes a target graph state into ring, star, and linear motifs, and assembles them via Type-I fusion operations to minimize fusion overhead and physical-qubit consumption. We further show that selecting the LC-equivalent graph state with the minimum number of edges provides a highly effective proxy for near-optimal synthesis: in many cases it matches the best generation rate observed within the LC equivalence class under CFD, and in most remaining cases it remains close to it. Numerical evaluations on graph state orbit data and 2D and 3D lattice graph states demonstrate that CFD achieves up to 84.6% reduction in resource overhead compared to baseline constructions, and yields improvements in photonic generation rate spanning multiple orders of magnitude. These results suggest that combining structure-aware motif decomposition with LC equivalence is a practical and scalable strategy for photonic graph state synthesis.",
+      "authors": ["Tingxiang Ji", "Hansika Weerasena", "Demitry Farfurnik", "Jianqing Liu"],
+      "downloadLink": "https://arxiv.org/pdf/2606.02880",
+      "proceedingLink": "https://arxiv.org/pdf/2606.02880",
+      "keyWords": ["Quantum Computing", "Quantum Graph States", "Synthesis"]
+    },
+    {
       "img": "wireless.png",
       "type": "Conference",
       "title": "Traffic Analysis Attacks on Wireless NoC-based SoCs",
@@ -155,17 +166,6 @@
       "downloadLink": "",
       "proceedingLink": "",
       "keyWords": ["Quantum Computing", "Scheduling", "Heterogeneous Modular Quantum Computing"]
-    },
-    {
-      "img": "qc.jpg",
-      "type": "Preprint",
-      "title": "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
-      "venue": "Under review, IEEE International Conference on Quantum Computing and Engineering (QCE), 2026",
-      "text": "Photonic graph states with advanced topologies can enable measurement-based quantum computing, distributed quantum sensing, and quantum interconnects. However, the efficient generation of photonic graph states is limited by the probabilistic nature of photonic entangling operations and the exponential dependence of generation rate on resource cost. In this work, we study photonic graph state synthesis as a cost-aware decomposition problem, exploiting local Clifford (LC) equivalence to identify more synthesis-friendly representations of the target graph state before decomposition. Specifically, we propose Cost-aware Fusion-based Decomposition (CFD), a three-stage heuristic framework that decomposes a target graph state into ring, star, and linear motifs, and assembles them via Type-I fusion operations to minimize fusion overhead and physical-qubit consumption. We further show that selecting the LC-equivalent graph state with the minimum number of edges provides a highly effective proxy for near-optimal synthesis: in many cases it matches the best generation rate observed within the LC equivalence class under CFD, and in most remaining cases it remains close to it. Numerical evaluations on graph state orbit data and 2D and 3D lattice graph states demonstrate that CFD achieves up to 84.6% reduction in resource overhead compared to baseline constructions, and yields improvements in photonic generation rate spanning multiple orders of magnitude. These results suggest that combining structure-aware motif decomposition with LC equivalence is a practical and scalable strategy for photonic graph state synthesis.",
-      "authors": ["Tingxiang Ji", "Hansika Weerasena", "Demitry Farfurnik", "Jianqing Liu"],
-      "downloadLink": "https://arxiv.org/pdf/2606.02880",
-      "proceedingLink": "https://arxiv.org/pdf/2606.02880",
-      "keyWords": ["Quantum Computing", "Quantum Graph States", "Synthesis"]
     },
     {
       "img": "qc.jpg",

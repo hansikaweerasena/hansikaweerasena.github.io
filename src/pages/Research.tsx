@@ -53,7 +53,7 @@ const projects: Project[] = [
             },
             {
                 title: "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
-                venue: "Under review, IEEE International Conference on Quantum Computing and Engineering (QCE), 2026",
+                venue: "IEEE International Conference on Quantum Computing and Engineering (QCE), 2026",
                 authors: ["Tingxiang Ji", "Hansika Weerasena", "Demitry Farfurnik", "Jianqing Liu"],
                 downloadLink: "https://arxiv.org/pdf/2606.02880",
             },
