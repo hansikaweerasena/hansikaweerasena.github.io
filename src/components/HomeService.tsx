@@ -18,6 +18,15 @@ export function HomeService() {
                     (<em>CODES+ISSS</em>) 2025
                 </li>
             </ul>
+            <strong>Artifacts Evaluation Committee:</strong>
+            <ul>
+                <li>ACM/IEEE International Conference on Codesign of Embedded Systems
+                    (<em>CODES</em>) 2026
+                </li>
+                <li>ACM/IEEE International Conference on Hardware/Software Codesign and System Synthesis
+                    (<em>CODES+ISSS</em>) 2025
+                </li>
+            </ul>
             <strong>Reviewer:</strong>
             <ul>
                 <li>IEEE Journal on Selected Areas in Communications, 2025, 2026</li>
