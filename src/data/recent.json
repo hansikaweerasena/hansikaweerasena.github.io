@@ -4,6 +4,16 @@
     {
       "descriptions": [
         {
+          "preText": "Our paper \"",
+          "link": "https://arxiv.org/abs/2606.02880",
+          "linkText": "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
+          "postText": "\" was accepted at QCE26 - July 2026"
+        }
+      ]
+    },
+    {
+      "descriptions": [
+        {
           "preText": "I will be attending the ISCA, 2026 in Raleigh and would be happy to connect",
           "link": "",
           "linkText": "",
@@ -18,16 +28,6 @@
           "link": "",
           "linkText": "",
           "postText": " - June 2026"
-        }
-      ]
-    },
-    {
-      "descriptions": [
-        {
-          "preText": "Our paper \"",
-          "link": "https://arxiv.org/abs/2606.02880",
-          "linkText": "Towards Efficient Synthesis of Quantum Graph States by Fusing Graph Motifs",
-          "postText": "\" is now available on arXiv - June 2026"
         }
       ]
     },
