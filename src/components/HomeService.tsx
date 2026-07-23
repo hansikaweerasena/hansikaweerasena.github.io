@@ -20,6 +20,9 @@ export function HomeService() {
             </ul>
             <strong>Artifacts Evaluation Committee:</strong>
             <ul>
+                <li>IEEE/ACM International Symposium on Microarchitecture®
+                    (<em>MICRO</em>) 2026
+                </li>
                 <li>ACM/IEEE International Conference on Codesign of Embedded Systems
                     (<em>CODES</em>) 2026
                 </li>
