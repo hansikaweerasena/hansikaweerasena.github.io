@@ -47,7 +47,7 @@ const projects: Project[] = [
             },
             {
                 title: "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
-                venue: "Under review, IEEE Global Communications Conference (GLOBECOM), 2026",
+                venue: "IEEE Global Communications Conference (GLOBECOM), 2026",
                 authors: ["Thinh Le", "Hansika Weerasena", "Jianqing Liu"],
                 downloadLink: "https://arxiv.org/pdf/2605.30234v1",
             },
