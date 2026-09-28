@@ -8,14 +8,14 @@ import {HanzHeaderContainer} from "../common/HanzHeaderContainer";
 export function HomeVol() {
     return (
         <HanzHeaderContainer title="Volunteer and Leadership">
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-lg-2 d-none d-lg-block"><img
                     className="rounded-circle hanz-edu-logo" src={uf_logo}/></div>
                 <div className="col">
                     <h1 className="fs-5 hanz-edu-title"> President - Sri Lankan Graduate Student Association at University of Florida<br/></h1>
                     <h1 className="fs-6 hanz-edu-subtitle"> Aug 2024 - July 2025</h1>
                 </div>
-            </div>
+            </div> */}
             <hr/>
             <div className="row">
                 <div className="col-lg-2 d-none d-lg-block"><img
