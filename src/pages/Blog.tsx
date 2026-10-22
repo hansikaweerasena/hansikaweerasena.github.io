@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import axios from "axios";
+import savedPosts from '../data/blog.json';
 import {useTheme} from "../ThemeContext";
 
 interface BlogPost {
@@ -26,18 +27,41 @@ const authorImage = "https://cdn-images-1.medium.com/fit/c/150/150/1*FrxzYzpSRpb
 const placeholderImage = "https://via.placeholder.com/300";
 
 export function Blog() {
-    const [posts, setPosts] = useState<BlogPost[]>([]);
+    const [posts, setPosts] = useState<BlogPost[]>(savedPosts);
+    const [loading, setLoading] = useState(savedPosts.length === 0);
+    const [loadFailed, setLoadFailed] = useState(false);
     const { theme } = useTheme();
 
     useEffect(() => {
+        const controller = new AbortController();
         axios
-            .get("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@hansikaweerasena")
+            .get("https://api.rss2json.com/v1/api.json", {
+                params: { rss_url: 'https://medium.com/feed/@hansikaweerasena' },
+                timeout: 10000,
+                signal: controller.signal,
+            })
             .then((res) => {
-                setPosts(res.data.items || []);
+                if (res.data.status !== 'ok' || !Array.isArray(res.data.items) ||
+                    res.data.items.length === 0 || res.data.items.some((post: BlogPost) =>
+                        !post.title || !post.link || !Number.isFinite(Date.parse(post.pubDate)))) {
+                    throw new Error('Invalid blog feed response');
+                }
+                if (!controller.signal.aborted) {
+                    setPosts(res.data.items.map((post: BlogPost) => ({
+                        ...post,
+                        content: post.content || post.description || '',
+                    })));
+                }
             })
             .catch((error) => {
+                if (controller.signal.aborted) return;
+                setLoadFailed(true);
                 console.error("Error fetching blog posts:", error);
+            })
+            .finally(() => {
+                if (!controller.signal.aborted) setLoading(false);
             });
+        return () => controller.abort();
     }, []);
 
     const extractImageFromContent = (content: string): string | null => {
@@ -111,6 +135,12 @@ export function Blog() {
 
             <div className="hanz-blog-layout">
                 <main className="hanz-blog-posts" aria-label="Blog posts">
+                    {posts.length === 0 && (
+                        <p role="status">
+                            {loading ? 'Loading posts...' : loadFailed ? 'Posts could not be loaded. ' : 'No posts yet. '}
+                            {!loading && <a href="https://medium.com/@hansikaweerasena" target="_blank" rel="noopener noreferrer">Read on Medium</a>}
+                        </p>
+                    )}
                     {monthGroups.map((group) => (
                         <section id={group.id} className="hanz-blog-month-section" key={group.id}>
                             <h2 className="hanz-page-section-title">{group.label}</h2>
@@ -170,7 +200,7 @@ export function Blog() {
                             </div>
                         ))
                     ) : (
-                        <p className="hanz-blog-empty">Loading posts...</p>
+                        <p className="hanz-blog-empty">{loading ? 'Loading posts...' : 'No archived posts available.'}</p>
                     )}
                 </aside>
             </div>
