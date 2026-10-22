@@ -41,7 +41,7 @@ const projects: Project[] = [
                 "Quantum Computing Architectures",
             ]),
             {
-                title: "A Learning-based Scheduler for Qubit Assignment in Heterogeneous Modular Quantum Computing Architectures",
+                title: "HALQ: Learning-Based Qubit Scheduler for Heterogeneous Quantum Computing",
                 venue: "Under review, 2026",
                 authors: ["Hansika Weerasena", "Jianqing Liu"],
             },
