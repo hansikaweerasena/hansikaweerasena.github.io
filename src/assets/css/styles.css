@@ -1,6 +1,32 @@
 #hanz-navbar {
-    height: 64px;
+    min-height: 64px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) {
+    #hanz-navbar .navbar-collapse {
+        margin-top: 12px;
+        padding-top: 8px;
+        border-top: 1px solid currentColor;
+    }
+
+    #hanz-navbar .nav-link {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 10px 12px;
+        border-radius: 6px;
+    }
+
+    #hanz-navbar .nav-link.active {
+        background-color: rgba(127, 127, 127, 0.15);
+    }
+
+    #hanz-navbar .theme-toggle-btn {
+        min-width: 44px;
+        min-height: 44px;
+        margin-left: 0 !important;
+    }
 }
 
 #hanz-navbar-img {

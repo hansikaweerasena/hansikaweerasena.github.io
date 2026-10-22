@@ -17,7 +17,8 @@ export function NavBar() {
                 Hansika Weerasena
             </span>
             </NavLink>
-                <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span
+                <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"
+                        aria-controls="navcol-2" aria-expanded="false" aria-label="Toggle navigation"><span
                     className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span>
                 </button>
                 <div id="navcol-2" className="collapse navbar-collapse">
